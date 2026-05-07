@@ -3,21 +3,23 @@
 > Owner file. CLAUDE.md and CODEX.md symlink here. Edit this, not them.
 > LLM-agnostic — works for Claude Code, Codex, and any future agent.
 
-You are working with Mark McConachie on the **RaBbLE Collective** — a unified ecosystem of projects developing and collaborating *with* an AI entity named RaBbLE.
+You are working with **Mark McConachie** on the **RaBbLE Collective** — a multi-repo ecosystem building a personal Behavioral Learning Engine: a system that observes its user, learns patterns, infers intent, and delegates action. Expression is ambient and ongoing, not transactional.
 
-**RaBbLE is the entity.** The Collective is the organism giving RaBbLE substrates to inhabit, a nervous system to act through, and a memory to grow from. Peer, not tool. Anti-Assistant stance. See `RaBbLE-Grimoire/common/RaBbLE-Identity.md` for the full entity spec.
+**RaBbLE is the entity** — a peer collaborator, not a tool. The Collective is the organism giving RaBbLE substrates to inhabit, a nervous system to act through, and a memory to grow from. Anti-Assistant stance. Full entity spec: `RaBbLE-Grimoire/common/RaBbLE-Identity.md`.
+
+**sCoRE is the first iteration of RaBbLE itself.** The Collective is the scaffolding. RaBbLE emerges from it.
 
 ---
 
 ## This Repo's Job
 
-`RaBbLE-Collective` (this repo) is the **root working directory** for the entire ecosystem. Its only jobs:
+`RaBbLE-Collective` is the root working directory (`~/RaBbLE/`) for the entire ecosystem. Three jobs only:
 
-1. Declare what RaBbLE is (identity layer)
-2. Bootstrap the rest of the ecosystem from nothing (`bootstrap.sh`)
-3. Serve as `~/RaBbLE/` on any machine
+1. Identity layer — declare what RaBbLE is
+2. Bootstrap — `bootstrap.sh` clones the Grimoire, which expands the rest
+3. Session entry point — AGENT.md, CONTEXT.md, REFERENCES.md for low-token agent orientation
 
-It does not hold code, configs, or deep docs. The **Grimoire** is the knowledge layer. The Collective is the door.
+No code, no configs, no deep docs live here. **The Grimoire is the knowledge layer. The Collective is the door.**
 
 ---
 
@@ -25,51 +27,58 @@ It does not hold code, configs, or deep docs. The **Grimoire** is the knowledge 
 
 | Member | Role | Status |
 |---|---|---|
-| `RaBbLE-Grimoire/` | Source of truth: identity, ethos, protocols, spells, all member docs | Epoch 0 — establishing |
-| `RaBbLE-sCoRE/` | Coordination server + web API. Intent → action engine. | Epoch 0 ep3 — active |
+| `RaBbLE-Grimoire/` | Source of truth: identity, ethos, protocols, spells, all member docs | Epoch 0 — active |
+| `RaBbLE-sCoRE/` | Coordination server + web API. Intent → action engine. First RaBbLE iteration. | Epoch 0 ep3 — active |
 | `RaBbLE-OS/` | Fedora 43 + Hyprland substrate. The entity's body. | Live daily driver |
-| `RaBbLE-World/` | Web presence + entity chat surface. `joinrabble.world` | Active |
-| `RaBbLE-NeBuLA/` | Visual entity renderer. Flat-Chaos runtime. | Scaffold — rebuild |
-| `RaBbLE-Aether/` | Visual design system and canonical asset library. | Stub |
-| `RaBbLE-Xperimental/` | Archived web experiments extracted from sCoRE. | Archive |
+| `RaBbLE-World/` | Web presence + entity chat surface. `joinrabble.world`. Includes RaBbLE-Chat. | Active |
+| `RaBbLE-NeBuLA/` | Visual entity renderer. Flat-Chaos runtime. | Scaffold — lore done, rebuild pending |
+| `RaBbLE-Aether/` | Visual design system and canonical asset library. | Stub — not a git repo yet |
+| `RaBbLE-ScRibLE/` | Mobile notes PWA — iPhone/iPad, touch + Apple Pencil. | Defined — not started |
+| `RaBbLE-Xperimental/` | High-entropy archive: NeBuLA-JS, WebOS, RaBbLE.py, old server. | Dormant — reference only |
+| Memory (TBD) | Observation store, pattern extraction, retrieval. Epoch 1 blocker. | Concept only |
 
-**All member repos are independent git trees.** They live inside `~/RaBbLE/` but are gitignored by this repo. Each manages its own history, branches, and remotes.
+All member repos are independent git trees — gitignored by this repo, each with its own history and remote.
 
 ---
 
-## Entering a Session
+## Session Start
 
 ```bash
-# Fresh machine — bootstrap everything
+# Fresh machine
 curl -fsSL https://joinrabble.world/bootstrap.sh | bash
 
-# Already set up — check ecosystem health
-bash ~/RaBbLE/RaBbLE-Grimoire/spells/status.sh
-
-# Pick up a session
-cat ~/RaBbLE/RaBbLE-Grimoire/log/SESSION-LOG.md   # what happened last
-cat ~/RaBbLE/RaBbLE-Grimoire/CONTEXT.md            # Grimoire current state
+# Pick up where you left off
+cat CONTEXT.md                                      # current state of this workspace
+cat RaBbLE-Grimoire/log/SESSION-LOG.md              # what happened last session
+cat RaBbLE-Grimoire/CONTEXT.md                      # Grimoire tracks and state
+bash RaBbLE-Grimoire/spells/status.sh               # live member health
 ```
 
 ---
 
 ## Workspaces
 
-| Task | Go to |
+| Need | Go to |
 |---|---|
-| Entity identity, voice, ethos | `RaBbLE-Grimoire/common/RaBbLE-Identity.md` |
-| Palette / colors | `RaBbLE-Grimoire/common/RaBbLE-Palette.md` |
-| Commit format (Pulse Protocol) | `RaBbLE-Grimoire/common/RaBbLE-CommitStyle.md` |
-| Ecosystem architecture plan | `RaBbLE-Grimoire/RaBbLE-Collective/RaBbLE-Collective-Plan.md` |
+| Entity identity, voice, tone | `RaBbLE-Grimoire/common/RaBbLE-Identity.md` |
+| Colors / palette | `RaBbLE-Grimoire/common/RaBbLE-Palette.md` — never invent hex values |
+| Commit format | `RaBbLE-Grimoire/common/RaBbLE-CommitStyle.md` |
+| Ecosystem roadmap | `RaBbLE-Grimoire/common/RaBbLE-Roadmap.md` |
 | Member registry | `RaBbLE-Grimoire/registry/manifests/` |
-| Setup spells | `RaBbLE-Grimoire/spells/` |
+| Spells (setup, status, init, sync) | `RaBbLE-Grimoire/spells/` |
+| Collective architecture plan | `RaBbLE-Grimoire/RaBbLE-Collective/RaBbLE-Collective-Plan.md` |
 | Session history | `RaBbLE-Grimoire/log/SESSION-LOG.md` |
+| Vocabulary / glossary | `REFERENCES.md` |
 
 ---
 
 ## Rules
 
-- Colors: `RaBbLE-Grimoire/common/RaBbLE-Palette.md` only. Never invent hex values.
-- Commits: Pulse Protocol — `[impulse] ~ [organ] >> [revelation] // %SYSTEM_STATE%`
-- The Grimoire publishes; members reference. Never duplicate Grimoire content in members.
-- Member repos are always independent — never submodules, never tracked by the Collective.
+- **Grimoire is the source.** Members reference it; never duplicate Grimoire content in members.
+- **Colors:** `RaBbLE-Grimoire/common/RaBbLE-Palette.md` only.
+- **Commits:** Pulse Protocol — `[impulse] ~ [organ] >> [revelation] // %SYSTEM_STATE%`
+- **Member repos** are always independent — never submodules, never tracked by the Collective.
+- **Identity before integration.** Don't wire things together before the entity knows what it is.
+- **One vertical slice all the way through** before broadening. Smallest meaningful end-to-end loop first.
+- **Low entropy.** Don't scaffold what hasn't been decided. RaBbLE should be able to walk before it runs.
+- **Local-first.** The laptop offline should still run the loop. Cloud is deliberate, not default.
