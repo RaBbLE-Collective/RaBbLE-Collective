@@ -1,8 +1,8 @@
 # CONTEXT.md — RaBbLE-Collective
 
 ```
-epoch: 0 | evolution: 0 | echo: 0 | status: establishing
-version: v0.0.0 — Epoch 0, Foundation
+epoch: 0 | evolution: 0 | echo: 0 | episode: 1 | status: active
+version: v0.0.0.1 — Epoch 0, Episode 1: First Coordination Sweep
 date: 2026-05-07
 ```
 
