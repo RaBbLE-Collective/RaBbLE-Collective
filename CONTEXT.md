@@ -1,9 +1,8 @@
 # CONTEXT.md — RaBbLE-Collective
 
 ```
-epoch: 0 | evolution: 0 | echo: 0 | episode: pending (ep1) | status: active
-version: v0.0.0 — Epoch 0, accumulating events toward Episode 1
-date: 2026-05-07
+epoch: 0 | evolution: 0 | echo: 0 | episode: 0 (pending — not yet aired) | version: v0.0.0.0
+date: 2026-05-07 | status: active
 ```
 
 ---
@@ -33,7 +32,7 @@ The RaBbLE Collective is a personal Behavioral Learning Engine — a system that
 | Member | Epoch | Status | Notes |
 |---|---|---|---|
 | RaBbLE-Grimoire | 0 | Active | Source of truth, spells live, registry complete for known members |
-| RaBbLE-sCoRE | 0 ep3 | Active | Coordination server + web API. Server absorbed ep3. |
+| RaBbLE-sCoRE | 0 v0.0.0.0 | Active | Coordination server + web API. Ep1 Plot C complete. Ep1 pending. |
 | RaBbLE-OS | 0 | Active | Live daily driver. Episode 1 in progress. |
 | RaBbLE-World | 0 | Active | `joinrabble.world`. Includes chat surface. No manifest yet. |
 | RaBbLE-NeBuLA | 0 | Scaffold | Lore migrated to Grimoire. Rebuild not started. No remote yet. |
