@@ -33,7 +33,7 @@ The RaBbLE Collective is a personal Behavioral Learning Engine — a system that
 |---|---|---|---|
 | RaBbLE-Grimoire | 0 | Active | Source of truth, spells live, registry complete for known members |
 | RaBbLE-sCoRE | 0 v0.0.0.0 | Active | Coordination server + web API. Ep1 Plot C complete. Ep1 pending. |
-| RaBbLE-OS | 0 | Active | Live daily driver. Episode 1 in progress. |
+| RaBbLE-OS | 0 v0.0.0.0 | Active | Live daily driver. Ep1 in progress — Plot A (Substrate) + Plot B (Theme). Episode/plot conventions aligned. |
 | RaBbLE-World | 0 | Active | `joinrabble.world`. Includes chat surface. No manifest yet. |
 | RaBbLE-NeBuLA | 0 | Scaffold | Lore migrated to Grimoire. Rebuild not started. No remote yet. |
 | RaBbLE-Aether | 0 | Stub | Not a git repo. Assets not moved yet. No manifest. |
