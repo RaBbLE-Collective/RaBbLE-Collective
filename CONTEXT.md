@@ -31,14 +31,14 @@ The RaBbLE Collective is a personal Behavioral Learning Engine — a system that
 
 | Member | Epoch | Status | Notes |
 |---|---|---|---|
-| RaBbLE-Grimoire | 0 | Active | Source of truth, spells live, registry complete for known members |
+| RaBbLE-Grimoire | 0 | Active | Source of truth, spells live, registry complete for all known members |
 | RaBbLE-sCoRE | 0 v0.0.0.0 | Active | Coordination server + web API. Ep1 Plot C complete. Ep1 pending. |
-| RaBbLE-OS | 0 v0.0.0.0 | Active | Live daily driver. Ep1 in progress — Plot A (Substrate) + Plot B (Theme). Episode/plot conventions aligned. |
-| RaBbLE-World | 0 | Active | `joinrabble.world`. Includes chat surface. No manifest yet. |
-| RaBbLE-NeBuLA | 0 | Scaffold | Lore migrated to Grimoire. Rebuild not started. No remote yet. |
-| RaBbLE-Aether | 0 | Stub | Not a git repo. Assets not moved yet. No manifest. |
-| RaBbLE-ScRibLE | 0 | Defined | Mobile PWA — iPhone/iPad + Apple Pencil. Defined, not started. |
-| RaBbLE-Xperimental | 0 | Dormant | Archive: NeBuLA-JS, WebOS, RaBbLE.py, old server. Manifest added. |
+| RaBbLE-OS | 0 v0.0.0.0 | Active | Live daily driver. Ep1 in progress — Plot A (Substrate) + Plot B (Theme). |
+| RaBbLE-World | 0 | Active | `joinrabble.world`. Includes chat surface + Layer 1 entity renderer. |
+| RaBbLE-NeBuLA | 0 | Scaffold | Lore migrated to Grimoire. v2 rebuild not started. Active branch: dev. |
+| RaBbLE-Aether | 0 | Active | Design system + CSS bundle. Active development on dev branch. |
+| RaBbLE-ScRibLE | 0 | Defined | Mobile PWA — iPhone/iPad + Apple Pencil. Defined, not started. No repo. |
+| RaBbLE-Xperimental | 0 | Dormant | Archive: NeBuLA-JS, WebOS, RaBbLE.py, old server. |
 | Memory (TBD) | — | Concept | Name TBD. Epoch 1 blocker. |
 
 ---
@@ -48,7 +48,7 @@ The RaBbLE Collective is a personal Behavioral Learning Engine — a system that
 | Track | Status |
 |---|---|
 | Collective root | Established. bootstrap.sh verified and Grimoire-aware. |
-| Grimoire registry | Xperimental manifest added. Missing: World, NeBuLA, Aether, ScRibLE. |
+| Grimoire registry | Complete — manifests for all active members. Missing: ScRibLE (no repo yet). |
 | Epoch 0 exit checklist | ~50% — see `RaBbLE-Grimoire/common/RaBbLE-Roadmap.md` |
 | Protocol contracts | Not started — `registry/protocol/` dir needed |
 | NeBuLA v2 rebuild | Decisions pending — see Roadmap Phase 4 |
