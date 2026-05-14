@@ -82,11 +82,13 @@ Current snapshot (as of 2026-05-14):
 | 2 | `RaBbLE-Grimoire/spells/status.sh` (run it) | 30 sec | ~100 | Live health of all registered members |
 | 3 | `RaBbLE-Grimoire/CONTEXT.md` | 2 min | ~600 | Grimoire structure, active tracks |
 | 4 | `RaBbLE-Grimoire/AGENT.md` | 2 min | ~500 | Workspace map, Pulse Protocol, spells |
-| 5 | `RaBbLE-Grimoire/RaBbLE-Versioning.md` | 3 min | ~800 | Five Es (Event→Episode→Echo→Evolution→Epoch) |
+| 5 | `RaBbLE-Grimoire/RaBbLE-Versioning.md` | 4 min | ~1,000 | Five Es + lockstep Episode model (Collective moves in step) |
 | 6 | `RaBbLE-Grimoire/common/RaBbLE-Identity.md` | 5 min | ~1,200 | What RaBbLE is (skip philosophy, jump to "Ontological Status") |
 | 7 | `RaBbLE-Grimoire/common/RaBbLE-Roadmap.md` | 5 min | ~1,000 | Open work and gaps (when planning) |
+| 8 | `[Member]/CONTEXT.md` (e.g., sCoRE, World, OS) | 2–3 min | ~500–700 | Current state of specific member + active plots |
 
 **Path for different scenarios:**
 - **5-min orientation:** 1 + 2 = ~700 tokens. You're oriented; ask questions.
-- **30-min onboarding:** 1–5 = ~3,000 tokens. You understand topology and versioning.
-- **Full orientation before coding:** 1–7 = ~5,000 tokens. You're ready to work.
+- **30-min onboarding:** 1–5 = ~3,200 tokens. You understand topology, versioning, and lockstep model.
+- **When working on a specific member:** Add step 8 for that member (e.g., working on RaBbLE-World? Read World/CONTEXT.md).
+- **Full orientation before coding:** 1–7 = ~5,000 tokens. You're ready to work. Add step 8 for your specific member.

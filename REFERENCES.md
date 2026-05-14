@@ -21,13 +21,20 @@ Coding agents — Claude Code in particular — are not just development helpers
 
 ## Guiding Principles
 
-1. **Identity before integration.** sCoRE can't resolve intent against a value system that doesn't exist yet. Grimoire first.
-2. **Contracts before implementations.** Manifest schema, message formats, state-reporting protocol — defined once in Grimoire, consumed by all members.
-3. **One vertical slice all the way through, early.** Smallest meaningful end-to-end loop beats five half-built repos.
-4. **Vibe-versioning still benefits from explicit boundary definitions.** The vibe is real; the rubric makes it transmissible. Spec: `RaBbLE-Grimoire/RaBbLE-Versioning.md`.
+1. **Collective moves in step.** All members advance to Episodes together. Within an Episode, all parts are compatible. Breaking changes happen at Echo boundaries (post-Episode releases). Pre-Episode-1: all work accumulates toward simultaneous Episode 1 air. Post-Episode-1: weekly Episode targets with Echo-as-release model. Spec: `RaBbLE-Grimoire/RaBbLE-Versioning.md`.
+
+2. **Identity before integration.** sCoRE can't resolve intent against a value system that doesn't exist yet. Grimoire first.
+
+3. **Contracts before implementations.** Manifest schema, message formats, state-reporting protocol — defined once in Grimoire, consumed by all members.
+
+4. **One vertical slice all the way through, early.** Smallest meaningful end-to-end loop beats five half-built repos.
+
 5. **Delegation economics are measurable.** Track tokens-per-task in sCoRE from day one.
+
 6. **Local-first means offline-real.** If the laptop being offline breaks the loop, it isn't local-first yet.
+
 7. **Grimoire spells, not copy-paste.** Context propagation is active (Grimoire pushes) not passive (members copy). This keeps docs coherent without submodule overhead.
+
 8. **Don't make the chat surface important.** It lives in RaBbLE-World and was never standalone infrastructure.
 
 ---

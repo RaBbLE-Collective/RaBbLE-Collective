@@ -75,7 +75,7 @@ You are **not yet ready** to make unilateral architecture decisions. When in dou
 | Versioning spec | `RaBbLE-Grimoire/RaBbLE-Versioning.md` — Five Es (Event→Episode→Echo→Evolution→Epoch) |
 | Entity identity, voice, tone | `RaBbLE-Grimoire/common/RaBbLE-Identity.md` |
 | Colors / palette | `RaBbLE-Grimoire/common/RaBbLE-Palette.md` — never invent hex values |
-| Commit format | `RaBbLE-Grimoire/common/RaBbLE-CommitStyle.md` |
+| Commits & branches | `RaBbLE-Grimoire/common/RaBbLE-CommitStyle.md` (Pulse Protocol) |
 | Ecosystem roadmap | `RaBbLE-Grimoire/common/RaBbLE-Roadmap.md` |
 | Member registry | `RaBbLE-Grimoire/registry/manifests/` |
 | Spells (setup, status, init, sync) | `RaBbLE-Grimoire/spells/` |
