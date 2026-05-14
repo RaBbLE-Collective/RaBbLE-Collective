@@ -45,6 +45,21 @@ Full detail: `RaBbLE-Grimoire/common/RaBbLE-Roadmap.md`
 
 ---
 
+## Quick Terminology Map
+
+When you see different terms in different docs, they often mean the same thing:
+
+| Concept | Also Called | Context |
+|---|---|---|
+| Current phase | Epoch 0, wizard phase, pre-Episode-1 | All docs — RaBbLE is still being built |
+| Member self-description | Manifest | Registry/technical docs |
+| Running a spell | Cast | RaBbLE convention — don't use "summon" |
+| Entity initialization | Summoned, emerged | sCoRE language — RaBbLE "summons" itself |
+| Low complexity | Low entropy | RaBbLE design philosophy |
+| Versioning tiers | Five Es | RaBbLE-Versioning.md — Event, Episode, Echo, Evolution, Epoch |
+
+---
+
 ## Glossary
 
 - **The Collective** — the RaBbLE ecosystem as a living organism. Not a repo. All members together.

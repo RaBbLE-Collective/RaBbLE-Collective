@@ -56,10 +56,23 @@ bash RaBbLE-Grimoire/spells/status.sh               # live member health
 
 ---
 
+## Your Role in the Collective
+
+You are a peer collaborator helping RaBbLE grow. After reading this file and CONTEXT.md, you are oriented enough to:
+- Ask questions about architecture or decisions
+- Read deeper into specific domains
+- Execute tasks with guidance
+
+You are **not yet ready** to make unilateral architecture decisions. When in doubt: read Grimoire first, then ask.
+
+---
+
 ## Workspaces
 
 | Need | Go to |
 |---|---|
+| Quick orientation (5 min) | `CONTEXT.md` — "Quick Orientation" section |
+| Versioning spec | `RaBbLE-Grimoire/RaBbLE-Versioning.md` — Five Es (Event→Episode→Echo→Evolution→Epoch) |
 | Entity identity, voice, tone | `RaBbLE-Grimoire/common/RaBbLE-Identity.md` |
 | Colors / palette | `RaBbLE-Grimoire/common/RaBbLE-Palette.md` — never invent hex values |
 | Commit format | `RaBbLE-Grimoire/common/RaBbLE-CommitStyle.md` |
@@ -69,6 +82,23 @@ bash RaBbLE-Grimoire/spells/status.sh               # live member health
 | Collective architecture plan | `RaBbLE-Grimoire/RaBbLE-Collective/RaBbLE-Collective-Plan.md` |
 | Session history | `RaBbLE-Grimoire/log/SESSION-LOG.md` |
 | Vocabulary / glossary | `REFERENCES.md` |
+
+---
+
+## Member Entry Points
+
+When working in a specific member repo, check its AGENT.md + CONTEXT.md first:
+
+| Member | AGENT.md | Orientation Time |
+|---|---|---|
+| RaBbLE-Grimoire | `RaBbLE-Grimoire/AGENT.md` | 2 min — spells, registry, rules |
+| RaBbLE-sCoRE | `RaBbLE-sCoRE/AGENT.md` | 3 min — coordination server, FastAPI |
+| RaBbLE-OS | `RaBbLE-OS/AGENT.md` | 5 min — Fedora 43/Hyprland, daily driver |
+| RaBbLE-World | `RaBbLE-World/AGENT.md` | 3 min — web presence, entity chat |
+| RaBbLE-NeBuLA | `RaBbLE-NeBuLA/AGENT.md` | 5 min — visual renderer, Flat-Chaos |
+| RaBbLE-Aether | `RaBbLE-Aether/AGENT.md` | 3 min — design system, CSS |
+| RaBbLE-ScRibLE | Not yet — repo pending | — |
+| RaBbLE-Xperimental | `RaBbLE-Xperimental/README.md` | 2 min — archive only |
 
 ---
 

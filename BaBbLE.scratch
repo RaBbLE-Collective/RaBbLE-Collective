@@ -1,0 +1,24 @@
+DEV SCRATCH PAD — RaBbLE-Collective
+═══════════════════════════════════════════════════════════════════════════════
+
+This is Mark's development notebook. Agents may read this to discover WIP ideas,
+promising references, or architectural thinking. Not part of onboarding or canon.
+
+Structure:
+- ## DATE: IDEAS — what caught your eye
+- ## DATE: REFERENCES — links to interesting projects or patterns
+- ## DATE: EXPERIMENTS — sketches, failed paths, learnings
+
+═══════════════════════════════════════════════════════════════════════════════
+
+## 2026-05-14: REFERENCES
+
+**Projects with agentic nature worth studying:**
+- https://github.com/builderio — particularly agent-native patterns
+- https://github.com/BuilderIO/agent-native — agentic architecture
+- https://mitosis.builder.io/ — component library for app portability
+
+**Why interesting:** Component portability + agentic dispatch patterns could inform
+how RaBbLE delegates across members and substrates.
+
+═══════════════════════════════════════════════════════════════════════════════
