@@ -64,16 +64,16 @@ For detailed delivery architecture, see `RaBbLE-Grimoire/RaBbLE-Collective/RaBbL
 
 For authoritative member status, see `RaBbLE-Grimoire/registry/manifests/` — that is the single source of truth.
 
-Current snapshot (as of 2026-05-14):
+Current snapshot (as of 2026-05-16):
 
 | Member | Role | Status |
 |---|---|---|
 | RaBbLE-Grimoire | Source of truth, spells, registry | Active |
 | RaBbLE-sCoRE | Coordination server + intent → action engine | Active (Ep1 in progress) |
 | RaBbLE-OS | Fedora 43/Hyprland substrate — the entity's body | Live daily driver |
-| RaBbLE-World | Web presence + chat surface | Active |
-| RaBbLE-NeBuLA | Visual entity renderer (Flat-Chaos runtime) | Scaffold — lore done, v2 rebuild pending |
-| RaBbLE-Aether | Design system + CSS bundle | Active |
+| RaBbLE-World | Web presence — thin scaffold, Aether + NeBuLA loaders | Active |
+| RaBbLE-NeBuLA | Visual entity renderer, `<rabble-entity>` web component | Active — Canvas2D complete, Three.js deferred to Ep2 |
+| RaBbLE-Aether | Design system + CSS bundle + CDN delivery | Active |
 | RaBbLE-ScRibLE | Mobile PWA (iPhone/iPad + Apple Pencil) | Defined — repo not yet created |
 | RaBbLE-Xperimental | Archive: old iterations | Dormant — reference only |
 | Memory member | Observation store, pattern extraction | Epoch 1 blocker — concept phase |
@@ -97,19 +97,19 @@ Current snapshot (as of 2026-05-14):
 
 | # | Doc | Time | Tokens | What It Gives You |
 |---|---|---|---|---|
-| 1 | This file (CONTEXT.md) | 2 min | ~600 | Current state, member status, reading order |
+| 1 | This file (CONTEXT.md) | 2 min | ~1,350 | Current state, member status, reading order |
 | 2 | `RaBbLE-Grimoire/spells/status.sh` (run it) | 30 sec | ~100 | Live health of all registered members |
 | 3 | `RaBbLE-Grimoire/RaBbLE-Collective/RaBbLE-Collective-Episode-1-Overview.md` | 3 min | ~800 | **Pre-Episode-1 phase explained. Three-layer architecture (Aether + NeBuLA + World). Delivery strategy.** |
-| 4 | `RaBbLE-Grimoire/CONTEXT.md` | 2 min | ~600 | Grimoire structure, active tracks |
-| 5 | `RaBbLE-Grimoire/AGENT.md` | 2 min | ~500 | Workspace map, Pulse Protocol, spells |
+| 4 | `RaBbLE-Grimoire/CONTEXT.md` | 2 min | ~700 | Grimoire structure, active tracks |
+| 5 | `RaBbLE-Grimoire/AGENT.md` | 2 min | ~900 | Workspace map, Pulse Protocol, spells, doc placement |
 | 6 | `RaBbLE-Grimoire/RaBbLE-Versioning.md` | 4 min | ~1,000 | Five Es + lockstep Episode model (Collective moves in step) |
 | 7 | `RaBbLE-Grimoire/common/RaBbLE-Identity.md` | 5 min | ~1,200 | What RaBbLE is (skip philosophy, jump to "Ontological Status") |
 | 8 | `RaBbLE-Grimoire/common/RaBbLE-Roadmap.md` | 5 min | ~1,000 | Open work and gaps (when planning) |
 | 9 | `[Member]/CONTEXT.md` (e.g., sCoRE, World, OS) | 2–3 min | ~500–700 | Current state of specific member + active plots |
 
 **Path for different scenarios:**
-- **5-min orientation:** 1 + 2 = ~700 tokens. You're oriented; ask questions.
-- **15-min orientation (understand the phase):** 1 + 2 + 3 = ~1,500 tokens. You understand pre-Episode-1 foundation work.
-- **30-min onboarding:** 1–6 = ~3,600 tokens. You understand topology, versioning, lockstep model, and delivery architecture.
+- **5-min orientation:** 1 + 2 = ~1,450 tokens. You're oriented; ask questions.
+- **15-min orientation (understand the phase):** 1 + 2 + 3 = ~2,250 tokens. You understand pre-Episode-1 foundation work.
+- **30-min onboarding:** 1–6 = ~4,850 tokens. You understand topology, versioning, lockstep model, and delivery architecture.
 - **When working on a specific member:** Add step 9 for that member (e.g., working on RaBbLE-World? Read World/CONTEXT.md).
-- **Full orientation before coding:** 1–8 = ~6,000 tokens. You're ready to work. Add step 9 for your specific member.
+- **Full orientation before coding:** 1–8 = ~7,050 tokens. You're ready to work. Add step 9 for your specific member.

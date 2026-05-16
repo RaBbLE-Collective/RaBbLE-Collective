@@ -11,6 +11,17 @@ You are working with **Mark McConachie** on the **RaBbLE Collective** — a mult
 
 ---
 
+## Current State — 2026-05-16
+
+**Phase:** Epoch 0 · pre-Episode-1. All members accumulating Events. Foundation work active.
+**Last session (S11):** Hyprland 0.55 compat fix (OS). Grimoire audited + coherent (S10).
+**Blockers:** sCoRE Railway deploy unverified · OS VM bootstrap unverified.
+**Active:** World orchestration for Ep1 · Onboarding token reduction.
+
+> Update this block each session. Keep it under 75 words. This is the free context every agent gets.
+
+---
+
 ## This Repo's Job
 
 `RaBbLE-Collective` is the root working directory (`~/RaBbLE/`) for the entire ecosystem. Three jobs only:
@@ -31,8 +42,8 @@ No code, no configs, no deep docs live here. **The Grimoire is the knowledge lay
 | `RaBbLE-sCoRE/` | Coordination server + web API. Intent → action engine. First RaBbLE iteration. | Epoch 0 ep3 — active |
 | `RaBbLE-OS/` | Fedora 43 + Hyprland substrate. The entity's body. | Live daily driver |
 | `RaBbLE-World/` | Web presence + entity chat surface. `joinrabble.world`. Includes RaBbLE-Chat. | Active |
-| `RaBbLE-NeBuLA/` | Visual entity renderer. Flat-Chaos runtime. | Scaffold — lore done, rebuild pending |
-| `RaBbLE-Aether/` | Visual design system and canonical asset library. | Stub — not a git repo yet |
+| `RaBbLE-NeBuLA/` | Visual entity renderer. Canvas2D + Flat-Chaos runtime. `<rabble-entity>` web component. | Active — Canvas2D complete, Three.js deferred to Ep2 |
+| `RaBbLE-Aether/` | Visual design system and canonical asset library. CDN delivery. | Active — CSS bundle live, CDN working |
 | `RaBbLE-ScRibLE/` | Mobile notes PWA — iPhone/iPad, touch + Apple Pencil. | Defined — not started |
 | `RaBbLE-Xperimental/` | High-entropy archive: NeBuLA-JS, WebOS, RaBbLE.py, old server. | Dormant — reference only |
 | Memory (TBD) | Observation store, pattern extraction, retrieval. Epoch 1 blocker. | Concept only |
@@ -49,7 +60,7 @@ curl -fsSL https://joinrabble.world/bootstrap.sh | bash
 
 # Pick up where you left off
 cat CONTEXT.md                                      # current state of this workspace
-cat RaBbLE-Grimoire/log/SESSION-LOG.md              # what happened last session
+head -20 RaBbLE-Grimoire/log/SESSION-LOG.md         # ## LATEST box — current state + next
 cat RaBbLE-Grimoire/CONTEXT.md                      # Grimoire tracks and state
 bash RaBbLE-Grimoire/spells/status.sh               # live member health
 ```
