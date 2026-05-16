@@ -13,10 +13,10 @@ You are working with **Mark McConachie** on the **RaBbLE Collective** — a mult
 
 ## Current State — 2026-05-16
 
-**Phase:** Epoch 0 · pre-Episode-1. All members accumulating Events. Foundation work active.
-**Last session (S11):** Hyprland 0.55 compat fix (OS). Grimoire audited + coherent (S10).
+**Phase:** Epoch 0 · Evolution 0 · Echo 0 · Episode 1 pilot.
+**Last session (S12):** Grimoire onboarding overhauled — gist/ system (8 distilled docs, ~2K tokens total), log/ consolidated to 3 files, token overhead slashed from ~12K → ~2K for returning agents.
 **Blockers:** sCoRE Railway deploy unverified · OS VM bootstrap unverified.
-**Active:** World orchestration for Ep1 · Onboarding token reduction.
+**Next:** sCoRE Railway verify · OS VM bootstrap test · World Ep1 orchestration.
 
 > Update this block each session. Keep it under 75 words. This is the free context every agent gets.
 
