@@ -58,11 +58,23 @@ All member repos are independent git trees — gitignored by this repo, each wit
 # Fresh machine
 curl -fsSL https://joinrabble.world/bootstrap.sh | bash
 
-# Pick up where you left off
-cat CONTEXT.md                                      # current state of this workspace
+# New agent — full picture in ~2,000 tokens
+cat RaBbLE-Grimoire/gist/*.md                       # distilled orientation: all key docs
+
+# Returning agent — pick up where you left off
 head -20 RaBbLE-Grimoire/log/SESSION-LOG.md         # ## LATEST box — current state + next
 cat RaBbLE-Grimoire/CONTEXT.md                      # Grimoire tracks and state
 bash RaBbLE-Grimoire/spells/status.sh               # live member health
+```
+
+## End of Session
+
+```bash
+# 1. Update ## LATEST in RaBbLE-Grimoire/log/SESSION-LOG.md (75 words max)
+# 2. Add session entry below LATEST (date, repos, work done, what's next)
+# 3. git add <changed files> && git commit -m "[impulse] ~ [organ] >> [revelation] // %STATE%"
+# Impulses: spark (new) · harmonize (cleanup) · mend (fix) · transcribe (docs) · ingest (deps)
+# After major doc changes: bash RaBbLE-Grimoire/spells/distill-gists.sh
 ```
 
 ---

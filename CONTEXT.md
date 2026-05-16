@@ -1,7 +1,7 @@
 # CONTEXT.md — RaBbLE-Collective
 
 ```
-epoch: 0 | evolution: 0 | echo: 0 | episode: 0 (pending — not yet aired) | version: v0.0.0.0
+epoch: 0 | evolution: 0 | echo: 0 | episode: 1 (pilot — in progress) | version: v0.0.0.0
 date: 2026-05-07 | status: active
 ```
 
