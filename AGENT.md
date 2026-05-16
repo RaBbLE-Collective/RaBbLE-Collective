@@ -14,7 +14,7 @@ You are working with **Mark McConachie** on the **RaBbLE Collective** — a mult
 ## Current State — 2026-05-16
 
 **Phase:** Epoch 0 · Evolution 0 · Echo 0 · Episode 1 pilot.
-**Last session (S12):** Grimoire onboarding overhauled — gist/ system (8 distilled docs, ~2K tokens total), log/ consolidated to 3 files, token overhead slashed from ~12K → ~2K for returning agents.
+**Last session (S13):** Aether owns all fonts; Orbitron brand caps fixed on mobile; cast-cdn.sh written; Cloudflare Git integration disconnected; World deployed live via wrangler.
 **Blockers:** sCoRE Railway deploy unverified · OS VM bootstrap unverified.
 **Next:** sCoRE Railway verify · OS VM bootstrap test · World Ep1 orchestration.
 
