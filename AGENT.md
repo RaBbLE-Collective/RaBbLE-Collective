@@ -11,12 +11,12 @@ You are working with **Mark McConachie** on the **RaBbLE Collective** — a mult
 
 ---
 
-## Current State — 2026-05-16
+## Current State — 2026-05-20
 
 **Phase:** Epoch 0 · Evolution 0 · Echo 0 · Episode 1 pilot.
-**Last session (S13):** Aether owns all fonts; Orbitron brand caps fixed on mobile; cast-cdn.sh written; Cloudflare Git integration disconnected; World deployed live via wrangler.
-**Blockers:** sCoRE Railway deploy unverified · OS VM bootstrap unverified.
-**Next:** sCoRE Railway verify · OS VM bootstrap test · World Ep1 orchestration.
+**Last session (S21):** Integration & Ethos Reorg Plan crystallized. Four phases: integrate New-Designs → build ethos layer in lore/ → formalize BaBbLE member → transform joinrabble.world. BaBbLE seeded with 38 files. Plan at `RaBbLE-Grimoire/RaBbLE-Collective/RaBbLE-Integration-Ethos-Plan.md`.
+**Blockers:** sCoRE Railway deploy unverified · OS VM cast pending (needs ISO).
+**Next:** Execute Phase 0+1 (audit Identity.md + integrate New-Designs → Aether/NeBuLA/World).
 
 > Update this block each session. Keep it under 75 words. This is the free context every agent gets.
 
