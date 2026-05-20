@@ -14,9 +14,9 @@ You are working with **Mark McConachie** on the **RaBbLE Collective** — a mult
 ## Current State — 2026-05-20
 
 **Phase:** Epoch 0 · Evolution 0 · Echo 0 · Episode 1 pilot.
-**Last session (S21):** Integration & Ethos Reorg Plan crystallized. Four phases: integrate New-Designs → build ethos layer in lore/ → formalize BaBbLE member → transform joinrabble.world. BaBbLE seeded with 38 files. Plan at `RaBbLE-Grimoire/RaBbLE-Collective/RaBbLE-Integration-Ethos-Plan.md`.
-**Blockers:** sCoRE Railway deploy unverified · OS VM cast pending (needs ISO).
-**Next:** Execute Phase 0+1 (audit Identity.md + integrate New-Designs → Aether/NeBuLA/World).
+**Last session (S22):** Plan execution: Phase 1A✓ (entity spec → Aether) · 1B✓ (specs → NeBuLA) · 0A✓ (Identity audit) · 2A✓ (lore/ scaffolded) · 2B✓ (Identity.md split — ethos to lore/) · 2D✓ (CONTEXT + INDEX updated). Identity.md is now operational-only; RaBbLE-Ethos.md + RaBbLE-Aesthetic.md live in lore/.
+**Blockers:** Phase 1C (World grimoire circle) · Phase 2C (Genesis/Ethos authoring, Mark writes Origin) · distill-gists.sh broken (set -e + read bug) · sCoRE Railway unverified.
+**Next:** Phase 1C (grimoire summoning circle in World) · Phase 2C authoring · Phase 3 (BaBbLE formalization).
 
 > Update this block each session. Keep it under 75 words. This is the free context every agent gets.
 
