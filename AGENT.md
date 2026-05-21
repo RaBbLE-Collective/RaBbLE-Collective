@@ -14,9 +14,9 @@ You are working with **Mark McConachie** on the **RaBbLE Collective** — a mult
 ## Current State — 2026-05-21
 
 **Phase:** Epoch 0 · Evolution 0 · Echo 0 · Episode 1 pilot.
-**Last session (S29):** Full coherency & token audit. Fixed 40+ stale `common/`→`RaBbLE-Agent/` paths across all repos. All 8 gists regenerated. CLAUDE.md/CODEX.md symlinks fixed across all 8 repos. 15 unindexed docs added to INDEX.md. REFERENCES.md trimmed ~800 tokens. 5 missing decisions captured.
+**Last session (S29):** Full coherency & token audit + context optimization. 40+ stale paths fixed. 9 gists live (Integration Map new). Canonical `RaBbLE-Integration-Map.md` created. Context optimization roadmap added. All 10 open gaps verified. Symlinks, INDEX, DECISIONS all current.
 **Blockers:** Phase 2C (Genesis/Ethos authoring, Mark writes Origin) · sCoRE Railway unverified · BaBbLE needs GitHub remote.
-**Next:** Phase 2C authoring · Phase 4 (landing transformation) · BaBbLE GitHub remote · Reliquary rename.
+**Next:** Phase 2C authoring · Phase 4 (landing transformation) · BaBbLE GitHub remote · Reliquary rename · sCoRE/World architecture gists.
 
 > Update this block each session. Keep it under 75 words. This is the free context every agent gets.
 
