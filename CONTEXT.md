@@ -98,19 +98,19 @@ Current snapshot (as of 2026-05-21):
 
 | # | Doc | Time | Tokens | What It Gives You |
 |---|---|---|---|---|
-| 1 | This file (CONTEXT.md) | 2 min | ~1,350 | Current state, member status, reading order |
+| 1 | This file (CONTEXT.md) | 2 min | ~1,669 | Current state, member status, reading order |
 | 2 | `RaBbLE-Grimoire/spells/status.sh` (run it) | 30 sec | ~100 | Live health of all registered members |
-| 3 | `RaBbLE-Grimoire/RaBbLE-Collective/RaBbLE-Collective-Episode-1-Overview.md` | 3 min | ~800 | **Pre-Episode-1 phase explained. Three-layer architecture (Aether + NeBuLA + World). Delivery strategy.** |
-| 4 | `RaBbLE-Grimoire/CONTEXT.md` | 2 min | ~700 | Grimoire structure, active tracks |
-| 5 | `RaBbLE-Grimoire/AGENT.md` | 2 min | ~900 | Workspace map, Pulse Protocol, spells, doc placement |
-| 6 | `RaBbLE-Grimoire/RaBbLE-Versioning.md` | 4 min | ~1,000 | Five Es + lockstep Episode model (Collective moves in step) |
-| 7 | `RaBbLE-Grimoire/RaBbLE-Agent/RaBbLE-Identity.md` | 5 min | ~1,200 | What RaBbLE is (skip philosophy, jump to "Ontological Status") |
-| 8 | `RaBbLE-Grimoire/RaBbLE-Agent/RaBbLE-Roadmap.md` | 5 min | ~1,000 | Open work and gaps (when planning) |
+| 3 | `RaBbLE-Grimoire/RaBbLE-Collective/RaBbLE-Collective-Episode-1-Overview.md` | 3 min | ~1,312 | **Pre-Episode-1 phase explained. Three-layer architecture (Aether + NeBuLA + World). Delivery strategy.** |
+| 4 | `RaBbLE-Grimoire/CONTEXT.md` | 2 min | ~1,363 | Grimoire structure, active tracks |
+| 5 | `RaBbLE-Grimoire/AGENT.md` | 2 min | ~1,655 | Workspace map, Pulse Protocol, spells, doc placement |
+| 6 | `RaBbLE-Grimoire/RaBbLE-Versioning.md` | 4 min | ~1,771 | Five Es + lockstep Episode model (Collective moves in step) |
+| 7 | `RaBbLE-Grimoire/RaBbLE-Agent/RaBbLE-Identity.md` | 5 min | ~3,336 | What RaBbLE is (skip philosophy, jump to "Ontological Status") |
+| 8 | `RaBbLE-Grimoire/RaBbLE-Agent/RaBbLE-Roadmap.md` | 5 min | ~3,502 | Open work and gaps (when planning) |
 | 9 | `[Member]/CONTEXT.md` (e.g., sCoRE, World, OS) | 2–3 min | ~500–700 | Current state of specific member + active plots |
 
 **Path for different scenarios:**
-- **5-min orientation:** 1 + 2 = ~1,450 tokens. You're oriented; ask questions.
-- **15-min orientation (understand the phase):** 1 + 2 + 3 = ~2,250 tokens. You understand pre-Episode-1 foundation work.
-- **30-min onboarding:** 1–6 = ~4,850 tokens. You understand topology, versioning, lockstep model, and delivery architecture.
+- **5-min orientation:** 1 + 2 = ~1,769 tokens. You're oriented; ask questions.
+- **15-min orientation (understand the phase):** 1 + 2 + 3 = ~3,081 tokens. You understand pre-Episode-1 foundation work.
+- **30-min onboarding:** 1–6 = ~7,870 tokens. You understand topology, versioning, lockstep model, and delivery architecture.
 - **When working on a specific member:** Add step 9 for that member (e.g., working on RaBbLE-World? Read World/CONTEXT.md).
-- **Full orientation before coding:** 1–8 = ~7,050 tokens. You're ready to work. Add step 9 for your specific member.
+- **Full orientation before coding:** 1–8 = ~14,708 tokens. You're ready to work. Add step 9 for your specific member.
