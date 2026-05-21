@@ -110,6 +110,8 @@ RaBbLE's opacity is intentional. You won't fully understand it before you start.
 
 ## Workspaces
 
+**For quick reference, read `RaBbLE-Grimoire/gist/*.md` first (~1,700 tokens total). Only load the full doc from the table below when you need implementation detail.**
+
 | Need | Go to |
 |---|---|
 | Quick orientation (5 min) | `CONTEXT.md` — "Quick Orientation" section |

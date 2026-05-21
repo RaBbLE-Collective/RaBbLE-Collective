@@ -98,6 +98,7 @@ Current snapshot (as of 2026-05-21):
 
 | # | Doc | Time | Tokens | What It Gives You |
 |---|---|---|---|---|
+| 0 | `RaBbLE-Grimoire/gist/*.md` | 1 min | ~1,700 | **All key docs distilled. Start here.** |
 | 1 | This file (CONTEXT.md) | 2 min | ~1,669 | Current state, member status, reading order |
 | 2 | `RaBbLE-Grimoire/spells/status.sh` (run it) | 30 sec | ~100 | Live health of all registered members |
 | 3 | `RaBbLE-Grimoire/RaBbLE-Collective/RaBbLE-Collective-Episode-1-Overview.md` | 3 min | ~1,312 | **Pre-Episode-1 phase explained. Three-layer architecture (Aether + NeBuLA + World). Delivery strategy.** |
@@ -109,8 +110,9 @@ Current snapshot (as of 2026-05-21):
 | 9 | `[Member]/CONTEXT.md` (e.g., sCoRE, World, OS) | 2–3 min | ~500–700 | Current state of specific member + active plots |
 
 **Path for different scenarios:**
-- **5-min orientation:** 1 + 2 = ~1,769 tokens. You're oriented; ask questions.
-- **15-min orientation (understand the phase):** 1 + 2 + 3 = ~3,081 tokens. You understand pre-Episode-1 foundation work.
-- **30-min onboarding:** 1–6 = ~7,870 tokens. You understand topology, versioning, lockstep model, and delivery architecture.
+- **2-min gist orientation:** 0 only = ~1,700 tokens. You have the full picture in miniature.
+- **5-min orientation:** 0 + 1 + 2 = ~1,869 tokens. You're oriented; ask questions.
+- **15-min orientation (understand the phase):** 0 + 1 + 2 + 3 = ~3,181 tokens. You understand pre-Episode-1 foundation work.
+- **30-min onboarding:** 0–6 = ~8,570 tokens. You understand topology, versioning, lockstep model, and delivery architecture.
 - **When working on a specific member:** Add step 9 for that member (e.g., working on RaBbLE-World? Read World/CONTEXT.md).
-- **Full orientation before coding:** 1–8 = ~14,708 tokens. You're ready to work. Add step 9 for your specific member.
+- **Full orientation before coding:** 0–8 = ~15,408 tokens. You're ready to work. Add step 9 for your specific member.
