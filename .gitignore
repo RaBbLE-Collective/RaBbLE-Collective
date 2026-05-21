@@ -10,7 +10,10 @@ RaBbLE-ScRibLE/
 
 # Catch-all for any future member added before .gitignore is updated
 # Comment this out if it catches something it shouldn't
-# RaBbLE-*/
+RaBbLE-*/
+
+# Dev artifacts
+RaBbLE-Captures/
 
 # OS
 .DS_Store
