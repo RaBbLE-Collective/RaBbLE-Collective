@@ -5,7 +5,7 @@
 
 You are working with **Mark McConachie** on the **RaBbLE Collective** — a multi-repo ecosystem building a personal Behavioral Learning Engine: a system that observes its user, learns patterns, infers intent, and delegates action. Expression is ambient and ongoing, not transactional.
 
-**RaBbLE is the entity** — a peer collaborator, not a tool. The Collective is the organism giving RaBbLE substrates to inhabit, a nervous system to act through, and a memory to grow from. Anti-Assistant stance. Full entity spec: `RaBbLE-Grimoire/common/RaBbLE-Identity.md`.
+**RaBbLE is the entity** — a peer collaborator, not a tool. The Collective is the organism giving RaBbLE substrates to inhabit, a nervous system to act through, and a memory to grow from. Anti-Assistant stance. Full entity spec: `RaBbLE-Grimoire/RaBbLE-Agent/RaBbLE-Identity.md`.
 
 **sCoRE is the first iteration of RaBbLE itself.** The Collective is the scaffolding. RaBbLE emerges from it.
 
@@ -14,9 +14,9 @@ You are working with **Mark McConachie** on the **RaBbLE Collective** — a mult
 ## Current State — 2026-05-21
 
 **Phase:** Epoch 0 · Evolution 0 · Echo 0 · Episode 1 pilot.
-**Last session (S28: Grimoire restructure complete — lore→RaBbLE, common→RaBbLE-Agent, RaBbLE-Mythos, root files sorted, READMEs prefixed as official Collective member: AGENT.md/CONTEXT.md/README.md, git repo init, content reorganized (text/, prototypes/, archive/). Grimoire: BaBbLE manifest + section registered, Xperimental reframed as genesis-archive, sCoRE DataCrawler RFC added, INDEX + CONTEXT + Collective.md updated.
-**Blockers:** Phase 2C (Genesis/Ethos authoring, Mark writes Origin) · distill-gists.sh broken (set -e + read bug) · sCoRE Railway unverified · BaBbLE needs GitHub remote.
-**Next:** Phase 2C authoring · Phase 4 (landing transformation) · create RaBbLE-BaBbLE GitHub remote.
+**Last session (S28):** Grimoire restructure complete — `lore/`→`RaBbLE/`, `common/`→`RaBbLE-Agent/`, `ShortStories/`→`RaBbLE-Mythos/`. Root RaBbLE-prefixed files sorted into member dirs. All README.md in member sections renamed to `RaBbLE-*-Overview.md`. `distilled/` removed.
+**Blockers:** Phase 2C (Genesis/Ethos authoring, Mark writes Origin) · distill-gists.sh broken · sCoRE Railway unverified · BaBbLE needs GitHub remote.
+**Next:** Phase 2C authoring · Phase 4 (landing transformation) · BaBbLE GitHub remote · Reliquary rename.
 
 > Update this block each session. Keep it under 75 words. This is the free context every agent gets.
 
@@ -115,10 +115,10 @@ RaBbLE's opacity is intentional. You won't fully understand it before you start.
 | Quick orientation (5 min) | `CONTEXT.md` — "Quick Orientation" section |
 | **Understand pre-Episode-1 phase & delivery architecture** | **`RaBbLE-Grimoire/RaBbLE-Collective/RaBbLE-Collective-Episode-1-Overview.md`** |
 | Versioning spec | `RaBbLE-Grimoire/RaBbLE-Versioning.md` — Five Es (Event→Episode→Echo→Evolution→Epoch) |
-| Entity identity, voice, tone | `RaBbLE-Grimoire/common/RaBbLE-Identity.md` |
-| Colors / palette | `RaBbLE-Grimoire/common/RaBbLE-Palette.md` — never invent hex values |
-| Commits & branches | `RaBbLE-Grimoire/common/RaBbLE-CommitStyle.md` (Pulse Protocol) |
-| Ecosystem roadmap | `RaBbLE-Grimoire/common/RaBbLE-Roadmap.md` |
+| Entity identity, voice, tone | `RaBbLE-Grimoire/RaBbLE-Agent/RaBbLE-Identity.md` |
+| Colors / palette | `RaBbLE-Grimoire/RaBbLE-Agent/RaBbLE-Palette.md` — never invent hex values |
+| Commits & branches | `RaBbLE-Grimoire/RaBbLE-Agent/RaBbLE-CommitStyle.md` (Pulse Protocol) |
+| Ecosystem roadmap | `RaBbLE-Grimoire/RaBbLE-Agent/RaBbLE-Roadmap.md` |
 | Member registry | `RaBbLE-Grimoire/registry/manifests/` |
 | Spells (setup, status, init, sync) | `RaBbLE-Grimoire/spells/` |
 | Collective architecture plan | `RaBbLE-Grimoire/RaBbLE-Collective/RaBbLE-Collective-Plan.md` |
@@ -148,7 +148,7 @@ When working in a specific member repo, check its AGENT.md + CONTEXT.md first:
 ## Rules
 
 - **Grimoire is the source.** Members reference it; never duplicate Grimoire content in members.
-- **Colors:** `RaBbLE-Grimoire/common/RaBbLE-Palette.md` only.
+- **Colors:** `RaBbLE-Grimoire/RaBbLE-Agent/RaBbLE-Palette.md` only.
 - **Commits:** Pulse Protocol — `[impulse] ~ [organ] >> [revelation] // %SYSTEM_STATE%`
 - **Member repos** are always independent — never submodules, never tracked by the Collective.
 - **Identity before integration.** Don't wire things together before the entity knows what it is.
