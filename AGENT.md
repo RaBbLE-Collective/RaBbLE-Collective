@@ -14,7 +14,7 @@ You are working with **Mark McConachie** on the **RaBbLE Collective** — a mult
 ## Current State — 2026-05-21
 
 **Phase:** Epoch 0 · Evolution 0 · Echo 0 · Episode 1 pilot.
-**Last session (S27):** Phase 3✓ — BaBbLE formalized as official Collective member: AGENT.md/CONTEXT.md/README.md, git repo init, content reorganized (text/, prototypes/, archive/). Grimoire: BaBbLE manifest + section registered, Xperimental reframed as genesis-archive, sCoRE DataCrawler RFC added, INDEX + CONTEXT + Collective.md updated.
+**Last session (S28: Grimoire restructure complete — lore→RaBbLE, common→RaBbLE-Agent, RaBbLE-Mythos, root files sorted, READMEs prefixed as official Collective member: AGENT.md/CONTEXT.md/README.md, git repo init, content reorganized (text/, prototypes/, archive/). Grimoire: BaBbLE manifest + section registered, Xperimental reframed as genesis-archive, sCoRE DataCrawler RFC added, INDEX + CONTEXT + Collective.md updated.
 **Blockers:** Phase 2C (Genesis/Ethos authoring, Mark writes Origin) · distill-gists.sh broken (set -e + read bug) · sCoRE Railway unverified · BaBbLE needs GitHub remote.
 **Next:** Phase 2C authoring · Phase 4 (landing transformation) · create RaBbLE-BaBbLE GitHub remote.
 
