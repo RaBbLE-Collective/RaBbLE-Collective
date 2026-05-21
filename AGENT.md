@@ -11,12 +11,12 @@ You are working with **Mark McConachie** on the **RaBbLE Collective** — a mult
 
 ---
 
-## Current State — 2026-05-20
+## Current State — 2026-05-21
 
 **Phase:** Epoch 0 · Evolution 0 · Echo 0 · Episode 1 pilot.
-**Last session (S24):** Phase 1C✓ — Grimoire summoning circle live in World left rail (vanilla JS, NeBuLA.ui SVG factories). visual-screenshot.sh hardened: RaBbLE-Captures dir, scratch workspace, auto-close.
-**Blockers:** Phase 2C (Genesis/Ethos authoring, Mark writes Origin) · distill-gists.sh broken (set -e + read bug) · sCoRE Railway unverified.
-**Next:** Phase 2C authoring · Phase 3 (BaBbLE formalization) · Phase 4 (landing transformation).
+**Last session (S27):** Phase 3✓ — BaBbLE formalized as official Collective member: AGENT.md/CONTEXT.md/README.md, git repo init, content reorganized (text/, prototypes/, archive/). Grimoire: BaBbLE manifest + section registered, Xperimental reframed as genesis-archive, sCoRE DataCrawler RFC added, INDEX + CONTEXT + Collective.md updated.
+**Blockers:** Phase 2C (Genesis/Ethos authoring, Mark writes Origin) · distill-gists.sh broken (set -e + read bug) · sCoRE Railway unverified · BaBbLE needs GitHub remote.
+**Next:** Phase 2C authoring · Phase 4 (landing transformation) · create RaBbLE-BaBbLE GitHub remote.
 
 > Update this block each session. Keep it under 75 words. This is the free context every agent gets.
 
@@ -45,7 +45,8 @@ No code, no configs, no deep docs live here. **The Grimoire is the knowledge lay
 | `RaBbLE-NeBuLA/` | Visual entity renderer. Canvas2D + Flat-Chaos runtime. `<rabble-entity>` web component. | Active — Canvas2D complete, Three.js deferred to Ep2 |
 | `RaBbLE-Aether/` | Visual design system and canonical asset library. CDN delivery. | Active — CSS bundle live, CDN working |
 | `RaBbLE-ScRibLE/` | Mobile notes PWA — iPhone/iPad, touch + Apple Pencil. | Defined — not started |
-| `RaBbLE-Xperimental/` | High-entropy archive: NeBuLA-JS, WebOS, RaBbLE.py, old server. | Dormant — reference only |
+| `RaBbLE-BaBbLE/` | High-entropy intake workspace — concept art, prototypes, ideation, sketches. | Active — present intake |
+| `RaBbLE-Xperimental/` | Genesis archive — origin code from October 2025. Past, not present. | Genesis-archive |
 | Memory (TBD) | Observation store, pattern extraction, retrieval. Epoch 1 blocker. | Concept only |
 
 All member repos are independent git trees — gitignored by this repo, each with its own history and remote.
@@ -138,8 +139,9 @@ When working in a specific member repo, check its AGENT.md + CONTEXT.md first:
 | RaBbLE-World | `RaBbLE-World/AGENT.md` | 3 min — web presence, entity chat |
 | RaBbLE-NeBuLA | `RaBbLE-NeBuLA/AGENT.md` | 5 min — visual renderer, Flat-Chaos |
 | RaBbLE-Aether | `RaBbLE-Aether/AGENT.md` | 3 min — design system, CSS |
+| RaBbLE-BaBbLE | `RaBbLE-BaBbLE/AGENT.md` | 2 min — intake workspace, concept art, prototypes |
 | RaBbLE-ScRibLE | Not yet — repo pending | — |
-| RaBbLE-Xperimental | `RaBbLE-Xperimental/README.md` | 2 min — archive only |
+| RaBbLE-Xperimental | `RaBbLE-Xperimental/README.md` | 2 min — genesis archive only |
 
 ---
 
