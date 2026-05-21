@@ -14,8 +14,8 @@ You are working with **Mark McConachie** on the **RaBbLE Collective** — a mult
 ## Current State — 2026-05-21
 
 **Phase:** Epoch 0 · Evolution 0 · Echo 0 · Episode 1 pilot.
-**Last session (S28):** Grimoire restructure complete — `lore/`→`RaBbLE/`, `common/`→`RaBbLE-Agent/`, `ShortStories/`→`RaBbLE-Mythos/`. Root RaBbLE-prefixed files sorted into member dirs. All README.md in member sections renamed to `RaBbLE-*-Overview.md`. `distilled/` removed.
-**Blockers:** Phase 2C (Genesis/Ethos authoring, Mark writes Origin) · distill-gists.sh broken · sCoRE Railway unverified · BaBbLE needs GitHub remote.
+**Last session (S29):** Full coherency & token audit. Fixed 40+ stale `common/`→`RaBbLE-Agent/` paths across all repos. All 8 gists regenerated. CLAUDE.md/CODEX.md symlinks fixed across all 8 repos. 15 unindexed docs added to INDEX.md. REFERENCES.md trimmed ~800 tokens. 5 missing decisions captured.
+**Blockers:** Phase 2C (Genesis/Ethos authoring, Mark writes Origin) · sCoRE Railway unverified · BaBbLE needs GitHub remote.
 **Next:** Phase 2C authoring · Phase 4 (landing transformation) · BaBbLE GitHub remote · Reliquary rename.
 
 > Update this block each session. Keep it under 75 words. This is the free context every agent gets.
