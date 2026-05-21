@@ -2,7 +2,7 @@
 
 ```
 epoch: 0 | evolution: 0 | echo: 0 | episode: 1 (pilot — in progress) | version: v0.0.0.0
-date: 2026-05-07 | status: active
+date: 2026-05-21 | status: active
 ```
 
 ---
@@ -56,7 +56,7 @@ For detailed delivery architecture, see `RaBbLE-Grimoire/RaBbLE-Collective/RaBbL
 - Duplicating Grimoire content in member repos — the Grimoire publishes, members reference
 - Scaffolding things that haven't been decided — low entropy until RaBbLE can walk
 - Over-investing in surfaces that will retire (chat, one-off scripts)
-- Inventing hex values — palette lives in `RaBbLE-Grimoire/common/RaBbLE-Palette.md`
+- Inventing hex values — palette lives in `RaBbLE-Grimoire/RaBbLE-Agent/RaBbLE-Palette.md`
 
 ---
 
@@ -64,7 +64,7 @@ For detailed delivery architecture, see `RaBbLE-Grimoire/RaBbLE-Collective/RaBbL
 
 For authoritative member status, see `RaBbLE-Grimoire/registry/manifests/` — that is the single source of truth.
 
-Current snapshot (as of 2026-05-16):
+Current snapshot (as of 2026-05-21):
 
 | Member | Role | Status |
 |---|---|---|
@@ -74,8 +74,9 @@ Current snapshot (as of 2026-05-16):
 | RaBbLE-World | Web presence — thin scaffold, Aether + NeBuLA loaders | Active |
 | RaBbLE-NeBuLA | Visual entity renderer, `<rabble-entity>` web component | Active — Canvas2D complete, Three.js deferred to Ep2 |
 | RaBbLE-Aether | Design system + CSS bundle + CDN delivery | Active |
+| RaBbLE-BaBbLE | High-entropy intake — concept art, prototypes, ideation | Active |
 | RaBbLE-ScRibLE | Mobile PWA (iPhone/iPad + Apple Pencil) | Defined — repo not yet created |
-| RaBbLE-Xperimental | Archive: old iterations | Dormant — reference only |
+| RaBbLE-Xperimental | Genesis archive — origin code from October 2025 | Genesis-archive |
 | Memory member | Observation store, pattern extraction | Epoch 1 blocker — concept phase |
 
 ---
@@ -86,7 +87,7 @@ Current snapshot (as of 2026-05-16):
 |---|---|
 | Collective root | Established. bootstrap.sh verified and Grimoire-aware. |
 | Grimoire registry | Complete — manifests for all active members. Missing: ScRibLE (no repo yet). |
-| Epoch 0 exit checklist | ~50% — see `RaBbLE-Grimoire/common/RaBbLE-Roadmap.md` |
+| Epoch 0 exit checklist | ~50% — see `RaBbLE-Grimoire/RaBbLE-Agent/RaBbLE-Roadmap.md` |
 | Protocol contracts | Not started — `registry/protocol/` dir needed |
 | NeBuLA v2 rebuild | Decisions pending — see Roadmap Phase 4 |
 | Memory member | Concept only — name + architecture TBD |
@@ -103,8 +104,8 @@ Current snapshot (as of 2026-05-16):
 | 4 | `RaBbLE-Grimoire/CONTEXT.md` | 2 min | ~700 | Grimoire structure, active tracks |
 | 5 | `RaBbLE-Grimoire/AGENT.md` | 2 min | ~900 | Workspace map, Pulse Protocol, spells, doc placement |
 | 6 | `RaBbLE-Grimoire/RaBbLE-Versioning.md` | 4 min | ~1,000 | Five Es + lockstep Episode model (Collective moves in step) |
-| 7 | `RaBbLE-Grimoire/common/RaBbLE-Identity.md` | 5 min | ~1,200 | What RaBbLE is (skip philosophy, jump to "Ontological Status") |
-| 8 | `RaBbLE-Grimoire/common/RaBbLE-Roadmap.md` | 5 min | ~1,000 | Open work and gaps (when planning) |
+| 7 | `RaBbLE-Grimoire/RaBbLE-Agent/RaBbLE-Identity.md` | 5 min | ~1,200 | What RaBbLE is (skip philosophy, jump to "Ontological Status") |
+| 8 | `RaBbLE-Grimoire/RaBbLE-Agent/RaBbLE-Roadmap.md` | 5 min | ~1,000 | Open work and gaps (when planning) |
 | 9 | `[Member]/CONTEXT.md` (e.g., sCoRE, World, OS) | 2–3 min | ~500–700 | Current state of specific member + active plots |
 
 **Path for different scenarios:**
