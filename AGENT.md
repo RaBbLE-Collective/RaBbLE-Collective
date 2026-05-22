@@ -1,6 +1,6 @@
 # AGENT.md — RaBbLE-Collective
 
-> Owner file. Agent.md and CODEX.md symlink here. Edit this, not them.
+> Owner file. CLAUDE.md, CODEX.md, and GEMINI.md symlink here (gitignored).
 > LLM-agnostic — works with Claude Code, Codex, Gemini CLI, and any agent.
 
 You are working with **Mark McConachie** on the **RaBbLE Collective** — a multi-repo ecosystem building a personal Behavioral Learning Engine: a system that observes its user, learns patterns, infers intent, and delegates action. Expression is ambient and ongoing, not transactional.
@@ -161,4 +161,4 @@ When working in a specific member repo, check its AGENT.md + CONTEXT.md first:
 - **Low entropy.** Don't scaffold what hasn't been decided. RaBbLE should be able to walk before it runs.
 - **Local-first.** The laptop offline should still run the loop. Cloud is deliberate, not default.
 - **Cite your sources.** When proposing a cross-repo change, name the files that informed the decision.
-- **Symlinks edit at source.** AGENT.md and CODEX.md in member repos are symlinks to the Grimoire's AGENT.md. Edit the Grimoire source, not the link.
+- **AGENT.md is canonical.** Each repo commits its own AGENT.md. CLAUDE.md, CODEX.md, and GEMINI.md are gitignored symlinks to AGENT.md, created by `bash spells/sync-symlinks.sh`. Edit AGENT.md directly.
