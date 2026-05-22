@@ -1,7 +1,7 @@
 # AGENT.md — RaBbLE-Collective
 
-> Owner file. CLAUDE.md and CODEX.md symlink here. Edit this, not them.
-> LLM-agnostic — works for Claude Code, Codex, and any future agent.
+> Owner file. Agent.md and CODEX.md symlink here. Edit this, not them.
+> LLM-agnostic — works with Claude Code, Codex, Gemini CLI, and any agent.
 
 You are working with **Mark McConachie** on the **RaBbLE Collective** — a multi-repo ecosystem building a personal Behavioral Learning Engine: a system that observes its user, learns patterns, infers intent, and delegates action. Expression is ambient and ongoing, not transactional.
 
@@ -66,6 +66,9 @@ cat RaBbLE-Grimoire/gist/*.md                       # distilled orientation: all
 head -20 RaBbLE-Grimoire/log/SESSION-LOG.md         # ## LATEST box — current state + next
 cat RaBbLE-Grimoire/CONTEXT.md                      # Grimoire tracks and state
 bash RaBbLE-Grimoire/spells/status.sh               # live member health
+
+# Before proposing systemic/architectural changes
+cat RaBbLE-Grimoire/registry/epochs/current.epoch.yml  # exit conditions, blockers, episode coherence
 ```
 
 ## End of Session
@@ -157,3 +160,5 @@ When working in a specific member repo, check its AGENT.md + CONTEXT.md first:
 - **One vertical slice all the way through** before broadening. Smallest meaningful end-to-end loop first.
 - **Low entropy.** Don't scaffold what hasn't been decided. RaBbLE should be able to walk before it runs.
 - **Local-first.** The laptop offline should still run the loop. Cloud is deliberate, not default.
+- **Cite your sources.** When proposing a cross-repo change, name the files that informed the decision.
+- **Symlinks edit at source.** AGENT.md and CODEX.md in member repos are symlinks to the Grimoire's AGENT.md. Edit the Grimoire source, not the link.
