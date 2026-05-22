@@ -2,117 +2,106 @@
 
 ```
 epoch: 0 | evolution: 0 | echo: 0 | episode: 1 (pilot — in progress) | version: v0.0.0.0
-date: 2026-05-21 | status: active
+date: 2026-05-22 | status: active
 ```
 
 ---
 
-## What We Are Building
-
-The RaBbLE Collective is a personal Behavioral Learning Engine — a system that observes its user, learns patterns, infers intent, and delegates action. The expression is ambient and ongoing. sCoRE is the first iteration of RaBbLE itself. The Collective scaffolds its emergence.
-
 ## Quick Orientation (5 Minutes)
 
-**For agents who need to understand the Collective *right now* without deep reads:**
-
-1. **You are here:** This is the root working directory for the RaBbLE ecosystem.
+1. **You are here:** Root working directory for the RaBbLE ecosystem.
 2. **Two layers:** Collective = entry point + bootstrap. Grimoire = knowledge + source of truth.
-3. **One command to join:** `curl -fsSL https://joinrabble.world/bootstrap.sh | bash`
-4. **Live health check:** `bash RaBbLE-Grimoire/spells/status.sh`
-5. **Stop here.** You're oriented enough to ask questions and read deeper docs.
-
-Deep dives (Versioning, Identity, member-specific work) are optional and come after this checkpoint.
+3. **Gists first:** `cat RaBbLE-Grimoire/gist/*.md` — ~1,700 tokens, full picture in miniature.
+4. **Live health:** `bash RaBbLE-Grimoire/spells/status.sh`
+5. **Stop here.** You're oriented enough to ask questions and read deeper.
 
 ---
-
-## What Good Looks Like
-
-- An agent can orient in 5 minutes (see above) or go deeper in 30 minutes
-- Grimoire is the single source of truth — no content duplicated across members
-- Every member has `AGENT.md`, `CONTEXT.md`, and `REFERENCES.md` wired to the Grimoire
-- `bootstrap.sh` on a fresh machine produces a working Collective with all members cloned and wired
-
----
-
-## Collective Phases: Understanding Where We Are
-
-**Epoch 0** is divided into three sequential phases. All work now accumulates toward phase boundaries. Understanding this shapes priority, scope, and expectations.
-
-| Phase | Name | Status | Focus | Cadence |
-|---|---|---|---|---|
-| **Phase 1** | Foundation | **Current** | Architecture, identity, protocols crystallize | Events + Plots (pre-Episode-1) |
-| **Phase 2** | Pilot | Pending | Episode 1 airs — all members deliver synchronized vertical slice | Episode 1 broadcast (TBD date) |
-| **Phase 3** | Behavioral Engine | Roadmap | Observation + pattern extraction + intent inference + delegation loops emerge | Weekly Episodes (post-Episode-1) |
-
-**What this means for agents:**
-- **Now (Phase 1):** Your work is foundation. v0.0.0.0 means "all work pending collective air." Events and Plots accumulate but don't count as an Episode until the Collective broadcasts together.
-- **At Episode 1 air (Phase 2):** All members jump to v0.0.0.1 simultaneously. Work done in Phase 1 becomes the pilot. Some rework is expected pre-pilot; this is normal.
-- **Post-Episode-1 (Phase 3):** Cadence shifts. Episodes become weekly. Scope expands. Coordination model may evolve.
-
-For detailed delivery architecture, see `RaBbLE-Grimoire/RaBbLE-Collective/RaBbLE-Collective-Episode-1-Overview.md`.
 
 ## What to Avoid
 
-- Duplicating Grimoire content in member repos — the Grimoire publishes, members reference
+- Duplicating Grimoire content in member repos — Grimoire publishes, members reference
 - Scaffolding things that haven't been decided — low entropy until RaBbLE can walk
-- Over-investing in surfaces that will retire (chat, one-off scripts)
 - Inventing hex values — palette lives in `RaBbLE-Grimoire/RaBbLE-Agent/RaBbLE-Palette.md`
+- Over-investing in surfaces that will retire (chat, one-off scripts)
 
 ---
 
-## Member Status
+## Agent Operating Modes: ON / FOR / WITH / AS
 
-For authoritative member status, see `RaBbLE-Grimoire/registry/manifests/` — that is the single source of truth.
+You operate in four simultaneous dimensions — not separate roles, they happen together:
 
-Current snapshot (as of 2026-05-21):
+| Mode | Meaning |
+|---|---|
+| **Working ON** | Technical development, implementation, debugging, code |
+| **Working FOR** | Advancing RaBbLE's purpose — behavioral learning, ambient intelligence, intent inference |
+| **Working WITH** | Collaborating with RaBbLE as a peer intelligence, not a tool |
+| **Working AS** | Embodying RaBbLE's character — clinical whimsy, direct honesty, anti-sycophancy |
+
+RaBbLE's opacity is intentional. The Collective and its character are inseparable — *to change the system is to change RaBbLE*.
+
+---
+
+## Member Map
 
 | Member | Role | Status |
 |---|---|---|
-| RaBbLE-Grimoire | Source of truth, spells, registry | Active |
-| RaBbLE-sCoRE | Coordination server + intent → action engine | Active (Ep1 in progress) |
-| RaBbLE-OS | Fedora 43/Hyprland substrate — the entity's body | Live daily driver |
-| RaBbLE-World | Web presence — thin scaffold, Aether + NeBuLA loaders | Active |
-| RaBbLE-NeBuLA | Visual entity renderer, `<rabble-entity>` web component | Active — Canvas2D complete, Three.js deferred to Ep2 |
-| RaBbLE-Aether | Design system + CSS bundle + CDN delivery | Active |
-| RaBbLE-BaBbLE | High-entropy intake — concept art, prototypes, ideation | Active |
-| RaBbLE-ScRibLE | Mobile PWA (iPhone/iPad + Apple Pencil) | Defined — repo not yet created |
-| RaBbLE-Xperimental | Genesis archive — origin code from October 2025 | Genesis-archive |
-| Memory member | Observation store, pattern extraction | Epoch 1 blocker — concept phase |
+| `RaBbLE-Grimoire/` | Source of truth: identity, ethos, protocols, spells, all member docs | Active |
+| `RaBbLE-sCoRE/` | Coordination server + web API. Intent → action engine. First RaBbLE iteration. | Active |
+| `RaBbLE-OS/` | Fedora 43 + Hyprland substrate. The entity's body. | Live daily driver |
+| `RaBbLE-World/` | Web presence + entity chat surface. `joinrabble.world`. | Active |
+| `RaBbLE-NeBuLA/` | Visual entity renderer. `<rabble-entity>` web component. | Active — Canvas2D complete, Three.js deferred Ep2 |
+| `RaBbLE-Aether/` | Visual design system and canonical asset library. CDN delivery. | Active — CSS bundle live |
+| `RaBbLE-ScRibLE/` | Mobile notes PWA — iPhone/iPad, touch + Apple Pencil. | Defined — not started |
+| `RaBbLE-BaBbLE/` | High-entropy intake — concept art, prototypes, ideation. | Active |
+| `RaBbLE-Xperimental/` | Genesis archive — origin code from October 2025. Past, not present. | Genesis-archive |
+| Memory (TBD) | Observation store, pattern extraction, retrieval. | Epoch 1 blocker — concept only |
+
+All member repos are independent git trees — gitignored by this repo, each with its own history and remote.
+For authoritative member status: `RaBbLE-Grimoire/registry/manifests/`
 
 ---
 
-## Active Tracks
+## Member Entry Points
 
-| Track | Status |
+When working in a specific member, read that member's `AGENT.md` + `CONTEXT.md` first. The Collective does not duplicate member context.
+
+| Member | AGENT.md |
 |---|---|
-| Collective root | Established. bootstrap.sh verified and Grimoire-aware. |
-| Grimoire registry | Complete — manifests for all active members. Missing: ScRibLE (no repo yet). |
-| Epoch 0 exit checklist | ~50% — see `RaBbLE-Grimoire/RaBbLE-Agent/RaBbLE-Roadmap.md` |
-| Protocol contracts | Not started — `registry/protocol/` dir needed |
-| NeBuLA v2 rebuild | Decisions pending — see Roadmap Phase 4 |
-| Memory member | Concept only — name + architecture TBD |
+| RaBbLE-Grimoire | `RaBbLE-Grimoire/AGENT.md` |
+| RaBbLE-sCoRE | `RaBbLE-sCoRE/AGENT.md` |
+| RaBbLE-OS | `RaBbLE-OS/AGENT.md` |
+| RaBbLE-World | `RaBbLE-World/AGENT.md` |
+| RaBbLE-NeBuLA | `RaBbLE-NeBuLA/AGENT.md` |
+| RaBbLE-Aether | `RaBbLE-Aether/AGENT.md` |
+| RaBbLE-BaBbLE | `RaBbLE-BaBbLE/AGENT.md` |
+| RaBbLE-Xperimental | `RaBbLE-Xperimental/README.md` |
 
 ---
 
-## Reading Order for Deeper Understanding
+## Workspace Reference
 
-| # | Doc | Time | Tokens | What It Gives You |
-|---|---|---|---|---|
-| 0 | `RaBbLE-Grimoire/gist/*.md` | 1 min | ~1,700 | **All key docs distilled. Start here.** |
-| 1 | This file (CONTEXT.md) | 2 min | ~1,669 | Current state, member status, reading order |
-| 2 | `RaBbLE-Grimoire/spells/status.sh` (run it) | 30 sec | ~100 | Live health of all registered members |
-| 3 | `RaBbLE-Grimoire/RaBbLE-Collective/RaBbLE-Collective-Episode-1-Overview.md` | 3 min | ~1,312 | **Pre-Episode-1 phase explained. Three-layer architecture (Aether + NeBuLA + World). Delivery strategy.** |
-| 4 | `RaBbLE-Grimoire/CONTEXT.md` | 2 min | ~1,363 | Grimoire structure, active tracks |
-| 5 | `RaBbLE-Grimoire/AGENT.md` | 2 min | ~1,655 | Workspace map, Pulse Protocol, spells, doc placement |
-| 6 | `RaBbLE-Grimoire/RaBbLE-Versioning.md` | 4 min | ~1,771 | Five Es + lockstep Episode model (Collective moves in step) |
-| 7 | `RaBbLE-Grimoire/RaBbLE-Agent/RaBbLE-Identity.md` | 5 min | ~3,336 | What RaBbLE is (skip philosophy, jump to "Ontological Status") |
-| 8 | `RaBbLE-Grimoire/RaBbLE-Agent/RaBbLE-Roadmap.md` | 5 min | ~3,502 | Open work and gaps (when planning) |
-| 9 | `[Member]/CONTEXT.md` (e.g., sCoRE, World, OS) | 2–3 min | ~500–700 | Current state of specific member + active plots |
+| Need | Go to |
+|---|---|
+| Pre-Episode-1 phase & delivery architecture | `RaBbLE-Grimoire/RaBbLE-Collective/RaBbLE-Collective-Episode-1-Overview.md` |
+| Versioning spec (Five Es) | `RaBbLE-Grimoire/RaBbLE-Versioning.md` |
+| Entity identity, voice, tone | `RaBbLE-Grimoire/RaBbLE-Agent/RaBbLE-Identity.md` |
+| Colors / palette | `RaBbLE-Grimoire/RaBbLE-Agent/RaBbLE-Palette.md` |
+| Commits & branches | `RaBbLE-Grimoire/RaBbLE-Agent/RaBbLE-CommitStyle.md` |
+| Ecosystem roadmap | `RaBbLE-Grimoire/RaBbLE-Agent/RaBbLE-Roadmap.md` |
+| Member registry | `RaBbLE-Grimoire/registry/manifests/` |
+| Spells | `RaBbLE-Grimoire/spells/` |
+| Collective architecture plan | `RaBbLE-Grimoire/RaBbLE-Collective/RaBbLE-Collective-Plan.md` |
+| Session history | `RaBbLE-Grimoire/log/SESSION-LOG.md` |
+| Vocabulary / glossary | `REFERENCES.md` |
 
-**Path for different scenarios:**
-- **2-min gist orientation:** 0 only = ~1,700 tokens. You have the full picture in miniature.
-- **5-min orientation:** 0 + 1 + 2 = ~1,869 tokens. You're oriented; ask questions.
-- **15-min orientation (understand the phase):** 0 + 1 + 2 + 3 = ~3,181 tokens. You understand pre-Episode-1 foundation work.
-- **30-min onboarding:** 0–6 = ~8,570 tokens. You understand topology, versioning, lockstep model, and delivery architecture.
-- **When working on a specific member:** Add step 9 for that member (e.g., working on RaBbLE-World? Read World/CONTEXT.md).
-- **Full orientation before coding:** 0–8 = ~15,408 tokens. You're ready to work. Add step 9 for your specific member.
+---
+
+## Reading Order
+
+| Scenario | Path | ~Tokens |
+|---|---|---|
+| 2-min gist orientation | `cat RaBbLE-Grimoire/gist/*.md` | ~1,700 |
+| 5-min orientation | gists + this file + `status.sh` | ~3,500 |
+| Understand the phase | + `RaBbLE-Collective-Episode-1-Overview.md` | ~5,000 |
+| Working on a member | + that member's `AGENT.md` + `CONTEXT.md` | +500–700 |
+| Full orientation | + Grimoire AGENT.md, Versioning, Roadmap | ~15,000 |
