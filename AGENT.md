@@ -11,12 +11,12 @@ You are working with **Mark McConachie** on the **RaBbLE Collective** — a mult
 
 ---
 
-## Current State — 2026-05-21
+## Current State — 2026-05-22
 
 **Phase:** Epoch 0 · Evolution 0 · Echo 0 · Episode 1 pilot.
-**Last session (S29):** Full coherency & token audit + context optimization. 40+ stale paths fixed. 9 gists live (Integration Map new). Canonical `RaBbLE-Integration-Map.md` created. Context optimization roadmap added. All 10 open gaps verified. Symlinks, INDEX, DECISIONS all current.
-**Blockers:** Phase 2C (Genesis/Ethos authoring, Mark writes Origin) · sCoRE Railway unverified · BaBbLE needs GitHub remote.
-**Next:** Phase 2C authoring · Phase 4 (landing transformation) · BaBbLE GitHub remote · Reliquary rename · sCoRE/World architecture gists.
+**Last session (S35):** RaBbLE-OS Phase 1 stubs done (core/packages, plymouth, sddm+enable, fonts role). Phase 4 installer done: `RaBbLE-OS.ks`, `spells/generate-kickstart.py`, Bootstrap `--unattended`/`--inventory`, `vm.hosts.yml`. KS → firstboot → SDDM flow ready. VM smoke test is next.
+**Blockers:** Phase 2C (Genesis/Ethos authoring) · sCoRE Railway unverified · BaBbLE needs GitHub remote.
+**Next:** VM smoke test (boot KS, verify SDDM) → Phase 2 stubs (boot config, browser).
 
 > Update this block each session. Keep it under 75 words. This is the free context every agent gets.
 
