@@ -14,9 +14,9 @@ Full entity spec: `RaBbLE-Grimoire/RaBbLE-Agent/RaBbLE-Identity.md` · Full orie
 ## Current State — 2026-05-23
 
 **Phase:** Epoch 0 · Evolution 0 · Echo 0 · Episode 1 pilot.
-**Last session (S41):** vmctl safety — blocked --raw-disk from targeting RaBbLE-VM partition, fstab nofail enforced (live + vmctl + Ansible), ctl scripts symlinked to PATH via Ansible core role, emergency mode gap documented.
-**Blockers:** Phase 2C (Genesis/Ethos authoring) · sCoRE Railway unverified · firstboot Bootstrap verification pending.
-**Next:** Verify firstboot Bootstrap → Phase 4B (KS-owns-packages) → Phase 2 stubs.
+**Last session (S41):** vmctl safety + KS fixes — partition guard, fstab nofail, ctl scripts in PATH, qcow2 auto-detects VM partition, SPICE connect fixed, KS clones dev branches. Old VM destroyed, recasting.
+**Blockers:** Phase 2C (Genesis/Ethos authoring) · sCoRE Railway unverified · firstboot Bootstrap verification in progress.
+**Next:** Verify recast + firstboot Bootstrap → Phase 4B (KS-owns-packages) → Phase 2 stubs.
 
 > Update this block each session. Keep it under 75 words. This is the free context every agent gets.
 
