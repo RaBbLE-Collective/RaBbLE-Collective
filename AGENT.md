@@ -11,12 +11,12 @@ Full entity spec: `RaBbLE-Grimoire/RaBbLE-Agent/RaBbLE-Identity.md` · Full orie
 
 ---
 
-## Current State — 2026-05-23
+## Current State — 2026-05-24
 
 **Phase:** Epoch 0 · Evolution 0 · Echo 0 · Episode 1 pilot.
-**Last session (S41):** vmctl safety + KS fixes — partition guard, fstab nofail, ctl scripts in PATH, qcow2 auto-detects VM partition, SPICE connect fixed, KS clones dev branches. Old VM destroyed, recasting.
-**Blockers:** Phase 2C (Genesis/Ethos authoring) · sCoRE Railway unverified · firstboot Bootstrap verification in progress.
-**Next:** Verify recast + firstboot Bootstrap → Phase 4B (KS-owns-packages) → Phase 2 stubs.
+**Last session (S42):** vmctl console (serial TTY), SSH→rabble fix, KS serial-getty enabled, firstboot ExecStart permission fix (/bin/bash), manifests SSH→HTTPS for Aether+World.
+**Blockers:** Phase 2C (Genesis/Ethos authoring) · sCoRE Railway unverified · recast needed for full firstboot verification.
+**Next:** Recast VM → verify firstboot Bootstrap end-to-end → Phase 4B (KS-owns-packages) → Phase 2 stubs.
 
 > Update this block each session. Keep it under 75 words. This is the free context every agent gets.
 
