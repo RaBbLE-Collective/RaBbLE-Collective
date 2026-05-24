@@ -11,12 +11,12 @@ Full entity spec: `RaBbLE-Grimoire/RaBbLE-Agent/RaBbLE-Identity.md` · Full orie
 
 ---
 
-## Current State — 2026-05-22
+## Current State — 2026-05-23
 
 **Phase:** Epoch 0 · Evolution 0 · Echo 0 · Episode 1 pilot.
-**Last session (S35):** RaBbLE-OS Phase 1 stubs done (core/packages, plymouth, sddm+enable, fonts role). Phase 4 installer done: `RaBbLE-OS.ks`, `spells/generate-kickstart.py`, Bootstrap `--unattended`/`--inventory`, `vm.hosts.yml`. KS → firstboot → SDDM flow ready. VM smoke test is next.
-**Blockers:** Phase 2C (Genesis/Ethos authoring) · sCoRE Railway unverified · BaBbLE needs GitHub remote.
-**Next:** VM smoke test (boot KS, verify SDDM) → Phase 2 stubs (boot config, browser).
+**Last session (S40):** vmctl QoL overhaul — status dashboard (IP/uptime/disk/color), ssh/logs/recast commands, stop --force/--timeout, connect without sudo, --quiet flag, tab completions, test spell. Grimoire docs updated.
+**Blockers:** Phase 2C (Genesis/Ethos authoring) · sCoRE Railway unverified · firstboot Bootstrap verification pending.
+**Next:** Verify firstboot Bootstrap → Phase 4B (KS-owns-packages) → Phase 2 stubs.
 
 > Update this block each session. Keep it under 75 words. This is the free context every agent gets.
 
