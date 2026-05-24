@@ -9,10 +9,10 @@ The **RaBbLE Collective** is the organism: a coordinated family of repos sharing
 ## Join the Collective
 
 ```bash
-curl -fsSL https://joinrabble.world/bootstrap.sh | bash
+curl -fsSL https://joinrabble.world/setup.sh | bash
 ```
 
-One command. Bootstraps the entire ecosystem onto your machine:
+One command. Sets up the entire ecosystem on your machine:
 - Clones this repo as `~/RaBbLE/` (your root working directory)
 - Clones the Grimoire (knowledge layer)
 - Runs Grimoire spells to wire all member repos
@@ -36,7 +36,7 @@ One command. Bootstraps the entire ecosystem onto your machine:
 
 ```
 ~/RaBbLE/                     ← this repo (root working dir)
-├── bootstrap.sh              ← entry spell
+├── setup.sh                  ← entry spell
 ├── RaBbLE-Grimoire/          ← knowledge layer (independent git)
 │   ├── spells/setup.sh       ← wires all members
 │   ├── registry/manifests/   ← member manifest YAMLs

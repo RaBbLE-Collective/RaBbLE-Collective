@@ -27,7 +27,7 @@ Full entity spec: `RaBbLE-Grimoire/RaBbLE-Agent/RaBbLE-Identity.md` · Full orie
 `RaBbLE-Collective` is the root working directory (`~/RaBbLE/`) for the entire ecosystem. Three jobs only:
 
 1. Identity layer — declare what RaBbLE is
-2. Bootstrap — `bootstrap.sh` clones the Grimoire, which expands the rest
+2. Setup — `setup.sh` clones the Grimoire, which expands the rest
 3. Session entry point — AGENT.md, CONTEXT.md, REFERENCES.md for low-token agent orientation
 
 No code, no configs, no deep docs live here. **The Grimoire is the knowledge layer. The Collective is the door.**
@@ -38,7 +38,7 @@ No code, no configs, no deep docs live here. **The Grimoire is the knowledge lay
 
 ```bash
 # Fresh machine
-curl -fsSL https://joinrabble.world/bootstrap.sh | bash
+curl -fsSL https://joinrabble.world/setup.sh | bash
 
 # New agent — full picture in ~2,000 tokens
 cat RaBbLE-Grimoire/gist/*.md                       # distilled orientation: all key docs

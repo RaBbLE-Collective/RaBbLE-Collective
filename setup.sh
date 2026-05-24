@@ -1,17 +1,17 @@
 #!/usr/bin/env bash
 # =============================================================================
-# RaBbLE Collective — Bootstrap
+# RaBbLE Collective — Setup
 #
 # Usage:
-#   curl -fsSL https://joinrabble.world/bootstrap.sh | bash
-#   curl -fsSL https://raw.githubusercontent.com/markm1206/RaBbLE-Collective/main/bootstrap.sh | bash
+#   curl -fsSL https://joinrabble.world/setup.sh | bash
+#   curl -fsSL https://raw.githubusercontent.com/markm1206/RaBbLE-Collective/main/setup.sh | bash
 #
 # What this does:
 #   1. Creates ~/RaBbLE/ and initializes it as the Collective root
 #   2. Clones RaBbLE-Grimoire (the knowledge layer) and verifies it is current
 #   3. Runs Grimoire spells/setup.sh to wire all member repos
 #
-# spark ~ collective >> entry spell // %BOOTSTRAP%
+# spark ~ collective >> entry spell // %SETUP%
 # =============================================================================
 
 set -euo pipefail
