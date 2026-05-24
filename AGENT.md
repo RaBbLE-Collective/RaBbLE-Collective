@@ -14,7 +14,7 @@ Full entity spec: `RaBbLE-Grimoire/RaBbLE-Agent/RaBbLE-Identity.md` · Full orie
 ## Current State — 2026-05-23
 
 **Phase:** Epoch 0 · Evolution 0 · Echo 0 · Episode 1 pilot.
-**Last session (S40):** vmctl QoL overhaul — status dashboard (IP/uptime/disk/color), ssh/logs/recast commands, stop --force/--timeout, connect without sudo, --quiet flag, tab completions, test spell. Grimoire docs updated.
+**Last session (S41):** vmctl safety — blocked --raw-disk from targeting RaBbLE-VM partition, fstab nofail enforced (live + vmctl + Ansible), ctl scripts symlinked to PATH via Ansible core role, emergency mode gap documented.
 **Blockers:** Phase 2C (Genesis/Ethos authoring) · sCoRE Railway unverified · firstboot Bootstrap verification pending.
 **Next:** Verify firstboot Bootstrap → Phase 4B (KS-owns-packages) → Phase 2 stubs.
 
