@@ -11,6 +11,21 @@ Structure:
 
 ═══════════════════════════════════════════════════════════════════════════════
 
+## 2026-06-02: REFERENCES
+
+- https://injn.ai/ — Agentic app builder in the OS. Cool addition for RaBbLE-OS,
+  Episode 2+ scope. Filed to `RaBbLE-OS-Roadmap.md` § Episode 3 (The Entity Wakes /
+  AI stack) — substrate generates/assembles apps on demand.
+
+
+ChRySaLiS
+ChRySaLiS Repository Yielding Source and Legacy Items Staged
+
+RaBbLE-Xperimental becomes ChRySaLiS -- not Reliquary.
+
+Investigate https://github.com/Piebald-AI/tweakcc to customize ClaudeCode
+
+
 ## 2026-05-14: REFERENCES
 
 **Projects with agentic nature worth studying:**
