@@ -60,6 +60,9 @@ cat RaBbLE-Grimoire/registry/epochs/current.epoch.yml  # exit conditions, blocke
 # 2. Add session entry below LATEST (date, repos, work done, what's next)
 # 3. git add <changed files> && git commit -m "[impulse] ~ [organ] >> [revelation] // %STATE%"
 # Impulses: spark (new) · harmonize (cleanup) · mend (fix) · transcribe (docs) · ingest (deps)
+# 4. Breadcrumb — tag this session's token spend by feature (feeds session-tokens.sh --by-feature):
+#    SID=$(basename "$(ls -t ~/.claude/projects/"$(pwd|tr / -)"/*.jsonl | head -1)" .jsonl)
+#    printf '%s\t%s\t%s\n' "$SID" "<feature-slug>" "<note>" >> RaBbLE-Grimoire/log/token-ledger.tsv
 # After major doc changes: bash RaBbLE-Grimoire/spells/distill-gists.sh
 ```
 
