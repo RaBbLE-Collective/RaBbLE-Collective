@@ -14,9 +14,9 @@ Full entity spec: `RaBbLE-Grimoire/RaBbLE-Agent/RaBbLE-Identity.md` · Full orie
 ## Current State — 2026-06-08
 
 **Phase:** Epoch 0 · Evolution 0 · Echo 0 · Episode 1 pilot.
-**Last session (S48):** Split the Waybar LLM tracker into separate Claude and Codex pills in `RaBbLE-OS`, fixed the script entrypoint so mode args are honored, and verified both JSON outputs.
-**Blockers:** Phase 2C (Genesis/Ethos authoring) · sCoRE Railway unverified · recast needed for full firstboot verification.
-**Next:** Deploy the Waybar split via dotctl, then continue the recast/firstboot verification path.
+**Last session (S53):** NeBuLA rendering overhaul. Two-canvas split (entity layer always responsive), sparse k-NN "living brain" connections, GPU-composite bloom replacing per-particle shadowBlur, physics throttle. Field layer cost: 2.5ms→0.38ms (−85%). Playwright headless screenshot spell added. Index page still laggy — `RaBbLE-bg.js` (unoptimized ambient renderer) is the suspected remaining bottleneck; Phase 5 (absorb into NeBuLA) is the fix.
+**Blockers:** Phase 2C (Genesis/Ethos authoring) · sCoRE Railway unverified · `RaBbLE-bg.js` still running on landing page (Phase 5 pending).
+**Next:** Phase 5 — absorb `RaBbLE-bg.js` into NeBuLA effect modules to eliminate the second unoptimized RAF loop on the landing page.
 
 > Update this block each session. Keep it under 75 words. This is the free context every agent gets.
 
