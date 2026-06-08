@@ -14,9 +14,9 @@ Full entity spec: `RaBbLE-Grimoire/RaBbLE-Agent/RaBbLE-Identity.md` · Full orie
 ## Current State — 2026-06-08
 
 **Phase:** Epoch 0 · Evolution 0 · Echo 0 · Episode 1 pilot.
-**Last session (S54):** NeBuLA Phase 5 complete. Added `AmbientField` to NeBuLA effects — outrun grid baked offscreen (zero per-frame gradient cost), same GPU-composite glow + batched connections as Phase 4. `RaBbLE-bg.js` is now a 10-line shim. Landing page runs one RAF loop, not two.
+**Last session (S54):** Phase 5 complete — `AmbientField` in NeBuLA, `RaBbLE-bg.js` is a 10-line shim, one RAF loop. Three open perf issues: `ctx.filter=blur()` is Skia/main-thread (fix: CSS element filter on glow canvas); glow buffer alpha flicker (1-line fix in `_visibility()`); particle `update()` runs before eye draw. Handoff doc: `RaBbLE-Grimoire/RaBbLE-NeBuLA/RaBbLE-NeBuLA-Perf-Handoff.md`.
 **Blockers:** Phase 2C (Genesis/Ethos authoring) · sCoRE Railway unverified.
-**Next:** Phase 2C (Genesis/Ethos authoring), or OS/VM bootstrap polish.
+**Next:** NeBuLA perf pass (handoff doc above), or Phase 2C, or OS/VM bootstrap polish.
 
 > Update this block each session. Keep it under 75 words. This is the free context every agent gets.
 
