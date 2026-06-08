@@ -11,12 +11,12 @@ Full entity spec: `RaBbLE-Grimoire/RaBbLE-Agent/RaBbLE-Identity.md` · Full orie
 
 ---
 
-## Current State — 2026-05-24
+## Current State — 2026-06-08
 
 **Phase:** Epoch 0 · Evolution 0 · Echo 0 · Episode 1 pilot.
-**Last session (S42):** vmctl console (serial TTY), SSH→rabble fix, KS serial-getty enabled, firstboot ExecStart permission fix (/bin/bash), manifests SSH→HTTPS for Aether+World.
+**Last session (S48):** Closed final gaps in `RaBbLE-Development-History.md` — folded in Mark's web-export notes for the 05-05/06 founding sessions (Sidebar 2: ecosystem map, naming churn, ChRySaLiS, AI-ethics design session) and confirmed 05-01→05-04 is the only silent stretch (a known short break, not lost data). Dev History doc now spans 04-09→present with no unexplained gaps.
 **Blockers:** Phase 2C (Genesis/Ethos authoring) · sCoRE Railway unverified · recast needed for full firstboot verification.
-**Next:** Recast VM → verify firstboot Bootstrap end-to-end → Phase 4B (KS-owns-packages) → Phase 2 stubs.
+**Next:** Merge `feature/waybar-llm-status` → recast VM → verify firstboot Bootstrap end-to-end → Phase 4B (KS-owns-packages).
 
 > Update this block each session. Keep it under 75 words. This is the free context every agent gets.
 
