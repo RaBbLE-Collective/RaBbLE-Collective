@@ -14,9 +14,9 @@ Full entity spec: `RaBbLE-Grimoire/RaBbLE-Agent/RaBbLE-Identity.md` · Full orie
 ## Current State — 2026-06-08
 
 **Phase:** Epoch 0 · Evolution 0 · Echo 0 · Episode 1 pilot.
-**Last session (S54):** Finished landing page lag fix. Rewrote `RaBbLE-bg.js` draw(): physics throttle, flat+glow two-pass rendering, GPU-composite bloom (ctx.filter=blur), single batched connection stroke. Same pattern as NeBuLA Phase 4. Particles 280→100, glow fraction 35%→12%.
-**Blockers:** Phase 2C (Genesis/Ethos authoring) · sCoRE Railway unverified · `RaBbLE-bg.js` still a separate RAF loop (Phase 5 pending).
-**Next:** Phase 5 — absorb `RaBbLE-bg.js` into NeBuLA effect modules (shared RAF + frame budget). Or OS/VM bootstrap polish.
+**Last session (S54):** NeBuLA Phase 5 complete. Added `AmbientField` to NeBuLA effects — outrun grid baked offscreen (zero per-frame gradient cost), same GPU-composite glow + batched connections as Phase 4. `RaBbLE-bg.js` is now a 10-line shim. Landing page runs one RAF loop, not two.
+**Blockers:** Phase 2C (Genesis/Ethos authoring) · sCoRE Railway unverified.
+**Next:** Phase 2C (Genesis/Ethos authoring), or OS/VM bootstrap polish.
 
 > Update this block each session. Keep it under 75 words. This is the free context every agent gets.
 
