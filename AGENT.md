@@ -14,9 +14,9 @@ Full entity spec: `RaBbLE-Grimoire/RaBbLE-Agent/RaBbLE-Identity.md` · Full orie
 ## Current State — 2026-06-08
 
 **Phase:** Epoch 0 · Evolution 0 · Echo 0 · Episode 1 pilot.
-**Last session (S55):** NeBuLA perf pass complete — `ctx.filter=blur` replaced with CSS element filter on DOM glow canvas (compositor thread); glow flicker fixed (pulse formula); `particleSystem.update()` gated behind `shouldSkipFieldUpdate()`; entity now three-canvas stack (field/glow/entity, z:0/1/2). All S54 perf issues resolved.
+**Last session (S55b):** NeBuLA perf: AmbientField now half-rate (30fps, holds GPU texture on skip) + connections removed. Background ~0.5–1ms/frame. S56: World Collective page atmospheric restyle + brand casing canon (RaBbLE/NeBuLA/sCoRE never uppercase).
 **Blockers:** Phase 2C (Genesis/Ethos authoring) · sCoRE Railway unverified.
-**Next:** Phase 2C, or OS/VM bootstrap polish.
+**Next:** OS/Docs atmospheric restyle; Phase 2C; OS/VM polish.
 
 > Update this block each session. Keep it under 75 words. This is the free context every agent gets.
 
