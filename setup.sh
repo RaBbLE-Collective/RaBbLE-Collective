@@ -19,6 +19,8 @@ set -euo pipefail
 RABBLE_ROOT="${RABBLE_ROOT:-$HOME/RaBbLE}"
 COLLECTIVE_REPO="https://github.com/markm1206/RaBbLE-Collective.git"
 GRIMOIRE_REPO="https://github.com/markm1206/RaBbLE-Grimoire.git"
+COLLECTIVE_BRANCH="${COLLECTIVE_BRANCH:-dev}"
+GRIMOIRE_BRANCH="${GRIMOIRE_BRANCH:-dev}"
 
 # --- Colors (RaBbLE palette) -------------------------------------------------
 MAGENTA='\033[38;2;255;45;120m'
@@ -46,7 +48,7 @@ sync_repo() {
 
   if [[ "$behind" -gt 0 && "$modified" -gt 0 ]]; then
     warn "${label} is ${behind} commits behind and has ${modified} local changes"
-    warn "Manual merge needed — run: git -C ${path} merge origin/main"
+    warn "Manual merge needed — run: git -C ${path} merge @{u}"
   elif [[ "$behind" -gt 0 ]]; then
     info "${label} is ${behind} commits behind — pulling..."
     git -C "$path" pull --ff-only --quiet
@@ -77,8 +79,8 @@ if [[ -d "$RABBLE_ROOT/.git" ]]; then
 else
   mkdir -p "$(dirname "$RABBLE_ROOT")"
   info "Cloning RaBbLE-Collective into $RABBLE_ROOT..."
-  git clone "$COLLECTIVE_REPO" "$RABBLE_ROOT"
-  success "RaBbLE-Collective cloned"
+  git clone -b "$COLLECTIVE_BRANCH" "$COLLECTIVE_REPO" "$RABBLE_ROOT"
+  success "RaBbLE-Collective cloned (branch: $COLLECTIVE_BRANCH)"
 fi
 
 # =============================================================================
@@ -95,8 +97,8 @@ if [[ -d "$GRIMOIRE/.git" ]]; then
   sync_repo "$GRIMOIRE" "RaBbLE-Grimoire"
 else
   info "Cloning RaBbLE-Grimoire..."
-  git clone "$GRIMOIRE_REPO" "$GRIMOIRE"
-  success "RaBbLE-Grimoire cloned"
+  git clone -b "$GRIMOIRE_BRANCH" "$GRIMOIRE_REPO" "$GRIMOIRE"
+  success "RaBbLE-Grimoire cloned (branch: $GRIMOIRE_BRANCH)"
 fi
 
 # =============================================================================
