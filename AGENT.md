@@ -14,9 +14,9 @@ Full entity spec: `RaBbLE-Grimoire/RaBbLE-Agent/RaBbLE-Identity.md` · Full orie
 ## Current State — 2026-06-08
 
 **Phase:** Epoch 0 · Evolution 0 · Echo 0 · Episode 1 pilot.
-**Last session (S48):** Closed final gaps in `RaBbLE-Development-History.md` — folded in Mark's web-export notes for the 05-05/06 founding sessions (Sidebar 2: ecosystem map, naming churn, ChRySaLiS, AI-ethics design session) and confirmed 05-01→05-04 is the only silent stretch (a known short break, not lost data). Dev History doc now spans 04-09→present with no unexplained gaps.
+**Last session (S48):** Split the Waybar LLM tracker into separate Claude and Codex pills in `RaBbLE-OS`, fixed the script entrypoint so mode args are honored, and verified both JSON outputs.
 **Blockers:** Phase 2C (Genesis/Ethos authoring) · sCoRE Railway unverified · recast needed for full firstboot verification.
-**Next:** Merge `feature/waybar-llm-status` → recast VM → verify firstboot Bootstrap end-to-end → Phase 4B (KS-owns-packages).
+**Next:** Deploy the Waybar split via dotctl, then continue the recast/firstboot verification path.
 
 > Update this block each session. Keep it under 75 words. This is the free context every agent gets.
 
