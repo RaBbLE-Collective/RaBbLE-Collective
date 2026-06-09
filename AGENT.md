@@ -14,9 +14,9 @@ Full entity spec: `RaBbLE-Grimoire/RaBbLE-Agent/RaBbLE-Identity.md` · Full orie
 ## Current State — 2026-06-09
 
 **Phase:** Epoch 0 · Evolution 0 · Echo 0 · Episode 1 pilot.
-**Last session (S56c close):** Grimoire Graph eye/portal refinement: thick `ellipseRingMesh` outlines; portal Y offset 15→68. Remaining polish: outlines ~1-2px too thick (`EYE_W+7` outer → try `EYE_W+5`); portal arcs need more horizontal spread (`PRT_RX=45` → try 70-80). All tweaks in `world/js/RaBbLE-grimoire-graph.js` constants block.
-**Blockers:** Phase 2C (Genesis/Ethos authoring) · sCoRE chat end-to-end.
-**Next:** Eye/portal fine-tuning; Phase 2C; sCoRE chat verify.
+**Last session (S56e):** Grimoire Graph eye/portal polish complete. `EYE_W+5` confirmed; `PRT_RX=60` settled; dark fill aligned to ring (`PRTF_W=60, PRTF_H=16`). sCoRE chat end-to-end live (S56d). Next minor pass: portal outlines slightly thin — thicken.
+**Blockers:** Phase 2C (Genesis/Ethos authoring).
+**Next:** Phase 2C; portal outline thickening (minor); OS/VM bootstrap polish.
 
 > Update this block each session. Keep it under 75 words. This is the free context every agent gets.
 
