@@ -11,12 +11,12 @@ Full entity spec: `RaBbLE-Grimoire/RaBbLE-Agent/RaBbLE-Identity.md` · Full orie
 
 ---
 
-## Current State — 2026-06-08
+## Current State — 2026-06-09
 
 **Phase:** Epoch 0 · Evolution 0 · Echo 0 · Episode 1 pilot.
-**Last session (S55c):** `ctx.shadowBlur` was the 25ms culprit (4+ Skia blurs/frame on eyes+portals). Eliminated all shadowBlur; glow now via CSS `filter:blur(8px)` on DOM canvas (compositor thread, zero JS). Particles re-added. Flicker fixed (shared glow canvas clear timing). Perf budget doc: `Grimoire/RaBbLE-NeBuLA/RaBbLE-NeBuLA-Canvas2D-Perf.md`. Rule: no shadowBlur, no ctx.filter, all blur is CSS.
+**Last session (S55c):** Portal fill transparency root cause: CSS `filter:blur` on glow canvas causes Chrome GPU compositor to promote it past entity canvas z-index. Fix: `isolation:isolate` on `<rabble-entity>`. Also removed panel `backdrop-filter` and `brand-harmony` background-position animation (both non-compositable perf hits). Portal fills confirmed opaque. Rule: no shadowBlur, no ctx.filter, all blur is CSS.
 **Blockers:** Phase 2C (Genesis/Ethos authoring) · sCoRE Railway unverified.
-**Next:** Verify 60fps in browser; Phase 2C; OS/VM bootstrap polish.
+**Next:** Verify 60fps in DevTools on landing page; Phase 2C; OS/VM bootstrap polish.
 
 > Update this block each session. Keep it under 75 words. This is the free context every agent gets.
 
