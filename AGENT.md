@@ -14,9 +14,9 @@ Full entity spec: `RaBbLE-Grimoire/RaBbLE-Agent/RaBbLE-Identity.md` · Full orie
 ## Current State — 2026-06-09
 
 **Phase:** Epoch 0 · Evolution 0 · Echo 0 · Episode 1 pilot.
-**Last session (S56c):** Built `RaBbLE-Grimoire-Graph.html` — Three.js cosmic knowledge browser: 27 Grimoire docs as force-directed nodes (bilinear palette gradient by member) surrounding entity eyes. Eyes/portals match NeBuLA threejs-backend exactly (EYE_H=52; cyan portal above left, magenta below right — from `_buildEyes` comment, not buggy `_updateEyes`). Draw-in arcs, blink FSM, iris tracking, click info panel.
+**Last session (S56c close):** Grimoire Graph eye/portal refinement: thick `ellipseRingMesh` outlines; portal Y offset 15→68. Remaining polish: outlines ~1-2px too thick (`EYE_W+7` outer → try `EYE_W+5`); portal arcs need more horizontal spread (`PRT_RX=45` → try 70-80). All tweaks in `world/js/RaBbLE-grimoire-graph.js` constants block.
 **Blockers:** Phase 2C (Genesis/Ethos authoring) · sCoRE chat end-to-end.
-**Next:** Phase 2C; verify chat with CC running; OS/VM bootstrap polish.
+**Next:** Eye/portal fine-tuning; Phase 2C; sCoRE chat verify.
 
 > Update this block each session. Keep it under 75 words. This is the free context every agent gets.
 
