@@ -14,9 +14,9 @@ Full entity spec: `RaBbLE-Grimoire/RaBbLE-Agent/RaBbLE-Identity.md` · Full orie
 ## Current State — 2026-06-09
 
 **Phase:** Epoch 0 · Evolution 0 · Echo 0 · Episode 1 pilot.
-**Last session (S55c):** Portal fill transparency root cause: CSS `filter:blur` on glow canvas causes Chrome GPU compositor to promote it past entity canvas z-index. Fix: `isolation:isolate` on `<rabble-entity>`. Also removed panel `backdrop-filter` and `brand-harmony` background-position animation (both non-compositable perf hits). Portal fills confirmed opaque. Rule: no shadowBlur, no ctx.filter, all blur is CSS.
-**Blockers:** Phase 2C (Genesis/Ethos authoring) · sCoRE Railway unverified.
-**Next:** Verify 60fps in DevTools on landing page; Phase 2C; OS/VM bootstrap polish.
+**Last session (S56c):** Built `RaBbLE-Grimoire-Graph.html` — Three.js cosmic knowledge browser: 27 Grimoire docs as force-directed nodes (bilinear palette gradient by member) surrounding entity eyes. Eyes/portals match NeBuLA threejs-backend exactly (EYE_H=52; cyan portal above left, magenta below right — from `_buildEyes` comment, not buggy `_updateEyes`). Draw-in arcs, blink FSM, iris tracking, click info panel.
+**Blockers:** Phase 2C (Genesis/Ethos authoring) · sCoRE chat end-to-end.
+**Next:** Phase 2C; verify chat with CC running; OS/VM bootstrap polish.
 
 > Update this block each session. Keep it under 75 words. This is the free context every agent gets.
 
