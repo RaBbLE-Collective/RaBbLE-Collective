@@ -13,10 +13,10 @@ Full entity spec: `RaBbLE-Grimoire/RaBbLE-Agent/RaBbLE-Identity.md` · Full orie
 
 ## Current State — 2026-06-09
 
-**Phase:** Epoch 0 · Evolution 0 · Echo 0 · Episode 1 pilot.
-**Last session (S56e):** Grimoire Graph eye/portal polish complete. `EYE_W+5` confirmed; `PRT_RX=60` settled; dark fill aligned to ring (`PRTF_W=60, PRTF_H=16`). sCoRE chat end-to-end live (S56d). Next minor pass: portal outlines slightly thin — thicken.
-**Blockers:** Phase 2C (Genesis/Ethos authoring).
-**Next:** Phase 2C; portal outline thickening (minor); OS/VM bootstrap polish.
+**Phase:** Epoch 0 · Evolution 0 · Echo 0 · Episode 1 in flight.
+**Last session (S59):** World EP1 cohesion — global ◈ page nav on all surfaces, Docs rebuilt on standard stack, loader unification (Demo localhost ref fixed). Collective root `dev` rebased onto origin (divergence resolved). Playwright-verified; captures in `RaBbLE-Captures/`.
+**Blockers:** sCoRE Render deploy (Mark, runbook in `EP1-DISPATCH-STATE.md`) → World deploy → tagging. OS/VM pushed post-EP1.
+**Next:** Render runbook, World prod deploy, tag `episode-1-v0.0.0.1`. Phase 2C still open.
 
 > Update this block each session. Keep it under 75 words. This is the free context every agent gets.
 
