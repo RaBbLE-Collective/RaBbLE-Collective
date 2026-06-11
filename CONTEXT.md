@@ -83,6 +83,11 @@ When working in a specific member, read that member's `AGENT.md` + `CONTEXT.md` 
 | Need | Go to |
 |---|---|
 | Pre-Episode-1 phase & delivery architecture | `RaBbLE-Grimoire/RaBbLE-Collective/RaBbLE-Collective-Episode-1-Overview.md` |
+| EP1 release brief & dispatch state | `RaBbLE-Grimoire/RaBbLE-Collective/RaBbLE-Episode-1-Release-Brief.md` |
+| EP1 deployment runbook (Cloudflare CI/CD) | `RaBbLE-Grimoire/RaBbLE-Collective/RaBbLE-Episode-1-Deployment-Runbook.md` |
+| EP1 dispatch state (S58 handoff) | `RaBbLE-Grimoire/log/EP1-Dispatch-State.md` |
+| Membership model — the Pair & summoning | `RaBbLE-Grimoire/RaBbLE-Collective/RaBbLE-Membership-Model.md` |
+| Service roadmap & business model | `RaBbLE-Grimoire/RaBbLE-Collective/RaBbLE-Service-Plan.md` |
 | Versioning spec (Five Es) | `RaBbLE-Grimoire/RaBbLE-Versioning.md` |
 | Entity identity, voice, tone | `RaBbLE-Grimoire/RaBbLE-Agent/RaBbLE-Identity.md` |
 | Colors / palette | `RaBbLE-Grimoire/RaBbLE-Agent/RaBbLE-Palette.md` |
