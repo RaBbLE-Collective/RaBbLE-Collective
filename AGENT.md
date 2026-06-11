@@ -11,12 +11,12 @@ Full entity spec: `RaBbLE-Grimoire/RaBbLE-Agent/RaBbLE-Identity.md` · Full orie
 
 ---
 
-## Current State — 2026-06-10
+## Current State — 2026-06-11
 
 **Phase:** Epoch 0 · Evolution 0 · Echo 0 · Episode 1 in flight.
-**Last session (S60):** Documented the Collective identity & secrets model — `RaBbLE-Grimoire/RaBbLE-Collective/RaBbLE-Secrets-and-Identity.md` (proton root identity, two-tier secrets, GitHub org + role account, episode signing). Drafted `spells/seal-episode.sh` (episode seals authored by the Collective, not Mark).
+**Last session (S75):** fastfetch identity polish — 4-row half-block "RaBbLE" wordmark, eye-matched cyan→magenta gradient, logo 57→37 cols, Swap/Battery/IP modules added. Fixed silent SGR color bug (bare `"135"` is ignored; use `"38;5;N"`) — gotcha mirrored to Agent-Protocols.
 **Blockers:** sCoRE Render deploy (Mark, runbook in `EP1-DISPATCH-STATE.md`) → World deploy → tagging. Identity setup (org, accounts) is Mark's to enact.
-**Next:** Render runbook, World prod deploy, tag `episode-1-v0.0.0.1`. Phase 2C still open.
+**Next:** CF R2 → Aether RC1 → Render → World prod → tag `episode-1-v0.0.0.1`. Phase 2C still open.
 
 > Update this block each session. Keep it under 75 words. This is the free context every agent gets.
 
