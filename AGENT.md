@@ -14,7 +14,7 @@ Full entity spec: `RaBbLE-Grimoire/RaBbLE-Agent/RaBbLE-Identity.md` · Full orie
 ## Current State — 2026-06-11
 
 **Phase:** Epoch 0 · Evolution 0 · Echo 0 · Episode 1 in flight.
-**Last session (S75):** fastfetch identity polish — 4-row half-block "RaBbLE" wordmark, eye-matched cyan→magenta gradient, logo 57→37 cols, Swap/Battery/IP modules added. Fixed silent SGR color bug (bare `"135"` is ignored; use `"38;5;N"`) — gotcha mirrored to Agent-Protocols.
+**Last session (S76):** fastfetch graphics system — logo composed in layers (`rabble-portals.base.txt` + `spells/fastfetch-fx.py`: particles/glow, toggleable, seeded). Portal dot-arcs mirrored for 180° symmetry; ◆ palette strip replaces ANSI colors row. Canonical doc: Grimoire `RaBbLE-OS/desktop/RaBbLE-OS-Desktop-Fastfetch.md`.
 **Blockers:** sCoRE Render deploy (Mark, runbook in `EP1-DISPATCH-STATE.md`) → World deploy → tagging. Identity setup (org, accounts) is Mark's to enact.
 **Next:** CF R2 → Aether RC1 → Render → World prod → tag `episode-1-v0.0.0.1`. Phase 2C still open.
 
