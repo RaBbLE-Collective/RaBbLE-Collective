@@ -14,7 +14,7 @@ Full entity spec: `RaBbLE-Grimoire/RaBbLE-Agent/RaBbLE-Identity.md` · Full orie
 ## Current State — 2026-06-11
 
 **Phase:** Epoch 0 · Evolution 0 · Echo 0 · Episode 1 in flight.
-**Last session (S76):** fastfetch graphics system — logo composed in layers (`rabble-portals.base.txt` + `spells/fastfetch-fx.py`: particles/glow, toggleable, seeded). Portal dot-arcs mirrored for 180° symmetry; ◆ palette strip replaces ANSI colors row. Canonical doc: Grimoire `RaBbLE-OS/desktop/RaBbLE-OS-Desktop-Fastfetch.md`.
+**Last session (S81):** VSCodium Aether theme — fixed invisible flowing borders (escaping pseudo-elements were clipped by grid-view `overflow:hidden`; rewrote as within-bounds neon ribbons on activity bar / sidebar→editor / panel) and the "corrupt" banner (S80 `@import` broke `workbench.desktop.main.css`'s product.json checksum; added idempotent Ansible repair task). Apply via `layerctl apply apps` + hard-restart.
 **Blockers:** sCoRE Render deploy (Mark, runbook in `EP1-DISPATCH-STATE.md`) → World deploy → tagging. Identity setup (org, accounts) is Mark's to enact.
 **Next:** CF R2 → Aether RC1 → Render → World prod → tag `episode-1-v0.0.0.1`. Phase 2C still open.
 
