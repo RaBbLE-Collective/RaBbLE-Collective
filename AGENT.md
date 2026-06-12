@@ -11,12 +11,12 @@ Full entity spec: `RaBbLE-Grimoire/RaBbLE-Agent/RaBbLE-Identity.md` · Full orie
 
 ---
 
-## Current State — 2026-06-11
+## Current State — 2026-06-12
 
 **Phase:** Epoch 0 · Evolution 0 · Echo 0 · Episode 1 in flight.
-**Last session (S83):** Firefox RaBbLE-Aether theme — cycling neon tab borders (border-color+background animation; XUL ignores box-shadow), cyan/magenta nav bar seams, void bg everywhere. userChrome.css + userContent.css + user.js + browsers.yml Ansible role. Apply: `layerctl apply apps` + FF hard-restart.
-**Blockers:** sCoRE Render deploy (Mark, runbook in `EP1-DISPATCH-STATE.md`) → World deploy → tagging. Identity setup (org, accounts) is Mark's to enact.
-**Next:** Kvantum/GTK theming → CF R2 → Aether RC1 → Render → World prod → tag `episode-1-v0.0.0.1`. Phase 2C still open.
+**Last session (S86):** Firefox Aether reworked to match VSCodium — true rotating conic-gradient outline rings (`@property --aether-angle` + `mask-composite`) on active tab / focused URL bar / sidebar, navy toned to translucent tint, flowing nav-bar seam, persistent URL-box outline. Verified live via grim: conic rings DO render in Firefox XUL. Apply: `layerctl apply apps` + FF hard-restart.
+**Blockers:** GTK3 theming not applying to Thunar (S85). sCoRE Render deploy is Mark's (runbook in `EP1-DISPATCH-STATE.md`).
+**Next:** Debug GTK3 → CF R2 → Render → World prod → tag `episode-1-v0.0.0.1`. Phase 2C still open.
 
 > Update this block each session. Keep it under 75 words. This is the free context every agent gets.
 
