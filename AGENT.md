@@ -14,9 +14,9 @@ Full entity spec: `RaBbLE-Grimoire/RaBbLE-Agent/RaBbLE-Identity.md` · Full orie
 ## Current State — 2026-06-12
 
 **Phase:** Epoch 0 · Evolution 0 · Echo 0 · Episode 1 in flight.
-**Last session (S88):** rabble-aether boot chain — Plymouth frame-player (96 frames captured from RaBbLE-Boot.html via Playwright+ffmpeg, live log/progress/LUKS prompt) + pure-QML SDDM greeter, grim-verified. Apply: `layerctl apply boot` (runs `dracut --force`) + reboot. Doc: Grimoire `RaBbLE-OS-Layer-Boot.md`.
-**Blockers:** Thunar/GTK3 theming partial (S87, apply pending). sCoRE Render deploy is Mark's (runbook in `EP1-DISPATCH-STATE.md`).
-**Next:** Boot-chain reboot QA → finish Thunar → CF R2 → Render → World prod → tag `episode-1-v0.0.0.1`. Phase 2C still open.
+**Last session (S89b):** Plymouth EP1 refinement — entity left-quarter, Orbitron Bold wordmark right-section, boot log bottom-center conveyor, cyan/magenta perspective floor grid (NeBuLA AmbientField port), `add_drivers+=" amdgpu "` kills GPU flash. Committed; not yet applied. Doc: Grimoire `RaBbLE-OS-Layer-Boot-Plymouth-EP1.md`.
+**Blockers:** Reboot QA pending (`layerctl apply boot/plymouth` + reboot). Thunar partial (S87). sCoRE Render deploy is Mark's.
+**Next:** Apply boot chain → reboot QA → finish Thunar → CF R2 → Render → World prod → tag `episode-1-v0.0.0.1`.
 
 > Update this block each session. Keep it under 75 words. This is the free context every agent gets.
 
