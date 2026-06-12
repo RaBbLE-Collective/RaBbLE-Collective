@@ -14,9 +14,9 @@ Full entity spec: `RaBbLE-Grimoire/RaBbLE-Agent/RaBbLE-Identity.md` · Full orie
 ## Current State — 2026-06-12
 
 **Phase:** Epoch 0 · Evolution 0 · Echo 0 · Episode 1 in flight.
-**Last session (S94):** Chrysalis identity locked (AGENT.md + README). 6 RaBbLE-OS reliquary branches migrated → Chrysalis as `reliquary/os/*`, deleted from RaBbLE-OS. Chrysalis dev branch pruned (ff→main). RaBbLE-OS clean: main, New-Horizons, episode-I, 3 feature/fix branches. All git remotes (except Chrysalis + OS) moved to RaBbLE-Collective GitHub org.
+**Last session (S96):** Grimoire full audit (S95–S96): manifests synced to RaBbLE-Collective org, Railway→Render swept, Chrysalis/Xperimental split in epoch+roadmap, 131-node graph regenerated, gists refreshed. Orphan sweep: 8 INDEX links added. Token ledger: 53/99 sessions tagged (42.2% of cost); 45 May 12–22 sessions (171M weighted) need Mark's feature tags.
 **Blockers:** OS layerctl apply + reboot QA pending. sCoRE Render deploy is Mark's.
-**Next:** OS reboot QA → Thunar → CF R2 → Render → `episode-1-v0.0.0.1`.
+**Next:** OS reboot QA → CF R2 → Render → `episode-1-v0.0.0.1`. Backfill May 12–22 ledger entries.
 
 > Update this block each session. Keep it under 75 words. This is the free context every agent gets.
 
