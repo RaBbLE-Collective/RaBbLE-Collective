@@ -14,9 +14,9 @@ Full entity spec: `RaBbLE-Grimoire/RaBbLE-Agent/RaBbLE-Identity.md` · Full orie
 ## Current State — 2026-06-12
 
 **Phase:** Epoch 0 · Evolution 0 · Echo 0 · Episode 1 in flight.
-**Last session (S91):** Plymouth boot profiling. Root cause for blank splash: wm-step PNGs never generated. Fixed + regenerated from live Aether CSS (correct Orbitron-900, sliding gradient, RGBA). Kernel params: `plymouth.use-simpledrm=1` (kills ~10s DRM black), `vt.global_cursor_default=0` (cursor flicker), `nvidia-drm.modeset=1`. /etc/default/grub patched live; Ansible vars committed.
-**Blockers:** `layerctl apply boot/plymouth boot/grub2` + reboot QA pending. Thunar partial (S87). sCoRE Render deploy is Mark's.
-**Next:** layerctl apply → reboot QA → Thunar → CF R2 → Render → `episode-1-v0.0.0.1`.
+**Last session (S93):** setup.sh: BaBbLE + Xperimental are local surfaces (git init, not clone; idempotent). Chrysalis manifest corrected (had stale Xperimental slug/repo). 13 genesis images reviewed + migrated BaBbLE → `RaBbLE/Genesis/visual/`; 5 bad metas corrected; catalog created.
+**Blockers:** Chrysalis Reliquary + RaBbLE-OS branch pruning (next session). OS layerctl apply + reboot QA pending. sCoRE Render deploy is Mark's.
+**Next:** Chrysalis/OS cleanup session → OS reboot QA → Thunar → CF R2 → Render → `episode-1-v0.0.0.1`.
 
 > Update this block each session. Keep it under 75 words. This is the free context every agent gets.
 
