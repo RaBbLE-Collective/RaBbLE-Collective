@@ -14,9 +14,9 @@ Full entity spec: `RaBbLE-Grimoire/RaBbLE-Agent/RaBbLE-Identity.md` · Full orie
 ## Current State — 2026-06-12
 
 **Phase:** Epoch 0 · Evolution 0 · Echo 0 · Episode 1 in flight.
-**Last session (S90):** Plymouth pass 2 — entity frames: bg key (#02000b) + radial vignette on all 96 (no visible square/disk); Orbitron → 48 pre-rendered wm-step PNGs; log left-justified. Video QA (IMG_8949.mov) confirmed S89 not applied yet; 16s black = hardware POST. All committed.
-**Blockers:** Run `build-assets.sh` for wm-step PNGs → `layerctl apply boot/plymouth` + reboot QA. Thunar partial (S87). sCoRE Render deploy is Mark's.
-**Next:** build-assets.sh → apply → reboot QA → Thunar → CF R2 → Render → `episode-1-v0.0.0.1`.
+**Last session (S91):** Plymouth boot profiling. Root cause for blank splash: wm-step PNGs never generated. Fixed + regenerated from live Aether CSS (correct Orbitron-900, sliding gradient, RGBA). Kernel params: `plymouth.use-simpledrm=1` (kills ~10s DRM black), `vt.global_cursor_default=0` (cursor flicker), `nvidia-drm.modeset=1`. /etc/default/grub patched live; Ansible vars committed.
+**Blockers:** `layerctl apply boot/plymouth boot/grub2` + reboot QA pending. Thunar partial (S87). sCoRE Render deploy is Mark's.
+**Next:** layerctl apply → reboot QA → Thunar → CF R2 → Render → `episode-1-v0.0.0.1`.
 
 > Update this block each session. Keep it under 75 words. This is the free context every agent gets.
 
