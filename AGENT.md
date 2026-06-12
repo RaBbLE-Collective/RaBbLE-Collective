@@ -14,9 +14,9 @@ Full entity spec: `RaBbLE-Grimoire/RaBbLE-Agent/RaBbLE-Identity.md` · Full orie
 ## Current State — 2026-06-12
 
 **Phase:** Epoch 0 · Evolution 0 · Echo 0 · Episode 1 in flight.
-**Last session (S93):** setup.sh: BaBbLE + Xperimental are local surfaces (git init, not clone; idempotent). Chrysalis manifest corrected (had stale Xperimental slug/repo). 13 genesis images reviewed + migrated BaBbLE → `RaBbLE/Genesis/visual/`; 5 bad metas corrected; catalog created.
-**Blockers:** Chrysalis Reliquary + RaBbLE-OS branch pruning (next session). OS layerctl apply + reboot QA pending. sCoRE Render deploy is Mark's.
-**Next:** Chrysalis/OS cleanup session → OS reboot QA → Thunar → CF R2 → Render → `episode-1-v0.0.0.1`.
+**Last session (S94):** Chrysalis identity locked (AGENT.md + README). 6 RaBbLE-OS reliquary branches migrated → Chrysalis as `reliquary/os/*`, deleted from RaBbLE-OS. Chrysalis dev branch pruned (ff→main). RaBbLE-OS clean: main, New-Horizons, episode-I, 3 feature/fix branches. All git remotes (except Chrysalis + OS) moved to RaBbLE-Collective GitHub org.
+**Blockers:** OS layerctl apply + reboot QA pending. sCoRE Render deploy is Mark's.
+**Next:** OS reboot QA → Thunar → CF R2 → Render → `episode-1-v0.0.0.1`.
 
 > Update this block each session. Keep it under 75 words. This is the free context every agent gets.
 
