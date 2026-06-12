@@ -14,9 +14,9 @@ Full entity spec: `RaBbLE-Grimoire/RaBbLE-Agent/RaBbLE-Identity.md` · Full orie
 ## Current State — 2026-06-12
 
 **Phase:** Epoch 0 · Evolution 0 · Echo 0 · Episode 1 in flight.
-**Last session (S86):** Firefox Aether reworked to match VSCodium — true rotating conic-gradient outline rings (`@property --aether-angle` + `mask-composite`) on active tab / focused URL bar / sidebar, navy toned to translucent tint, flowing nav-bar seam, persistent URL-box outline. Verified live via grim: conic rings DO render in Firefox XUL. Apply: `layerctl apply apps` + FF hard-restart.
-**Blockers:** GTK3 theming not applying to Thunar (S85). sCoRE Render deploy is Mark's (runbook in `EP1-DISPATCH-STATE.md`).
-**Next:** Debug GTK3 → CF R2 → Render → World prod → tag `episode-1-v0.0.0.1`. Phase 2C still open.
+**Last session (S88):** rabble-aether boot chain — Plymouth frame-player (96 frames captured from RaBbLE-Boot.html via Playwright+ffmpeg, live log/progress/LUKS prompt) + pure-QML SDDM greeter, grim-verified. Apply: `layerctl apply boot` (runs `dracut --force`) + reboot. Doc: Grimoire `RaBbLE-OS-Layer-Boot.md`.
+**Blockers:** Thunar/GTK3 theming partial (S87, apply pending). sCoRE Render deploy is Mark's (runbook in `EP1-DISPATCH-STATE.md`).
+**Next:** Boot-chain reboot QA → finish Thunar → CF R2 → Render → World prod → tag `episode-1-v0.0.0.1`. Phase 2C still open.
 
 > Update this block each session. Keep it under 75 words. This is the free context every agent gets.
 
