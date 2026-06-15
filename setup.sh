@@ -19,8 +19,8 @@ set -euo pipefail
 RABBLE_ROOT="${RABBLE_ROOT:-$HOME/RaBbLE}"
 COLLECTIVE_REPO="https://github.com/markm1206/RaBbLE-Collective.git"
 GRIMOIRE_REPO="https://github.com/markm1206/RaBbLE-Grimoire.git"
-COLLECTIVE_BRANCH="${COLLECTIVE_BRANCH:-dev}"
-GRIMOIRE_BRANCH="${GRIMOIRE_BRANCH:-dev}"
+COLLECTIVE_BRANCH="${COLLECTIVE_BRANCH:-new-horizons}"
+GRIMOIRE_BRANCH="${GRIMOIRE_BRANCH:-new-horizons}"
 
 # --- Colors (RaBbLE palette) -------------------------------------------------
 MAGENTA='\033[38;2;255;45;120m'
