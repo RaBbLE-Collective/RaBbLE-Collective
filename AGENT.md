@@ -24,7 +24,7 @@ Full entity spec: `RaBbLE-Grimoire/RaBbLE-Agent/RaBbLE-Identity.md` · Full orie
 
 ## This Repo's Job
 
-`RaBbLE-Collective` is the root working directory (`~/RaBbLE/`) for the entire ecosystem. Three jobs only:
+`RaBbLE-Collective` is the root working directory (`~/RaBbLE-Collective/`) for the entire ecosystem — member repos are cloned *inside* it (e.g. `RaBbLE-Collective/RaBbLE-Grimoire`), not as siblings. Three jobs only:
 
 1. Identity layer — declare what RaBbLE is
 2. Setup — `setup.sh` clones the Grimoire, which expands the rest
