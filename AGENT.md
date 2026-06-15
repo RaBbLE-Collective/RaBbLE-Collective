@@ -14,8 +14,8 @@ Full entity spec: `RaBbLE-Grimoire/RaBbLE-Agent/RaBbLE-Identity.md` · Full orie
 ## Current State — 2026-06-15
 
 **Phase:** Epoch 0 · Evolution 0 · Echo 0 · Episode 1 in flight.
-**Last session (S98):** Branch sweep: `dev` → `new-horizons` all members. OS branches rebased (quickshell-port, proart-nvidia); episode-I archived; integrated branches deleted. Bootstrap hardened (GEMINI.md symlinks, new-horizons auto-checkout, sync-symlinks at end). `publish-cdn.sh` spell for Aether+NeBuLA subdomains (no R2). README rewritten as agent walkthrough.
-**Blockers:** OS reboot QA pending. sCoRE Render deploy is Mark's. CF Pages setup TODO next session.
+**Last session (S100):** Main stubs cleaned — CLAUDE.md/CODEX.md stripped from Collective/Aether/sCoRE `main`; `.claude/` untracked from Collective+sCoRE new-horizons; pre-commit hook fixed (blocks additions, not deletions); `sync-symlinks.sh` now gitignores `.claude/` everywhere. BaBbLE confirmed local-only.
+**Blockers:** OS reboot QA pending. sCoRE Render deploy is Mark's. CF Pages setup TODO.
 **Next:** OS reboot QA → CF Pages (aether/nebula subdomains) → `publish-cdn.sh v0.0.0.1` → Render → `episode-1-v0.0.0.1`.
 
 > Update this block each session. Keep it under 75 words. This is the free context every agent gets.
