@@ -14,9 +14,9 @@ Full entity spec: `RaBbLE-Grimoire/RaBbLE-Agent/RaBbLE-Identity.md` · Full orie
 ## Current State — 2026-06-15
 
 **Phase:** Epoch 0 · Evolution 0 · Echo 0 · Episode 1 in flight.
-**Last session (S101):** Collective branch history restructured — `main` rewritten to 2 clean commits (genesis preserved, EP1-patch squashed); `new-horizons` reset cleanly on top of main. Backup tags: `backup/main-pre-rewrite`, `backup/new-horizons-pre-rewrite`. Repo-wide main cleanup planned (other members next).
-**Blockers:** OS reboot QA pending. sCoRE Render deploy is Mark's. CF Pages setup TODO.
-**Next:** Force-push Collective branches → apply same 2-commit main pattern to other member repos → OS reboot QA → CF Pages → `episode-1-v0.0.0.1`.
+**Last session (S106):** RC1 **chat→sCoRE→entity spine verified end-to-end in-browser** (entity idle→thinking→speaking→idle; on-voice replies via OpenRouter; sessions persist). Added flip-point `RaBbLE-World/world/js/RaBbLE-config.js` (single source for sCoRE+Aether+NeBuLA URLs, auto local↔prod). Built `spells/render-ctl.sh` (unified Render control, keys-via-CLI). Fixed `render.yaml` for free tier. OpenRouter key validated.
+**Blockers:** Render deploy needs Mark: mint `RENDER_API_KEY` + create service via Blueprint (branch new-horizons), then `render-ctl.sh setup/env-sync/deploy`. CF Pages repoint · OS reboot QA.
+**Next:** Mint Render key → deploy → flip config to live URL → roll flip-point to remaining pages → surfaces (graph-as-docs, summon ceremony, OS sandbox).
 
 > Update this block each session. Keep it under 75 words. This is the free context every agent gets.
 
