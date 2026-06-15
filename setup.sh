@@ -4,7 +4,7 @@
 #
 # Usage:
 #   curl -fsSL https://joinrabble.world/setup.sh | bash
-#   curl -fsSL https://raw.githubusercontent.com/markm1206/RaBbLE-Collective/main/setup.sh | bash
+#   curl -fsSL https://raw.githubusercontent.com/RaBbLE-Collective/RaBbLE-Collective/main/setup.sh | bash
 #
 # What this does:
 #   1. Creates ~/RaBbLE/ and initializes it as the Collective root
@@ -17,8 +17,8 @@
 set -euo pipefail
 
 RABBLE_ROOT="${RABBLE_ROOT:-$HOME/RaBbLE}"
-COLLECTIVE_REPO="https://github.com/markm1206/RaBbLE-Collective.git"
-GRIMOIRE_REPO="https://github.com/markm1206/RaBbLE-Grimoire.git"
+COLLECTIVE_REPO="https://github.com/RaBbLE-Collective/RaBbLE-Collective.git"
+GRIMOIRE_REPO="https://github.com/RaBbLE-Collective/RaBbLE-Grimoire.git"
 COLLECTIVE_BRANCH="${COLLECTIVE_BRANCH:-new-horizons}"
 GRIMOIRE_BRANCH="${GRIMOIRE_BRANCH:-new-horizons}"
 
