@@ -11,12 +11,12 @@ Full entity spec: `RaBbLE-Grimoire/RaBbLE-Agent/RaBbLE-Identity.md` · Full orie
 
 ---
 
-## Current State — 2026-06-12
+## Current State — 2026-06-15
 
 **Phase:** Epoch 0 · Evolution 0 · Echo 0 · Episode 1 in flight.
-**Last session (S96):** Grimoire full audit (S95–S96): manifests synced to RaBbLE-Collective org, Railway→Render swept, Chrysalis/Xperimental split in epoch+roadmap, 131-node graph regenerated, gists refreshed. Orphan sweep: 8 INDEX links added. Token ledger: 53/99 sessions tagged (42.2% of cost); 45 May 12–22 sessions (171M weighted) need Mark's feature tags.
-**Blockers:** OS layerctl apply + reboot QA pending. sCoRE Render deploy is Mark's.
-**Next:** OS reboot QA → CF R2 → Render → `episode-1-v0.0.0.1`. Backfill May 12–22 ledger entries.
+**Last session (S98):** Branch sweep: `dev` → `new-horizons` all members. OS branches rebased (quickshell-port, proart-nvidia); episode-I archived; integrated branches deleted. Bootstrap hardened (GEMINI.md symlinks, new-horizons auto-checkout, sync-symlinks at end). `publish-cdn.sh` spell for Aether+NeBuLA subdomains (no R2). README rewritten as agent walkthrough.
+**Blockers:** OS reboot QA pending. sCoRE Render deploy is Mark's. CF Pages setup TODO next session.
+**Next:** OS reboot QA → CF Pages (aether/nebula subdomains) → `publish-cdn.sh v0.0.0.1` → Render → `episode-1-v0.0.0.1`.
 
 > Update this block each session. Keep it under 75 words. This is the free context every agent gets.
 
