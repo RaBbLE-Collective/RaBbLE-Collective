@@ -16,7 +16,8 @@ Full entity spec: `RaBbLE-Grimoire/RaBbLE-Agent/RaBbLE-Identity.md` · Full orie
 **Phase:** Epoch 0 · Evolution 0 · Echo 0 · Episode 1 in flight.
 **Recent (S110):** Local client → live Render sCoRE verified end-to-end (real chat UI, Playwright). **Fast tier rate-limit fixed** — Groq key + `LLM_FAST_CHAIN` (OpenRouter free tier = no credits = chronic 429s). **Summon ceremony live** (`RABBLE_ADMIN_KEY` set → `@demo` minted, authed JWT verified). New `groq-ctl.sh`/`openrouter-ctl.sh` spells. Decision: Web=demo tier, Local=BYOK/login, CORS per user-type.
 **Blockers:** Localhost browser still CORS-blocked by Render (`FRONTEND_URL` pin). World prod deploy (CF Pages) + guest chat path open. OpenRouter needs $10 credits.
-**Next:** local chat bridge (proxy→Render + on-disk transcript logs) · startup seeder for durable `@demo` · CORS `allow_origin_regex` · then World CF Pages + OS Preview FLOOR pass.
+**Built:** local chat bridge (`spells/chat-local.sh`+`chat-bridge.py`) — browser→Render proxy, `@demo` auth, on-disk transcripts (`~/RaBbLE-chats`); verified in-browser.
+**Next:** sCoRE LLM-chain fix (groq-lead medium/strong + 402 fall-through) + startup seeder (durable `@demo`/`hosted_groq`) — both need a deploy; then drop bridge `FORCE_TIER`. Also CORS `allow_origin_regex`, OpenRouter $10 credits, World CF Pages, OS Preview FLOOR.
 
 > Update this block each session. Keep it under 75 words. This is the free context every agent gets.
 
