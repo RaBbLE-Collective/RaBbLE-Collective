@@ -14,9 +14,9 @@ Full entity spec: `RaBbLE-Grimoire/RaBbLE-Agent/RaBbLE-Identity.md` · Full orie
 ## Current State — 2026-06-15
 
 **Phase:** Epoch 0 · Evolution 0 · Echo 0 · Episode 1 in flight.
-**Recent (S106–S107):** **sCoRE is LIVE on Render** — `rabble-score-x7qq.onrender.com` (free tier, tracks new-horizons, OpenRouter backend); chat→sCoRE→entity spine verified end-to-end (idle→thinking→speaking→idle, sessions persist). Flip-point `RaBbLE-World/world/js/RaBbLE-config.js` + unified `spells/render-ctl.sh` (keys-via-CLI). NeBuLA unified as the 2D+3D entity renderer (S107).
-**Blockers:** Live **UI** needs World prod deploy (CF Pages → joinrabble.world) + a guest/invite path for the chat jwt-gate. CF Pages repoint · OS reboot QA.
-**Next:** Deploy World (CF Pages) → guest/invite chat path → roll flip-point to remaining pages → surfaces (graph-as-docs, summon ceremony, OS sandbox).
+**Recent (S110):** Local client → live Render sCoRE verified end-to-end (real chat UI, Playwright). **Fast tier rate-limit fixed** — Groq key + `LLM_FAST_CHAIN` (OpenRouter free tier = no credits = chronic 429s). **Summon ceremony live** (`RABBLE_ADMIN_KEY` set → `@demo` minted, authed JWT verified). New `groq-ctl.sh`/`openrouter-ctl.sh` spells. Decision: Web=demo tier, Local=BYOK/login, CORS per user-type.
+**Blockers:** Localhost browser still CORS-blocked by Render (`FRONTEND_URL` pin). World prod deploy (CF Pages) + guest chat path open. OpenRouter needs $10 credits.
+**Next:** local chat bridge (proxy→Render + on-disk transcript logs) · startup seeder for durable `@demo` · CORS `allow_origin_regex` · then World CF Pages + OS Preview FLOOR pass.
 
 > Update this block each session. Keep it under 75 words. This is the free context every agent gets.
 
