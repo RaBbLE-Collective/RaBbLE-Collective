@@ -25,6 +25,13 @@ GEMINI.md
 # Scratch files
 BaBbLE.scratch
 
+# Archive artifacts — not commit artifacts
+*.zip
+*.tar
+*.tar.gz
+*.tar.bz2
+*.tar.xz
+
 # OS
 .DS_Store
 Thumbs.db
