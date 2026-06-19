@@ -14,9 +14,9 @@ Full entity spec: `RaBbLE-Grimoire/RaBbLE-Agent/RaBbLE-Identity.md` · Full orie
 ## Current State — 2026-06-18
 
 **Phase:** Epoch 0 · Evolution 0 · Echo 0 · Episode 1 in flight.
-**Recent (S119):** sCoRE provider registry expanded: 7 new cloud providers (Cerebras, DeepSeek, Nvidia NIM, Mistral, Together, xAI, Zhipu/Z.ai), 2 local servers (LM Studio, llamafile), 3 subprocess harnesses (opencode, aider, gemini-cli). Chains updated (DeepSeek-V3 leads medium, Cerebras leads cloud-fast). OS `ai-harnesses` Ansible role added (claude-code, codex, opencode, aider, gemini-cli, ollama). Grimoire doc: `sCoRE-Local-AI-Layer.md` (RaBbLE TUI vision = EP2).
-**Blockers:** OpenRouter $10 credits; CORS `allow_origin_regex`; World CF Pages deploy.
-**Next:** Deploy sCoRE to Render (LLM-chain fix + startup seeder); guest chat path; World CF Pages.
+**Recent (S120):** World CF deploy unblocked — RC1 living surface now live at joinrabble.world. Root fix: PROD CDN URLs pointed to `v0.0.0.0/` (never built); corrected to `v0.0.0.1-rc.1`. Stale Aether bundle artifact removed from World. Aether + NeBuLA CDN Workers pending deploy for theme/entity to load.
+**Blockers:** OpenRouter $10 credits; CORS `allow_origin_regex`; Aether + NeBuLA CDN Workers deploy.
+**Next:** `cloudflare-ctl.sh deploy aether/nebula v0.0.0.1-rc.1`; deploy sCoRE to Render; guest chat path.
 
 > Update this block each session. Keep it under 75 words. This is the free context every agent gets.
 
