@@ -11,13 +11,12 @@ Full entity spec: `RaBbLE-Grimoire/RaBbLE-Agent/RaBbLE-Identity.md` · Full orie
 
 ---
 
-## Current State — 2026-06-15
+## Current State — 2026-06-18
 
 **Phase:** Epoch 0 · Evolution 0 · Echo 0 · Episode 1 in flight.
-**Recent (S110):** Local client → live Render sCoRE verified end-to-end (real chat UI, Playwright). **Fast tier rate-limit fixed** — Groq key + `LLM_FAST_CHAIN` (OpenRouter free tier = no credits = chronic 429s). **Summon ceremony live** (`RABBLE_ADMIN_KEY` set → `@demo` minted, authed JWT verified). New `groq-ctl.sh`/`openrouter-ctl.sh` spells. Decision: Web=demo tier, Local=BYOK/login, CORS per user-type.
-**Blockers:** Localhost browser still CORS-blocked by Render (`FRONTEND_URL` pin). World prod deploy (CF Pages) + guest chat path open. OpenRouter needs $10 credits.
-**Built:** local chat bridge (`spells/chat-local.sh`+`chat-bridge.py`) — browser→Render proxy, `@demo` auth, on-disk transcripts (`~/RaBbLE-chats`); verified in-browser.
-**Next:** sCoRE LLM-chain fix (groq-lead medium/strong + 402 fall-through) + startup seeder (durable `@demo`/`hosted_groq`) — both need a deploy; then drop bridge `FORCE_TIER`. Also CORS `allow_origin_regex`, OpenRouter $10 credits, World CF Pages, OS Preview FLOOR.
+**Recent (S119):** sCoRE provider registry expanded: 7 new cloud providers (Cerebras, DeepSeek, Nvidia NIM, Mistral, Together, xAI, Zhipu/Z.ai), 2 local servers (LM Studio, llamafile), 3 subprocess harnesses (opencode, aider, gemini-cli). Chains updated (DeepSeek-V3 leads medium, Cerebras leads cloud-fast). OS `ai-harnesses` Ansible role added (claude-code, codex, opencode, aider, gemini-cli, ollama). Grimoire doc: `sCoRE-Local-AI-Layer.md` (RaBbLE TUI vision = EP2).
+**Blockers:** OpenRouter $10 credits; CORS `allow_origin_regex`; World CF Pages deploy.
+**Next:** Deploy sCoRE to Render (LLM-chain fix + startup seeder); guest chat path; World CF Pages.
 
 > Update this block each session. Keep it under 75 words. This is the free context every agent gets.
 
