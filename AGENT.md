@@ -15,10 +15,11 @@ Full entity spec: `RaBbLE-Grimoire/RaBbLE-Agent/RaBbLE-Identity.md` · Full orie
 
 **Phase:** Epoch 0 · Evolution 0 · Echo 0 · Episode 1 in flight.
 **Recent (S120):** World CF deploy unblocked — RC1 living surface now live at joinrabble.world. Root fix: PROD CDN URLs pointed to `v0.0.0.0/` (never built); corrected to `v0.0.0.1-rc.1`. Stale Aether bundle artifact removed from World. Aether + NeBuLA CDN Workers pending deploy for theme/entity to load.
-**Blockers:** OpenRouter $10 credits; CORS `allow_origin_regex`; Aether + NeBuLA CDN Workers deploy.
-**Next:** `cloudflare-ctl.sh deploy aether/nebula v0.0.0.1-rc.1`; deploy sCoRE to Render; guest chat path.
+**Blockers:** → `RaBbLE-Grimoire/log/BLOCKERS.md` (durable; `bash RaBbLE-Grimoire/spells/blockers.sh ls`). EP1 air gate: `RaBbLE-Grimoire/log/EP1-AIR-CHECKLIST.md`.
+**Next:** `cloudflare-ctl.sh deploy aether/nebula v0.0.0.1-rc.1`; guest chat path. (sCoRE already LIVE on Render, S106.)
 
 > Update this block each session. Keep it under 75 words. This is the free context every agent gets.
+> Blockers live durably in `RaBbLE-Grimoire/log/BLOCKERS.md` — the `Blockers:` line above only points there.
 
 ---
 
