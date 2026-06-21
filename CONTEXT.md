@@ -53,7 +53,8 @@ RaBbLE's opacity is intentional. The Collective and its character are inseparabl
 | `RaBbLE-Aether/` | Visual design system and canonical asset library. CDN delivery. | Active — CSS bundle live |
 | `RaBbLE-ScRibLE/` | Mobile notes PWA — iPhone/iPad, touch + Apple Pencil. | Defined — not started |
 | `RaBbLE-BaBbLE/` | High-entropy intake — concept art, prototypes, ideation. | Active |
-| `RaBbLE-Xperimental/` | Genesis archive — origin code from October 2025. Past, not present. | Genesis-archive |
+| `RaBbLE-Xperimental/` | Active sandbox — custom rablets, prototype members, experiments not yet emerged. High entropy by design. | Active |
+| `RaBbLE-Chrysalis/` | Genesis archive — origin code from October 2025 (RaBbLE.py, NeBuLA-JS, WebOS, first server). | Reference |
 | Memory (TBD) | Observation store, pattern extraction, retrieval. | Epoch 1 blocker — concept only |
 
 All member repos are independent git trees — gitignored by this repo, each with its own history and remote.
@@ -74,7 +75,7 @@ When working in a specific member, read that member's `AGENT.md` + `CONTEXT.md` 
 | RaBbLE-NeBuLA | `RaBbLE-NeBuLA/AGENT.md` |
 | RaBbLE-Aether | `RaBbLE-Aether/AGENT.md` |
 | RaBbLE-BaBbLE | `RaBbLE-BaBbLE/AGENT.md` |
-| RaBbLE-Xperimental | `RaBbLE-Xperimental/README.md` |
+| RaBbLE-Xperimental | `RaBbLE-Xperimental/AGENT.md` |
 
 ---
 
