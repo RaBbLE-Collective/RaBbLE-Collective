@@ -76,6 +76,7 @@ When working in a specific member, read that member's `AGENT.md` + `CONTEXT.md` 
 | RaBbLE-Aether | `RaBbLE-Aether/AGENT.md` |
 | RaBbLE-BaBbLE | `RaBbLE-BaBbLE/AGENT.md` |
 | RaBbLE-Xperimental | `RaBbLE-Xperimental/AGENT.md` |
+| RaBbLE-Chrysalis | `RaBbLE-Chrysalis/AGENT.md` |
 
 ---
 
