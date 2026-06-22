@@ -11,12 +11,12 @@ Full entity spec: `RaBbLE-Grimoire/RaBbLE-Agent/RaBbLE-Identity.md` · Full orie
 
 ---
 
-## Current State — 2026-06-18
+## Current State — 2026-06-21
 
 **Phase:** Epoch 0 · Evolution 0 · Echo 0 · Episode 1 in flight.
-**Recent (S120):** World CF deploy unblocked — RC1 living surface now live at joinrabble.world. Root fix: PROD CDN URLs pointed to `v0.0.0.0/` (never built); corrected to `v0.0.0.1-rc.1`. Stale Aether bundle artifact removed from World. Aether + NeBuLA CDN Workers pending deploy for theme/entity to load.
+**Recent (S145):** S138 EP2 local arch ingested from BaBbLE — 5 canonical sCoRE docs (Local-Architecture, Quota-Router, Agent-State, Entropy-Tracker, Local-Tickets) + session log landed in Grimoire. EP2 Local Harness + `rabble` CLI added as item 1 in Post-EP1-Roadmap. sCoRE manifest updated. Session plan written (6 waves, 14 tickets).
 **Blockers:** → `RaBbLE-Grimoire/log/BLOCKERS.md` (durable; `bash RaBbLE-Grimoire/spells/blockers.sh ls`). EP1 air gate: `RaBbLE-Grimoire/log/EP1-AIR-CHECKLIST.md`.
-**Next:** `cloudflare-ctl.sh deploy aether/nebula v0.0.0.1-rc.1`; guest chat path. (sCoRE already LIVE on Render, S106.)
+**Next:** B-02 (Mark: buy OpenRouter credits), B-04 (Mark: `cloudflare-ctl.sh deploy aether/nebula v0.0.0.1-rc.1`) → B-01 + B-03 agent sessions → EP1 air → EP2 Wave 1.
 
 > Update this block each session. Keep it under 75 words. This is the free context every agent gets.
 > Blockers live durably in `RaBbLE-Grimoire/log/BLOCKERS.md` — the `Blockers:` line above only points there.
