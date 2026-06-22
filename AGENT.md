@@ -11,12 +11,12 @@ Full entity spec: `RaBbLE-Grimoire/RaBbLE-Agent/RaBbLE-Identity.md` · Full orie
 
 ---
 
-## Current State — 2026-06-21
+## Current State — 2026-06-22
 
-**Phase:** Epoch 0 · Evolution 0 · Echo 0 · Episode 1 in flight.
-**Recent (S148):** S138 EP2 local arch fully landed — 5 sCoRE docs in Grimoire, EP2 Local Harness as item 1 in Post-EP1-Roadmap, sCoRE manifest updated, identity gist regenerated, BaBbLE intake cleared (6 files → `_archive/` pointer stubs). EP2 14-ticket plan ready; gated behind EP1 air.
+**Phase:** Epoch 0 · Evolution 0 · Echo 0 · Episode 1 in flight — packaging/verification, not building.
+**Recent (S153):** EP1 chat spine verified LIVE in prod — B-01/B-03/B-04 resolved (guest chat streams SSE, web CORS, Aether/NeBuLA CDN 200). G3/G4/G5/G6 green. B-02 (OpenRouter) reframed resilience, non-gating. EP1 now gated only on G7+G9 (VM verifies) + new G10 World FLOOR. World↔Chrysalis prod/dev split designed. See `log/HANDOFF-S153-EP1-Coherence.md`.
 **Blockers:** → `RaBbLE-Grimoire/log/BLOCKERS.md` (durable; `bash RaBbLE-Grimoire/spells/blockers.sh ls`). EP1 air gate: `RaBbLE-Grimoire/log/EP1-AIR-CHECKLIST.md`.
-**Next:** B-02 (Mark: buy OpenRouter credits), B-04 (Mark: `cloudflare-ctl.sh deploy aether/nebula v0.0.0.1-rc.1`) → B-01 + B-03 agent sessions → EP1 air → EP2 Wave 1.
+**Next:** Track A (move World `chrysalis/` → Chrysalis repo → clean prod = G10) · G7/G9 VM verify · Mark: B-02 retag + `dev.joinrabble.world` routing → EP1 air.
 
 > Update this block each session. Keep it under 75 words. This is the free context every agent gets.
 > Blockers live durably in `RaBbLE-Grimoire/log/BLOCKERS.md` — the `Blockers:` line above only points there.
