@@ -14,7 +14,7 @@ Full entity spec: `RaBbLE-Grimoire/RaBbLE-Agent/RaBbLE-Identity.md` · Full orie
 ## Current State — 2026-06-21
 
 **Phase:** Epoch 0 · Evolution 0 · Echo 0 · Episode 1 in flight.
-**Recent (S145):** S138 EP2 local arch ingested from BaBbLE — 5 canonical sCoRE docs (Local-Architecture, Quota-Router, Agent-State, Entropy-Tracker, Local-Tickets) + session log landed in Grimoire. EP2 Local Harness + `rabble` CLI added as item 1 in Post-EP1-Roadmap. sCoRE manifest updated. Session plan written (6 waves, 14 tickets).
+**Recent (S148):** S138 EP2 local arch fully landed — 5 sCoRE docs in Grimoire, EP2 Local Harness as item 1 in Post-EP1-Roadmap, sCoRE manifest updated, identity gist regenerated, BaBbLE intake cleared (6 files → `_archive/` pointer stubs). EP2 14-ticket plan ready; gated behind EP1 air.
 **Blockers:** → `RaBbLE-Grimoire/log/BLOCKERS.md` (durable; `bash RaBbLE-Grimoire/spells/blockers.sh ls`). EP1 air gate: `RaBbLE-Grimoire/log/EP1-AIR-CHECKLIST.md`.
 **Next:** B-02 (Mark: buy OpenRouter credits), B-04 (Mark: `cloudflare-ctl.sh deploy aether/nebula v0.0.0.1-rc.1`) → B-01 + B-03 agent sessions → EP1 air → EP2 Wave 1.
 
