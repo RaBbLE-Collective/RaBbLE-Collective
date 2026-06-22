@@ -14,9 +14,9 @@ Full entity spec: `RaBbLE-Grimoire/RaBbLE-Agent/RaBbLE-Identity.md` · Full orie
 ## Current State — 2026-06-22
 
 **Phase:** Epoch 0 · Evolution 0 · Echo 0 · Episode 1 in flight — packaging/verification, not building.
-**Recent (S153):** EP1 chat spine verified LIVE in prod — B-01/B-03/B-04 resolved (guest chat streams SSE, web CORS, Aether/NeBuLA CDN 200). G3/G4/G5/G6 green. B-02 (OpenRouter) reframed resilience, non-gating. EP1 now gated only on G7+G9 (VM verifies) + new G10 World FLOOR. World↔Chrysalis prod/dev split designed. See `log/HANDOFF-S153-EP1-Coherence.md`.
-**Blockers:** → `RaBbLE-Grimoire/log/BLOCKERS.md` (durable; `bash RaBbLE-Grimoire/spells/blockers.sh ls`). EP1 air gate: `RaBbLE-Grimoire/log/EP1-AIR-CHECKLIST.md`.
-**Next:** Track A (move World `chrysalis/` → Chrysalis repo → clean prod = G10) · G7/G9 VM verify · Mark: B-02 retag + `dev.joinrabble.world` routing → EP1 air.
+**Recent (S154):** Track A complete — moved World `chrysalis/` to Chrysalis repo (main:245f466) + removed from World (new-horizons:233aeb9). Prod verification pending deployment. EP1 gates: G7 (OS FLOOR VM verify), G9 (setup.sh bootstrap verify), G10 (prod clean = new-horizons deploy). See `log/HANDOFF-S153-EP1-Coherence.md` + `log/SESSION-LOG.md`.
+**Blockers:** → `RaBbLE-Grimoire/log/BLOCKERS.md` (durable; `bash RaBbLE-Grimoire/spells/blockers.sh ls`). B-02 open, owner Mark.
+**Next:** G7/G9 VM verify · Mark: deploy new-horizons → verify `/chrysalis/ → 404`; B-02 retag; dev routing + Chrysalis repo structure.
 
 > Update this block each session. Keep it under 75 words. This is the free context every agent gets.
 > Blockers live durably in `RaBbLE-Grimoire/log/BLOCKERS.md` — the `Blockers:` line above only points there.
