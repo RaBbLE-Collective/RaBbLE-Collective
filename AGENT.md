@@ -14,9 +14,9 @@ Full entity spec: `RaBbLE-Grimoire/RaBbLE-Agent/RaBbLE-Identity.md` · Full orie
 ## Current State — 2026-06-22
 
 **Phase:** Epoch 0 · Evolution 0 · Echo 0 · Episode 1 in flight — packaging/verification, not building.
-**Recent (S154):** Track A complete — moved World `chrysalis/` to Chrysalis repo (main:245f466) + removed from World (new-horizons:233aeb9). Prod verification pending deployment. EP1 gates: G7 (OS FLOOR VM verify), G9 (setup.sh bootstrap verify), G10 (prod clean = new-horizons deploy). See `log/HANDOFF-S153-EP1-Coherence.md` + `log/SESSION-LOG.md`.
-**Blockers:** → `RaBbLE-Grimoire/log/BLOCKERS.md` (durable; `bash RaBbLE-Grimoire/spells/blockers.sh ls`). B-02 open, owner Mark.
-**Next:** G7/G9 VM verify · Mark: deploy new-horizons → verify `/chrysalis/ → 404`; B-02 retag; dev routing + Chrysalis repo structure.
+**Recent (S154):** **Track A complete** — moved World `chrysalis/` to Chrysalis repo (main:245f466) + removed (new-horizons:233aeb9). Prod verification pending new-horizons deployment (will flip `/chrysalis/ → 404` = G10 green). Created comprehensive **G7/G9 verification guide** (`log/G7-G9-Verification-Guide.md`) — ready for execution. Remaining gates: G7 (RaBbLE-OS FLOOR), G9 (setup.sh bootstrap), G10 (prod clean). See `log/HANDOFF-S153-EP1-Coherence.md` + `log/G7-G9-Verification-Guide.md`.
+**Blockers:** → `RaBbLE-Grimoire/log/BLOCKERS.md`. B-02 open (resilience, non-gating, owner Mark).
+**Next:** Mark: deploy new-horizons + B-02 retag + dev routing. Execute G7/G9 guide (delegable to developer with display). Then all gates → air procedure.
 
 > Update this block each session. Keep it under 75 words. This is the free context every agent gets.
 > Blockers live durably in `RaBbLE-Grimoire/log/BLOCKERS.md` — the `Blockers:` line above only points there.
