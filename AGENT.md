@@ -13,10 +13,10 @@ Full entity spec: `RaBbLE-Grimoire/RaBbLE-Agent/RaBbLE-Identity.md` · Full orie
 
 ## Current State — 2026-06-22
 
-**Phase:** Epoch 0 · Evolution 0 · Echo 0 · Episode 1 in flight — packaging/verification, not building.
-**Recent (S154):** **Track A complete** — moved World `chrysalis/` to Chrysalis repo (main:245f466) + removed (new-horizons:233aeb9). Prod verification pending new-horizons deployment (will flip `/chrysalis/ → 404` = G10 green). Created comprehensive **G7/G9 verification guide** (`log/G7-G9-Verification-Guide.md`) — ready for execution. Remaining gates: G7 (RaBbLE-OS FLOOR), G9 (setup.sh bootstrap), G10 (prod clean). See `log/HANDOFF-S153-EP1-Coherence.md` + `log/G7-G9-Verification-Guide.md`.
-**Blockers:** → `RaBbLE-Grimoire/log/BLOCKERS.md`. B-02 open (resilience, non-gating, owner Mark).
-**Next:** Mark: deploy new-horizons + B-02 retag + dev routing. Execute G7/G9 guide (delegable to developer with display). Then all gates → air procedure.
+**Phase:** Epoch 0 · Evolution 0 · Echo 0 · Episode 1 in flight — packaging/verification + boot-chain polish.
+**Recent (S155):** Boot-chain void zone pass implemented (plan-96f8c3ef7a0e4f5e). GRUB gfxterm black box fixed; Plymouth y-anchors pulled into void zone + entity slide-to-center at boot complete; SDDM column raised (passField ~69%); 300ms plymouth-quit drop-in + entityArea fade-in. Plans server self-hosted (aa474e4). All `[~]` — reboot to verify. EP1 gates G7/G9/G10 still pending (S154 work). See `RaBbLE-Grimoire/RaBbLE-OS/fix/RaBbLE-OS-Fix-BootChain.md` S155 section.
+**Blockers:** → `RaBbLE-Grimoire/log/BLOCKERS.md`. B-02 open (non-gating, owner Mark).
+**Next:** Mark: (1) reboot → verify S155 boot chain + run `measure-void-zone.py` on bg-liminal.png; (2) deploy new-horizons → G10 green; (3) execute G7/G9 guide. Then all EP1 gates → air procedure.
 
 > Update this block each session. Keep it under 75 words. This is the free context every agent gets.
 > Blockers live durably in `RaBbLE-Grimoire/log/BLOCKERS.md` — the `Blockers:` line above only points there.
