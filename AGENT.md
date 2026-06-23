@@ -11,12 +11,12 @@ Full entity spec: `RaBbLE-Grimoire/RaBbLE-Agent/RaBbLE-Identity.md` · Full orie
 
 ---
 
-## Current State — 2026-06-22
+## Current State — 2026-06-23
 
-**Phase:** Epoch 0 · Evolution 0 · Echo 0 · Episode 1 in flight — packaging/verification + boot-chain polish.
-**Recent (S156):** First S155 reboot: Plymouth animation not visible (dracut didn't rebuild pre-reboot), GRUB black box present (accepted for EP1). S156: measured void zone (ceiling 35.8%, floor 68%); SDDM entity moved −0.02 (face now in void zone); Plymouth wm_y 0.28→0.42 (was in ceiling grid); masked NM-wait-online + var-lib-machines.mount (saves ~4s boot). All `[~]`. EP1 gates G7/G9/G10 pending.
-**Blockers:** → `RaBbLE-Grimoire/log/BLOCKERS.md`. B-02 open (non-gating, owner Mark).
-**Next:** (1) `layerctl apply boot` + `layerctl apply core`; (2) SDDM `--test-mode`; (3) reboot → `boot-profile.sh`; (4) EP1 gates G10/G7/G9.
+**Phase:** Epoch 0 · Evolution 0 · Echo 0 · Episode 1 in flight — EP1 gates + agent tooling hardening.
+**Recent (S158):** Ran `/insights` (412h, 458 commits). Integrated 6 new rules into Agent-Protocols.md. Added `yamllint`+`ShellCheck` to OS core role. Created `/endsession` skill + post-edit lint hook. S157: visual-plan server Ansible role applied. S156: boot profiling, SDDM/Plymouth void-zone fixes. All `[~]`.
+**Blockers:** → `RaBbLE-Grimoire/log/BLOCKERS.md`. B-02 open (non-gating, owner Mark). EP1 gates G7/G9/G10 pending.
+**Next:** (1) `layerctl apply core` → installs yamllint+ShellCheck; (2) verify plan server; (3) reboot → `boot-profile.sh`; (4) EP1 gates G10/G7/G9.
 
 > Update this block each session. Keep it under 75 words. This is the free context every agent gets.
 > Blockers live durably in `RaBbLE-Grimoire/log/BLOCKERS.md` — the `Blockers:` line above only points there.
