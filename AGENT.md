@@ -14,9 +14,9 @@ Full entity spec: `RaBbLE-Grimoire/RaBbLE-Agent/RaBbLE-Identity.md` · Full orie
 ## Current State — 2026-06-22
 
 **Phase:** Epoch 0 · Evolution 0 · Echo 0 · Episode 1 in flight — packaging/verification + boot-chain polish.
-**Recent (S155):** Boot-chain void zone pass implemented (plan-96f8c3ef7a0e4f5e). GRUB gfxterm black box fixed; Plymouth y-anchors pulled into void zone + entity slide-to-center at boot complete; SDDM column raised (passField ~69%); 300ms plymouth-quit drop-in + entityArea fade-in. Plans server self-hosted (aa474e4). All `[~]` — reboot to verify. EP1 gates G7/G9/G10 still pending (S154 work). See `RaBbLE-Grimoire/RaBbLE-OS/fix/RaBbLE-OS-Fix-BootChain.md` S155 section.
+**Recent (S156):** First S155 reboot: Plymouth animation not visible (dracut didn't rebuild pre-reboot), GRUB black box present (accepted for EP1). S156: measured void zone (ceiling 35.8%, floor 68%); SDDM entity moved −0.02 (face now in void zone); Plymouth wm_y 0.28→0.42 (was in ceiling grid); masked NM-wait-online + var-lib-machines.mount (saves ~4s boot). All `[~]`. EP1 gates G7/G9/G10 pending.
 **Blockers:** → `RaBbLE-Grimoire/log/BLOCKERS.md`. B-02 open (non-gating, owner Mark).
-**Next:** Mark: (1) reboot → verify S155 boot chain + run `measure-void-zone.py` on bg-liminal.png; (2) deploy new-horizons → G10 green; (3) execute G7/G9 guide. Then all EP1 gates → air procedure.
+**Next:** (1) `layerctl apply boot` + `layerctl apply core`; (2) SDDM `--test-mode`; (3) reboot → `boot-profile.sh`; (4) EP1 gates G10/G7/G9.
 
 > Update this block each session. Keep it under 75 words. This is the free context every agent gets.
 > Blockers live durably in `RaBbLE-Grimoire/log/BLOCKERS.md` — the `Blockers:` line above only points there.
