@@ -11,12 +11,12 @@ Full entity spec: `RaBbLE-Grimoire/RaBbLE-Agent/RaBbLE-Identity.md` · Full orie
 
 ---
 
-## Current State — 2026-06-23
+## Current State — 2026-06-24
 
-**Phase:** Epoch 0 · Evolution 0 · Echo 0 · Episode 1 in flight — EP1 gates + boot chain stabilization.
-**Recent (S163):** sCoRE FastAPI arch lesson for Mark. Integrated HAOS hardware tier model (NPU/dGPU/iGPU), container policy, dev slice arch into Grimoire Local Architecture doc (v0.2). S162: Plymouth black screen root cause + Ansible fix committed. S161: llama.cpp prebuilt default + stamp dir bug fix.
+**Phase:** Epoch 0 · Evolution 0 · Echo 0 · Episode 1 in flight — EP1 gates + desktop theming.
+**Recent (S164):** Deep Dolphin grey-text investigation. KColorScheme confirmed NOT the icon-label path — Kvantum `[ItemView] text.normal.color` is. Kvantum kvconfig re-deployed (source was correct, deployed was stale). kdeglobals ForegroundInactive fixed (commit 8d8561a). Text still not fixed on live display — likely needs logout/login for Kvantum reload. Full cold-start handoff in `RaBbLE-Grimoire/log/plans/OS-Dolphin-Grey-Text.md`.
 **Blockers:** → `RaBbLE-Grimoire/log/BLOCKERS.md`. B-02, B-09 open. EP1 gates G7/G9/G10 pending.
-**Next:** (1) `sudo layerctl apply boot` → `lsinitrd` verify → reboot → confirm Plymouth animates; (2) Dolphin label verify; (3) `layerctl apply runtime` → prebuilt llama.cpp; (4) EP1 gates G10/G7/G9.
+**Next:** (1) logout/login → fresh Dolphin → verify Kvantum fix lands; (2) if still grey: red-test `disabled.text.color=#00ff00` in Kvantum kvconfig; (3) `sudo dnf install strace` → strace Dolphin to find actual config read path; (4) Plymouth: `sudo layerctl apply boot` → reboot → verify splash.
 
 > Update this block each session. Keep it under 75 words. This is the free context every agent gets.
 > Blockers live durably in `RaBbLE-Grimoire/log/BLOCKERS.md` — the `Blockers:` line above only points there.
