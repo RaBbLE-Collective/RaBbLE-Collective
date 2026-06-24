@@ -13,10 +13,10 @@ Full entity spec: `RaBbLE-Grimoire/RaBbLE-Agent/RaBbLE-Identity.md` · Full orie
 
 ## Current State — 2026-06-24
 
-**Phase:** Epoch 0 · Evolution 0 · Echo 0 · Episode 1 in flight — EP1 gates + desktop theming.
-**Recent (S164):** Deep Dolphin grey-text investigation. KColorScheme confirmed NOT the icon-label path — Kvantum `[ItemView] text.normal.color` is. Kvantum kvconfig re-deployed (source was correct, deployed was stale). kdeglobals ForegroundInactive fixed (commit 8d8561a). Text still not fixed on live display — likely needs logout/login for Kvantum reload. Full cold-start handoff in `RaBbLE-Grimoire/log/plans/OS-Dolphin-Grey-Text.md`.
+**Phase:** Epoch 0 · Evolution 0 · Echo 0 · Episode 1 in flight — EP1 gates + Plymouth black-screen.
+**Recent (S166):** Plymouth still black after S165's pin removal. Confirmed both pin-on (S160–164) and pin-off (S165) are BLACK → simpledrm pin is NOT the variable. `boot-diagnose.sh`'s "stale log" is correct: plymouthd writes nothing without `plymouth:debug`, never set on any boot. Armed it. Captured + committed unlogged S165 (pin reversal + 2 spells). Full handoff: `RaBbLE-Grimoire/log/plans/OS-Plymouth-Black-Screen.md`.
 **Blockers:** → `RaBbLE-Grimoire/log/BLOCKERS.md`. B-02, B-09 open. EP1 gates G7/G9/G10 pending.
-**Next:** (1) logout/login → fresh Dolphin → verify Kvantum fix lands; (2) if still grey: red-test `disabled.text.color=#00ff00` in Kvantum kvconfig; (3) `sudo dnf install strace` → strace Dolphin to find actual config read path; (4) Plymouth: `sudo layerctl apply boot` → reboot → verify splash.
+**Next:** (1) `sudo ./RaBbLE-OS-layerctl.sh apply boot` → reboot (watch splash) → `boot-diagnose.sh` for the FIRST real-boot Plymouth log; (2) branch on the decision tree in the plan doc; (3) if `Could not initialize heads`: try `force_drivers+=" amdgpu "`.
 
 > Update this block each session. Keep it under 75 words. This is the free context every agent gets.
 > Blockers live durably in `RaBbLE-Grimoire/log/BLOCKERS.md` — the `Blockers:` line above only points there.
