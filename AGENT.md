@@ -13,10 +13,10 @@ Full entity spec: `RaBbLE-Grimoire/RaBbLE-Agent/RaBbLE-Identity.md` · Full orie
 
 ## Current State — 2026-06-23
 
-**Phase:** Epoch 0 · Evolution 0 · Echo 0 · Episode 1 in flight — EP1 gates + agent tooling hardening.
-**Recent (S158):** Ran `/insights` (412h, 458 commits). Integrated 6 new rules into Agent-Protocols.md. Added `yamllint`+`ShellCheck` to OS core role. Created `/endsession` skill + post-edit lint hook. S157: visual-plan server Ansible role applied. S156: boot profiling, SDDM/Plymouth void-zone fixes. All `[~]`.
-**Blockers:** → `RaBbLE-Grimoire/log/BLOCKERS.md`. B-02 open (non-gating, owner Mark). EP1 gates G7/G9/G10 pending.
-**Next:** (1) `layerctl apply core` → installs yamllint+ShellCheck; (2) verify plan server; (3) reboot → `boot-profile.sh`; (4) EP1 gates G10/G7/G9.
+**Phase:** Epoch 0 · Evolution 0 · Echo 0 · Episode 1 in flight — EP1 gates + boot chain stabilization.
+**Recent (S163):** sCoRE FastAPI arch lesson for Mark. Integrated HAOS hardware tier model (NPU/dGPU/iGPU), container policy, dev slice arch into Grimoire Local Architecture doc (v0.2). S162: Plymouth black screen root cause + Ansible fix committed. S161: llama.cpp prebuilt default + stamp dir bug fix.
+**Blockers:** → `RaBbLE-Grimoire/log/BLOCKERS.md`. B-02, B-09 open. EP1 gates G7/G9/G10 pending.
+**Next:** (1) `sudo layerctl apply boot` → `lsinitrd` verify → reboot → confirm Plymouth animates; (2) Dolphin label verify; (3) `layerctl apply runtime` → prebuilt llama.cpp; (4) EP1 gates G10/G7/G9.
 
 > Update this block each session. Keep it under 75 words. This is the free context every agent gets.
 > Blockers live durably in `RaBbLE-Grimoire/log/BLOCKERS.md` — the `Blockers:` line above only points there.
