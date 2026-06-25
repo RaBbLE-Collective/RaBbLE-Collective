@@ -14,9 +14,9 @@ Full entity spec: `RaBbLE-Grimoire/RaBbLE-Agent/RaBbLE-Identity.md` · Full orie
 ## Current State — 2026-06-24
 
 **Phase:** Epoch 0 · Evolution 0 · Echo 0 · Episode 1 in flight — EP1 gates + Plymouth verify.
-**Recent (S166):** 🎯 Plymouth black-screen ROOT CAUSE FOUND via first-ever real-boot debug log: `rabble-aether.script` L460 used a ternary `?:` — Plymouth's script language has none, so the whole script failed to compile → black on every boot, regardless of GPU/simpledrm config (7 sessions chased the wrong layer). Replaced with `if`-clamp. Fix committed; **awaiting deploy + visual verify.** Also captured/committed unlogged S165. Handoff: `RaBbLE-Grimoire/log/plans/OS-Plymouth-Black-Screen.md`.
+**Recent (S169):** Boot debug log analyzed: simpledrm grabs DRM at T+0, amdgpu claims CRTC at T+3s and blanks simpledrm scanout mid-Plymouth draw → black flash. Fix: `amdgpu.seamless=1` tells amdgpu to preserve firmware framebuffer during KMS init (committed in S168 bundle, awaiting apply + reboot). `plymouth:debug` identified as source of console text on screen.
 **Blockers:** → `RaBbLE-Grimoire/log/BLOCKERS.md`. B-02, B-09 open. EP1 gates G7/G9/G10 pending.
-**Next:** (1) `sudo ./RaBbLE-OS-layerctl.sh apply boot` → reboot → **watch the splash animate**; (2) `boot-diagnose.sh` → confirm no parser errors; (3) once confirmed: `boot-debug-toggle.sh --off` + apply; (4) add a plymouth-script parse-check to the theme build.
+**Next:** (1) `sudo ./RaBbLE-OS-layerctl.sh apply boot` → reboot → verify no black flash; (2) `boot-debug-toggle.sh --off` + apply once confirmed clean.
 
 > Update this block each session. Keep it under 75 words. This is the free context every agent gets.
 > Blockers live durably in `RaBbLE-Grimoire/log/BLOCKERS.md` — the `Blockers:` line above only points there.
