@@ -14,9 +14,9 @@ Full entity spec: `RaBbLE-Grimoire/RaBbLE-Agent/RaBbLE-Identity.md` · Full orie
 ## Current State — 2026-06-25
 
 **Phase:** Epoch 0 · Evolution 0 · Echo 0 · Episode 1 in flight — EP1 gates + boot chain verify.
-**Recent (S174):** Chrysalis-Web routing complete: `dev.joinrabble.world/chrysalis/` live via router Worker. S174 fixed internal link routing — `resolveUrl()` in World EP1 JS updated for `world/` rename (was producing `/chrysalis/chrysalis/X`). `cloudflare-ctl.sh` `_member_config` refactored to readable multi-line blocks. VM boot-iterate loop verified Plymouth fix (S173).
+**Recent (S175):** Chrysalis-Web fully navigable. Three bugs fixed: regex never matched `chrysalis` spelling; `RaBbLE-config.js` missing from EP1 pages (Aether fell back to v0.0.0.0); `world/` → `ep1/` rename for clean URLs. Aether + NeBuLA bumped to RC1. Links work; Aether loads on most pages. Graph page Aether open.
 **Blockers:** → `RaBbLE-Grimoire/log/BLOCKERS.md`. B-02, B-09 open. EP1 gates G7/G9/G10 pending.
-**Next:** Verify `/chrysalis/world/` portal links navigate in browser. Bare-metal Plymouth verify (G7 gate).
+**Next:** Debug Graph page Aether load. Bare-metal Plymouth verify (G7 gate).
 
 > Update this block each session. Keep it under 75 words. This is the free context every agent gets.
 > Blockers live durably in `RaBbLE-Grimoire/log/BLOCKERS.md` — the `Blockers:` line above only points there.
