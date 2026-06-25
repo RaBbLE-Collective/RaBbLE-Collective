@@ -13,10 +13,10 @@ Full entity spec: `RaBbLE-Grimoire/RaBbLE-Agent/RaBbLE-Identity.md` · Full orie
 
 ## Current State — 2026-06-24
 
-**Phase:** Epoch 0 · Evolution 0 · Echo 0 · Episode 1 in flight — EP1 gates + Plymouth verify.
-**Recent (S169):** Boot debug log analyzed: simpledrm grabs DRM at T+0, amdgpu claims CRTC at T+3s and blanks simpledrm scanout mid-Plymouth draw → black flash. Fix: `amdgpu.seamless=1` tells amdgpu to preserve firmware framebuffer during KMS init (committed in S168 bundle, awaiting apply + reboot). `plymouth:debug` identified as source of console text on screen.
+**Phase:** Epoch 0 · Evolution 0 · Echo 0 · Episode 1 in flight — EP1 gates + boot chain verify.
+**Recent (S170):** Boot video analyzed (133 frames). GRUB black box was 1920→3840 mode switch: fixed by running GRUB at native 4K with doubled fonts (group_vars-templated). Plymouth fc-match/label-pango.so errors fixed in dracut conf. plymouth:debug removed. Plymouth script LAYOUT CONSTANTS block added. Captures: BaBbLE/captures/Boot/S169-boot-debug/.
 **Blockers:** → `RaBbLE-Grimoire/log/BLOCKERS.md`. B-02, B-09 open. EP1 gates G7/G9/G10 pending.
-**Next:** (1) `sudo ./RaBbLE-OS-layerctl.sh apply boot` → reboot → verify no black flash; (2) `boot-debug-toggle.sh --off` + apply once confirmed clean.
+**Next:** `sudo ./RaBbLE-OS-layerctl.sh apply boot` → reboot → verify GRUB 4K + seamless GRUB→Plymouth + Plymouth wordmark + no console text.
 
 > Update this block each session. Keep it under 75 words. This is the free context every agent gets.
 > Blockers live durably in `RaBbLE-Grimoire/log/BLOCKERS.md` — the `Blockers:` line above only points there.
