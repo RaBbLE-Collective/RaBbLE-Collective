@@ -11,12 +11,12 @@ Full entity spec: `RaBbLE-Grimoire/RaBbLE-Agent/RaBbLE-Identity.md` · Full orie
 
 ---
 
-## Current State — 2026-06-24
+## Current State — 2026-06-25
 
 **Phase:** Epoch 0 · Evolution 0 · Echo 0 · Episode 1 in flight — EP1 gates + boot chain verify.
-**Recent (S170):** Boot video analyzed (133 frames). GRUB black box was 1920→3840 mode switch: fixed by running GRUB at native 4K with doubled fonts (group_vars-templated). Plymouth fc-match/label-pango.so errors fixed in dracut conf. plymouth:debug removed. Plymouth script LAYOUT CONSTANTS block added. Captures: BaBbLE/captures/Boot/S169-boot-debug/.
+**Recent (S172):** Live dmesg cracked the mid-Plymouth black: simpledrm(T+1.7)→amdgpu(T+4.2) device migration. `amdgpu.seamless=1` DISPROVEN (no-ops on DCN 3.5) → replaced with `initcall_blacklist=simpledrm…`. Plymouth: SW floor grid removed (liminal BG only), `LOG_WINDOW=5` (no wordmark overlap), `WM_CX_FRAC` knob (→0.62). GRUB box still pre-kernel, untargeted. Probe: BaBbLE/tmp/boot-grub-probe.txt.
 **Blockers:** → `RaBbLE-Grimoire/log/BLOCKERS.md`. B-02, B-09 open. EP1 gates G7/G9/G10 pending.
-**Next:** `sudo ./RaBbLE-OS-layerctl.sh apply boot` → reboot → verify GRUB 4K + seamless GRUB→Plymouth + Plymouth wordmark + no console text.
+**Next:** `sudo ./RaBbLE-OS-layerctl.sh apply boot` → reboot → report GRUB-box phase-1 (full-screen vs rectangle vs text) so the GRUB half can be fixed.
 
 > Update this block each session. Keep it under 75 words. This is the free context every agent gets.
 > Blockers live durably in `RaBbLE-Grimoire/log/BLOCKERS.md` — the `Blockers:` line above only points there.
