@@ -11,12 +11,12 @@ Full entity spec: `RaBbLE-Grimoire/RaBbLE-Agent/RaBbLE-Identity.md` · Full orie
 
 ---
 
-## Current State — 2026-06-25
+## Current State — 2026-06-26
 
 **Phase:** Epoch 0 · Evolution 0 · Echo 0 · Episode 1 in flight — 2 gates remain.
-**Recent (S179):** OS page deeply rethemed — Aether-native, conic gradient borders (full perimeter), flowing outlines, larger readable text, cyan nav labels. VSCodium WS1 captured as Aether vibe reference.
+**Recent (S182):** World Framework Refactor executed — Aether canonicalized 18 `.rabble-*` classes (a315d6d), NeBuLA extracted `<rabble-floor>`/`<rabble-graph>` + starfield (a110de6), World built the Atlas catalog rendering all 57 items purely from framework parts (b995235). QA PASS. P4 cleanup deferred.
 **Blockers:** → `RaBbLE-Grimoire/log/BLOCKERS.md`. B-02, B-09 open (non-gating). EP1 gates G7/G9 pending.
-**Next:** G7 (RaBbLE-OS FLOOR verify on generic x86_64 VM) + G9 (setup.sh end-to-end). Mark-led. Air call when both green.
+**Next:** P4 reassembly (thin World pages, drop `.rc-*` aliases) + G7/G9 EP1 gates. Mark-led on gates.
 
 > Update this block each session. Keep it under 75 words. This is the free context every agent gets.
 > Blockers live durably in `RaBbLE-Grimoire/log/BLOCKERS.md` — the `Blockers:` line above only points there.
