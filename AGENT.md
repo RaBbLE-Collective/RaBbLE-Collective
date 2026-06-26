@@ -14,7 +14,7 @@ Full entity spec: `RaBbLE-Grimoire/RaBbLE-Agent/RaBbLE-Identity.md` · Full orie
 ## Current State — 2026-06-25
 
 **Phase:** Epoch 0 · Evolution 0 · Echo 0 · Episode 1 in flight — 2 gates remain.
-**Recent (S178):** G10 closed — `episode` movement live (Genesis arc + Exodus + v0.0.0.1), OS member card links to new `/world/os.html` Developer Preview install guide.
+**Recent (S179):** OS page deeply rethemed — Aether-native, conic gradient borders (full perimeter), flowing outlines, larger readable text, cyan nav labels. VSCodium WS1 captured as Aether vibe reference.
 **Blockers:** → `RaBbLE-Grimoire/log/BLOCKERS.md`. B-02, B-09 open (non-gating). EP1 gates G7/G9 pending.
 **Next:** G7 (RaBbLE-OS FLOOR verify on generic x86_64 VM) + G9 (setup.sh end-to-end). Mark-led. Air call when both green.
 
