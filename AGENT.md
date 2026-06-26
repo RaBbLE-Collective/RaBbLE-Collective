@@ -13,10 +13,10 @@ Full entity spec: `RaBbLE-Grimoire/RaBbLE-Agent/RaBbLE-Identity.md` · Full orie
 
 ## Current State — 2026-06-25
 
-**Phase:** Epoch 0 · Evolution 0 · Echo 0 · Episode 1 in flight — EP1 gates + boot chain verify.
-**Recent (S175):** Chrysalis-Web fully navigable. Three bugs fixed: regex never matched `chrysalis` spelling; `RaBbLE-config.js` missing from EP1 pages (Aether fell back to v0.0.0.0); `world/` → `ep1/` rename for clean URLs. Aether + NeBuLA bumped to RC1. Links work; Aether loads on most pages. Graph page Aether open.
+**Phase:** Epoch 0 · Evolution 0 · Echo 0 · Episode 1 in flight — 3 gates remain.
+**Recent (S176):** Transcript logging added to sCoRE (R2 + file, no user identity). dev.joinrabble.world auto-deploys on new-horizons push. Grimoire landing page live. EP1 product decision locked: no accounts, free entity demo only. G10 handoff doc written.
 **Blockers:** → `RaBbLE-Grimoire/log/BLOCKERS.md`. B-02, B-09 open. EP1 gates G7/G9/G10 pending.
-**Next:** Debug Graph page Aether load. Bare-metal Plymouth verify (G7 gate).
+**Next:** G10 handoff session (World EP1 content). Then G7/G9 verify.
 
 > Update this block each session. Keep it under 75 words. This is the free context every agent gets.
 > Blockers live durably in `RaBbLE-Grimoire/log/BLOCKERS.md` — the `Blockers:` line above only points there.
