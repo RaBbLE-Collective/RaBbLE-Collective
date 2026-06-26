@@ -13,10 +13,10 @@ Full entity spec: `RaBbLE-Grimoire/RaBbLE-Agent/RaBbLE-Identity.md` · Full orie
 
 ## Current State — 2026-06-25
 
-**Phase:** Epoch 0 · Evolution 0 · Echo 0 · Episode 1 in flight — 3 gates remain.
-**Recent (S176):** Transcript logging added to sCoRE (R2 + file, no user identity). dev.joinrabble.world auto-deploys on new-horizons push. Grimoire landing page live. EP1 product decision locked: no accounts, free entity demo only. G10 handoff doc written.
-**Blockers:** → `RaBbLE-Grimoire/log/BLOCKERS.md`. B-02, B-09 open. EP1 gates G7/G9/G10 pending.
-**Next:** G10 handoff session (World EP1 content). Then G7/G9 verify.
+**Phase:** Epoch 0 · Evolution 0 · Echo 0 · Episode 1 in flight — 2 gates remain.
+**Recent (S178):** G10 closed — `episode` movement live (Genesis arc + Exodus + v0.0.0.1), OS member card links to new `/world/os.html` Developer Preview install guide.
+**Blockers:** → `RaBbLE-Grimoire/log/BLOCKERS.md`. B-02, B-09 open (non-gating). EP1 gates G7/G9 pending.
+**Next:** G7 (RaBbLE-OS FLOOR verify on generic x86_64 VM) + G9 (setup.sh end-to-end). Mark-led. Air call when both green.
 
 > Update this block each session. Keep it under 75 words. This is the free context every agent gets.
 > Blockers live durably in `RaBbLE-Grimoire/log/BLOCKERS.md` — the `Blockers:` line above only points there.
