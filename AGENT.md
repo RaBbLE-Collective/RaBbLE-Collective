@@ -61,8 +61,12 @@ cat RaBbLE-Grimoire/registry/epochs/current.epoch.yml  # exit conditions, blocke
 # 2. Add session entry below LATEST (date, repos, work done, what's next)
 # 3. git add <changed files> && git commit -m "[impulse] ~ [organ] >> [revelation] // %STATE%"
 # Impulses: spark (new) · harmonize (cleanup) · mend (fix) · transcribe (docs) · ingest (deps)
-# 4. Breadcrumb — tag this session's token spend by feature (agent-agnostic):
-#    bash RaBbLE-Grimoire/spells/end-session.sh <feature-slug> "<note>"
+# 4. Tag token spend by feature (agent-agnostic; feeds analytics):
+#    bash RaBbLE-Grimoire/spells/end-session.sh <feature-slug> "<optional-note>"
+#    Examples:
+#      bash RaBbLE-Grimoire/spells/end-session.sh token-tracking "S184: session-tokens.sh"
+#      bash RaBbLE-Grimoire/spells/end-session.sh world-framework-refactor "S182: Atlas"
+#    Use kebab-case. For cross-repo: prefix with system (os-*, score-*, world-*, etc.)
 # After major doc changes: bash RaBbLE-Grimoire/spells/distill-gists.sh
 ```
 
