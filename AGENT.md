@@ -14,8 +14,8 @@ Full entity spec: `RaBbLE-Grimoire/RaBbLE-Agent/RaBbLE-Identity.md` · Full orie
 ## Current State — 2026-06-27
 
 **Phase:** Epoch 0 · Evolution 0 · Echo 0 · Episode 1 in flight — 2 gates remain.
-**Recent (S182 r2):** World Framework Refactor round 2 done — Aether 4 CSS effects (a172cc4), NeBuLA real streaks/constellation/haze + `<rabble-doors>` orbit engine (f4b9144), World P4 pages consume Aether/NeBuLA directly + Atlas grown with container-mounted effects (821b96c, eac0167), theme/frontend docs (4cc3815). Cold-start handoff in Grimoire `log/plans/World-Framework-Refactor-HANDOFF.md`.
-**Blockers:** → `RaBbLE-Grimoire/log/BLOCKERS.md`. B-02, B-09 open (non-gating). EP1 gates G7/G9 pending. 3 World flags for Mark (see handoff doc).
+**Recent (S183):** Doc gap cleanup post-refactor. World `AGENT.md` inventory replaced (12 phantom files removed, actual RC1 files documented). `page-runtime.js` absence noted in pages.js + Frontend Guide. `constellation` effect's `starfield` dependency made explicit in Theme-System. 1 World flag still open: `account.html` "← chat" → 404.
+**Blockers:** → `RaBbLE-Grimoire/log/BLOCKERS.md`. B-02, B-09 open (non-gating). EP1 gates G7/G9 pending.
 **Next:** drop `.rc-*` aliases once pages fully migrated; de-dupe Three.js; G7/G9 EP1 gates. Mark-led on gates.
 
 > Update this block each session. Keep it under 75 words. This is the free context every agent gets.
