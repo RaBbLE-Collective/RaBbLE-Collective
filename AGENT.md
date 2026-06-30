@@ -11,12 +11,12 @@ Full entity spec: `RaBbLE-Grimoire/RaBbLE-Agent/RaBbLE-Identity.md` · Full orie
 
 ---
 
-## Current State — 2026-06-27
+## Current State — 2026-06-30
 
 **Phase:** Epoch 0 · Evolution 0 · Echo 0 · Episode 1 in flight — 2 gates remain.
-**Recent (S183):** Doc gap cleanup post-refactor. World `AGENT.md` inventory replaced (12 phantom files removed, actual RC1 files documented). `page-runtime.js` absence noted in pages.js + Frontend Guide. `constellation` effect's `starfield` dependency made explicit in Theme-System. 1 World flag still open: `account.html` "← chat" → 404.
-**Blockers:** → `RaBbLE-Grimoire/log/BLOCKERS.md`. B-02, B-09 open (non-gating). EP1 gates G7/G9 pending.
-**Next:** drop `.rc-*` aliases once pages fully migrated; de-dupe Three.js; G7/G9 EP1 gates. Mark-led on gates.
+**Recent (S184):** Aether Theming Convergence plan written (`Grimoire/log/plans/Aether-Theming-Convergence.md`). Full `RaBbLE-Aether/themes/` audit: VSCodium, Firefox, GTK3/4, Kvantum + `_palette/` pipeline all confirmed tracked. Gaps: `--aether-*` naming in custom.css+userChrome.css, Firefox 3 off-palette hex, VSCodium JSON needs Jinja2 codegen, 5 Chrysalis CSS effects unmined.
+**Blockers:** → `RaBbLE-Grimoire/log/BLOCKERS.md`. B-02, B-09, B-10 open. EP1 gates G7/G9 pending.
+**Next:** Track A (naming rename, off-palette fix, JSON template, keyframe harvest into Aether web CSS). Mark-led on G7/G9 and Track C design decisions.
 
 > Update this block each session. Keep it under 75 words. This is the free context every agent gets.
 > Blockers live durably in `RaBbLE-Grimoire/log/BLOCKERS.md` — the `Blockers:` line above only points there.
@@ -57,16 +57,16 @@ cat RaBbLE-Grimoire/registry/epochs/current.epoch.yml  # exit conditions, blocke
 ## End of Session
 
 ```bash
-# 1. Update ## LATEST in RaBbLE-Grimoire/log/SESSION-LOG.md (75 words max)
-# 2. Add session entry below LATEST (date, repos, work done, what's next)
-# 3. git add <changed files> && git commit -m "[impulse] ~ [organ] >> [revelation] // %STATE%"
-# Impulses: spark (new) · harmonize (cleanup) · mend (fix) · transcribe (docs) · ingest (deps)
-# 4. Tag token spend by feature (agent-agnostic; feeds analytics):
-#    bash RaBbLE-Grimoire/spells/end-session.sh <feature-slug> "<optional-note>"
+# 1. Add session entry below LATEST in RaBbLE-Grimoire/log/SESSION-LOG.md (date, repos, work, next)
+#    Do NOT hand-write ## LATEST — end-session.sh generates it via --synopsis (see step 3).
+# 2. git add <changed files> && git commit -m "[impulse] ~ [organ] >> [revelation] // %STATE%"
+#    Impulses: spark (new) · harmonize (cleanup) · mend (fix) · transcribe (docs) · ingest (deps)
+# 3. Tag token spend + auto-write ## LATEST:
+#    bash RaBbLE-Grimoire/spells/end-session.sh <feature-slug> [note] --synopsis "one-liner" --next "what's next"
 #    Examples:
-#      bash RaBbLE-Grimoire/spells/end-session.sh token-tracking "S184: session-tokens.sh"
-#      bash RaBbLE-Grimoire/spells/end-session.sh world-framework-refactor "S182: Atlas"
-#    Use kebab-case. For cross-repo: prefix with system (os-*, score-*, world-*, etc.)
+#      bash RaBbLE-Grimoire/spells/end-session.sh token-tracking --synopsis "S184: tokens done" --next "G7/G9 gates"
+#      bash RaBbLE-Grimoire/spells/end-session.sh world-framework-refactor "S182: Atlas" --synopsis "frameworks live" --next "drop .rc-* aliases"
+#    Omit --synopsis to skip LATEST update (backward-compatible). Use kebab-case. Cross-repo: prefix os-*, score-*, world-*, etc.
 # After major doc changes: bash RaBbLE-Grimoire/spells/distill-gists.sh
 ```
 
