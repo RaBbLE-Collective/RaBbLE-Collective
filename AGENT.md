@@ -14,9 +14,9 @@ Full entity spec: `RaBbLE-Grimoire/RaBbLE-Agent/RaBbLE-Identity.md` · Full orie
 ## Current State — 2026-06-30
 
 **Phase:** Epoch 0 · Evolution 0 · Echo 0 · Episode 1 in flight — 2 gates remain.
-**Recent (S185):** Session logging clobber fixed: `end-session.sh` now auto-writes `## LATEST` via `--synopsis` flag; pre-commit anti-clobber backstop built (spec from S129 HANDOFF); AGENT.md protocol updated. Hooks are symlinks — update propagated to all members. Subdomain registry + maintenance backlog written to `log/plans/Subdomain-Registry-and-Maintenance.md`.
+**Recent (S186):** `log/` restructured: handoffs/done/, plans/done/, episodes/, archive/, generated/ subdirs; 20 files moved to typed homes. `registry/subdomains.yml` live (all 6 joinrabble.world subdomains). INDEX.md + README files updated.
 **Blockers:** → `RaBbLE-Grimoire/log/BLOCKERS.md`. B-02, B-09, B-10 open. EP1 gates G7/G9 pending.
-**Next:** G7/G9 EP1 gates (Mark-led, VM required); B-10 CF token; drop `.rc-*` aliases; subdomain registry.
+**Next:** G7/G9 EP1 gates (Mark-led, VM required); B-10 CF token; drop `.rc-*` aliases; ep1-status.sh spell.
 
 > Update this block each session. Keep it under 75 words. This is the free context every agent gets.
 > Blockers live durably in `RaBbLE-Grimoire/log/BLOCKERS.md` — the `Blockers:` line above only points there.
