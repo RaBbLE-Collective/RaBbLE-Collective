@@ -14,9 +14,9 @@ Full entity spec: `RaBbLE-Grimoire/RaBbLE-Agent/RaBbLE-Identity.md` · Full orie
 ## Current State — 2026-06-30
 
 **Phase:** Epoch 0 · Evolution 0 · Echo 0 · Episode 1 in flight — 2 gates remain.
-**Recent (S184):** Aether Theming Convergence plan written (`Grimoire/log/plans/Aether-Theming-Convergence.md`). Full `RaBbLE-Aether/themes/` audit: VSCodium, Firefox, GTK3/4, Kvantum + `_palette/` pipeline all confirmed tracked. Gaps: `--aether-*` naming in custom.css+userChrome.css, Firefox 3 off-palette hex, VSCodium JSON needs Jinja2 codegen, 5 Chrysalis CSS effects unmined.
+**Recent (S185):** Session logging clobber fixed: `end-session.sh` now auto-writes `## LATEST` via `--synopsis` flag; pre-commit anti-clobber backstop built (spec from S129 HANDOFF); AGENT.md protocol updated. Hooks are symlinks — update propagated to all members. Subdomain registry + maintenance backlog written to `log/plans/Subdomain-Registry-and-Maintenance.md`.
 **Blockers:** → `RaBbLE-Grimoire/log/BLOCKERS.md`. B-02, B-09, B-10 open. EP1 gates G7/G9 pending.
-**Next:** Track A (naming rename, off-palette fix, JSON template, keyframe harvest into Aether web CSS). Mark-led on G7/G9 and Track C design decisions.
+**Next:** G7/G9 EP1 gates (Mark-led, VM required); B-10 CF token; drop `.rc-*` aliases; subdomain registry.
 
 > Update this block each session. Keep it under 75 words. This is the free context every agent gets.
 > Blockers live durably in `RaBbLE-Grimoire/log/BLOCKERS.md` — the `Blockers:` line above only points there.
