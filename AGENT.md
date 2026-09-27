@@ -14,9 +14,9 @@ Full entity spec: `RaBbLE-Grimoire/RaBbLE-Agent/RaBbLE-Identity.md` · Full orie
 ## Current State — 2026-09-27
 
 **Phase:** Epoch 0 · Evolution 0 · Echo 0 · Episode 1 in flight.
-**Recent:** S235: W2 five-beat face (Arrive, Boot, Meet, Summon, Enter) live on dev.joinrabble.world; Aether rc.2 published; NeBuLA `setInsets`. Plan: `RaBbLE-Grimoire/log/plans/EP1-Entity-Face-Plan.md`.
+**Recent:** S236: OS KS → branded ISO (`spells/build-iso.sh`), Ansible runs in-installer; Firefox dropdowns fixed, `dotctl firefox` bundle. S235: W2 face live on dev.
 **Blockers:** → `RaBbLE-Grimoire/log/BLOCKERS.md`. EP1 gates G7/G9/G10 pending.
-**Next:** Mark reviews dev + edits GENESIS-COPY (G10); W3/W4 → `RaBbLE-Grimoire/log/handoffs/HANDOFF-S234-EP1-Entity-Face.md`.
+**Next:** push + `vmctl cast-ks` verify ISO install; Mark reviews dev + GENESIS-COPY (G10); W3/W4 → `RaBbLE-Grimoire/log/handoffs/HANDOFF-S234-EP1-Entity-Face.md`.
 
 > Update this block each session. Keep it under 75 words. This is the free context every agent gets.
 > Blockers live durably in `RaBbLE-Grimoire/log/BLOCKERS.md` — the `Blockers:` line above only points there.
