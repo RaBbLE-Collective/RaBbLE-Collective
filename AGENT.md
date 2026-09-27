@@ -11,12 +11,12 @@ Full entity spec: `RaBbLE-Grimoire/RaBbLE-Agent/RaBbLE-Identity.md` · Full orie
 
 ---
 
-## Current State — 2026-07-14
+## Current State — 2026-09-26
 
-**Phase:** Epoch 0 · Evolution 0 · Echo 0 · Episode 1 in flight — 2 gates remain.
-**Recent:** S203: entity-forward World face BUILT per Mark's brief (conversation as input, no scroll) — sign-off pending; liminal passage retired to Chrysalis reliquary; NeBuLA HiDPI cursor-offset fixed at root; B-10 mapped → `RaBbLE-Grimoire/log/handoffs/HANDOFF-S203-B10-Cloudflare-Token.md`. Plan: `RaBbLE-Grimoire/log/plans/EP1-Air-Push-Plan.md`.
-**Blockers:** → `RaBbLE-Grimoire/log/BLOCKERS.md`. B-02, B-09, B-10 open. EP1 gates G7/G9 pending.
-**Next:** Mark: face sign-off + CF token mint (handoff). Agents: A5 deploy pipeline, C1 reliquary garden, A1 registry. G7/G9 last.
+**Phase:** Epoch 0 · Evolution 0 · Echo 0 · Episode 1 in flight.
+**Recent:** S234: Cloudflare unblocked (B-12), scribble./chrysalis. live, sCoRE keep-warm; alive entity ported into NeBuLA (`backend="alive"`). Plan: `RaBbLE-Grimoire/log/plans/EP1-Entity-Face-Plan.md`.
+**Blockers:** → `RaBbLE-Grimoire/log/BLOCKERS.md`. EP1 gates G7/G9/G10 pending.
+**Next:** W2 World rebuild → `RaBbLE-Grimoire/log/handoffs/HANDOFF-S234-EP1-Entity-Face.md`. Mark: eyeball entity on real GPU.
 
 > Update this block each session. Keep it under 75 words. This is the free context every agent gets.
 > Blockers live durably in `RaBbLE-Grimoire/log/BLOCKERS.md` — the `Blockers:` line above only points there.
