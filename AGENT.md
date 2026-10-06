@@ -11,12 +11,12 @@ Full entity spec: `RaBbLE-Grimoire/RaBbLE-Agent/RaBbLE-Identity.md` · Full orie
 
 ---
 
-## Current State — 2026-09-29
+## Current State — 2026-10-06
 
 **Phase:** Epoch 0 · Evolution 0 · Echo 0 · Episode 1 in flight.
-**Recent:** S240: OS retargeted to F44; B-15 fixed (DMI hardware detection, unverified on desktop); free-claude-code revived; Fedora-free branding, Five-Es 0.0.0.0; static hostname; generic NVIDIA recipe. S239: kitty-maximize fix.
-**Blockers:** → `RaBbLE-Grimoire/log/BLOCKERS.md`. B-15 open until desktop verifies; EP1 gates G7/G9/G10 pending.
-**Next:** apply base+hardware on desktop; Mark reviews dev + GENESIS-COPY (G10); W3/W4 → `HANDOFF-S234-EP1-Entity-Face.md`.
+**Recent:** S241: face voice = scrollable depth stack; wrap + iOS zoom/landscape fixed, live on dev (not iPhone-verified). S240: OS on F44; B-15 fixed (desktop unverified).
+**Blockers:** → `RaBbLE-Grimoire/log/BLOCKERS.md`. B-15 open; EP1 gates G7/G9/G10 pending.
+**Next:** Mark tests dev face on iPhone; apply base+hardware on desktop; G10 review; W3/W4 → `HANDOFF-S234-EP1-Entity-Face.md`.
 
 > Update this block each session. Keep it under 75 words. This is the free context every agent gets.
 > Blockers live durably in `RaBbLE-Grimoire/log/BLOCKERS.md` — the `Blockers:` line above only points there.
