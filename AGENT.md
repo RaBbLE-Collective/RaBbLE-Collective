@@ -14,7 +14,7 @@ Full entity spec: `RaBbLE-Grimoire/RaBbLE-Agent/RaBbLE-Identity.md` · Full orie
 ## Current State — 2026-10-06
 
 **Phase:** Epoch 0 · Evolution 0 · Echo 0 · Episode 1 in flight.
-**Recent:** S241: face voice = scrollable depth stack; wrap + iOS zoom/landscape fixed, live on dev (not iPhone-verified). S240: OS on F44; B-15 fixed (desktop unverified).
+**Recent:** S242: Muse Gadget SDK flashed on Pocket -B, all HW verified, port map in Grimoire. S241: face voice depth stack + iOS fixes on dev (not iPhone-verified).
 **Blockers:** → `RaBbLE-Grimoire/log/BLOCKERS.md`. B-15 open; EP1 gates G7/G9/G10 pending.
 **Next:** Mark tests dev face on iPhone; apply base+hardware on desktop; G10 review; W3/W4 → `HANDOFF-S234-EP1-Entity-Face.md`.
 
