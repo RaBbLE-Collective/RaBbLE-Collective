@@ -14,9 +14,9 @@ Full entity spec: `RaBbLE-Grimoire/RaBbLE-Agent/RaBbLE-Identity.md` · Full orie
 ## Current State — 2026-10-06
 
 **Phase:** Epoch 0 · Evolution 0 · Echo 0 · Episode 1 in flight.
-**Recent:** S243: Pocket is a RaBbLE gadget (IDF v6, own face, beam v0 to sCoRE); voice turns verified via beam-echo.
+**Recent:** S244: Voice vocoder rebuilt (cascade formant synth + stress), intelligible and robotic; Mark: "far better".
 **Blockers:** → `RaBbLE-Grimoire/log/BLOCKERS.md`. B-15 open; EP1 gates G7/G9/G10 pending.
-**Next:** sCoRE beam endpoint (STT, Groq, fast TTS); face iPhone test; G10.
+**Next:** sCoRE beam endpoint (STT, Groq, vocoder TTS); vocoder source pick + CMUdict; face iPhone test; G10.
 
 > Update this block each session. Keep it under 75 words. This is the free context every agent gets.
 > Blockers live durably in `RaBbLE-Grimoire/log/BLOCKERS.md` — the `Blockers:` line above only points there.
