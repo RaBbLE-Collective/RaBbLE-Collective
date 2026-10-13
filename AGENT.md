@@ -11,12 +11,12 @@ Full entity spec: `RaBbLE-Grimoire/RaBbLE-Agent/RaBbLE-Identity.md` · Full orie
 
 ---
 
-## Current State — 2026-10-06
+## Current State — 2026-10-13
 
 **Phase:** Epoch 0 · Evolution 0 · Echo 0 · Episode 1 in flight.
-**Recent:** S244: vocoder rebuilt, intelligible + robotic. S243: Pocket talks through sCoRE's new beam (Groq STT/LLM/TTS).
+**Recent:** S246: `rdisplay` display manager (CLI, web editor, hotplug daemon); external 1440p75 above laptop panel. S244: vocoder rebuilt.
 **Blockers:** → `RaBbLE-Grimoire/log/BLOCKERS.md`. B-15 open; EP1 gates G7/G9/G10 pending.
-**Next:** vocoder into beam `synthesize()`; Pocket reboot dump; source pick + CMUdict; face iPhone; G10.
+**Next:** rdisplay drift-watch + overlay; KVM 144Hz test; vocoder into beam `synthesize()`; face iPhone; G10.
 
 > Update this block each session. Keep it under 75 words. This is the free context every agent gets.
 > Blockers live durably in `RaBbLE-Grimoire/log/BLOCKERS.md` — the `Blockers:` line above only points there.
