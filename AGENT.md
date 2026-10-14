@@ -13,10 +13,10 @@ Full entity spec: `RaBbLE-Grimoire/RaBbLE-Agent/RaBbLE-Identity.md` · Full orie
 
 ## Current State — 2026-10-13
 
-**Phase:** Epoch 0 · Evolution 0 · Echo 0 · Episode 1 in flight.
-**Recent:** S246: `rdisplay` display manager V1 (CLI, native GTK editor, overlay, hotplug daemon); external 1440p75 above panel. S244: vocoder rebuilt.
-**Blockers:** → `RaBbLE-Grimoire/log/BLOCKERS.md`. B-15 open; EP1 gates G7/G9/G10 pending.
-**Next:** rdisplay save-to-dotctl + Ansible role; KVM 144Hz test; vocoder into beam `synthesize()`; face iPhone; G10.
+**Phase:** Epoch 0 · Evolution 0 · Echo 0 · Episode 1 staging for air.
+**Recent:** S248: Grimoire audit; Roadmap rewritten to reality; checklist/epoch/blockers reconciled. S247: per-monitor workspaces.
+**Blockers:** → `RaBbLE-Grimoire/log/BLOCKERS.md`. EP1: G9 (B-17), G10 sign-off; G7 record deferred.
+**Next:** D1 repo visibility, D3 dev sign-off, D4 `/chrysalis/`; public face; `log/plans/EP1-Staging-and-Grimoire-Audit.md`.
 
 > Update this block each session. Keep it under 75 words. This is the free context every agent gets.
 > Blockers live durably in `RaBbLE-Grimoire/log/BLOCKERS.md` — the `Blockers:` line above only points there.
