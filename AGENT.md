@@ -11,12 +11,12 @@ Full entity spec: `RaBbLE-Grimoire/RaBbLE-Agent/RaBbLE-Identity.md` · Full orie
 
 ---
 
-## Current State — 2026-10-13
+## Current State — 2026-10-15
 
 **Phase:** Epoch 0 · Evolution 0 · Echo 0 · Episode 1 staging for air.
-**Recent:** S249: `/chrysalis/` removed; Chrysalis reliquary mended; `xperimental.joinrabble.world` live with 4 drops (`Xperimental-Web/drop.sh`). S248: Grimoire audit, Roadmap to reality.
-**Blockers:** → `RaBbLE-Grimoire/log/BLOCKERS.md`. EP1: G9 (B-17), G10 (face needs work); G7 record deferred.
-**Next:** D1 repo visibility; face polish; public face; `log/plans/EP1-Staging-and-Grimoire-Audit.md`.
+**Recent:** S250: D1 done: NeBuLA + sCoRE public (Sovereign Accord), Railway token purged from sCoRE history, no fallback secrets, manifests on https (B-17 resolved). S249: xperimental.joinrabble.world live.
+**Blockers:** → `RaBbLE-Grimoire/log/BLOCKERS.md`. EP1: G9 needs fresh-VM run, G10 (face needs work); G7 record deferred.
+**Next:** G9 fresh-VM bootstrap; face polish; public face; `log/plans/EP1-Staging-and-Grimoire-Audit.md`.
 
 > Update this block each session. Keep it under 75 words. This is the free context every agent gets.
 > Blockers live durably in `RaBbLE-Grimoire/log/BLOCKERS.md` — the `Blockers:` line above only points there.
