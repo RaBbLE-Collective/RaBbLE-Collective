@@ -11,10 +11,10 @@ Full entity spec: `RaBbLE-Grimoire/RaBbLE-Agent/RaBbLE-Identity.md` · Full orie
 
 ---
 
-## Current State — 2026-10-15
+## Current State — 2026-10-16
 
 **Phase:** Epoch 0 · Evolution 0 · Echo 0 · Episode 1 staging for air.
-**Recent:** S250: D1 done: NeBuLA + sCoRE public (Sovereign Accord), Railway token purged from sCoRE history, no fallback secrets, manifests on https (B-17 resolved). S249: xperimental.joinrabble.world live.
+**Recent:** S253: Pocket backplate v4 (enclosed battery+speaker, stock screws) + FreeCAD podman sandbox; test print pending. S250: D1 done: NeBuLA + sCoRE public, B-17 resolved.
 **Blockers:** → `RaBbLE-Grimoire/log/BLOCKERS.md`. EP1: G9 needs fresh-VM run, G10 (face needs work); G7 record deferred.
 **Next:** G9 fresh-VM bootstrap; face polish; public face; `log/plans/EP1-Staging-and-Grimoire-Audit.md`.
 
