@@ -11,12 +11,12 @@ Full entity spec: `RaBbLE-Grimoire/RaBbLE-Agent/RaBbLE-Identity.md` · Full orie
 
 ---
 
-## Current State — 2026-10-16
+## Current State — 2026-10-20
 
 **Phase:** Epoch 0 · Evolution 0 · Echo 0 · Episode 1 staging for air.
-**Recent:** S254: Pocket settings slide and turn with the device; sCoRE serves the time (`/api/v1/time`, `get_time`, beam), Pocket syncs on connect. S253: backplate v4.
+**Recent:** S256: Pocket clean room W0+W1 done on Pocket branch `cleanroom` (16 Meta files replaced, provenance in Grimoire `RaBbLE-Pocket/cleanroom/`). S255: backplate v4.2.
 **Blockers:** → `RaBbLE-Grimoire/log/BLOCKERS.md`. EP1: G9 needs fresh-VM run, G10 (face needs work); G7 record deferred.
-**Next:** G9 fresh-VM bootstrap; face polish; public face; `log/plans/EP1-Staging-and-Grimoire-Audit.md`. Pocket: hand-test settings + clock screen, then clean room W0.
+**Next:** Pocket: Mark's firmware learning session, IMU/rotation tuning, then clean room W2. EP1: G9 fresh-VM bootstrap; face polish.
 
 > Update this block each session. Keep it under 75 words. This is the free context every agent gets.
 > Blockers live durably in `RaBbLE-Grimoire/log/BLOCKERS.md` — the `Blockers:` line above only points there.
