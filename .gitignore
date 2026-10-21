@@ -1,5 +1,7 @@
 # Member repos — independent git trees, not tracked by the Collective
-# EXCEPTION: RaBbLE-Xperimental is now version-tracked locally (active sandbox rablets)
+# RaBbLE-Xperimental (active sandbox rablets), RaBbLE-Chrysalis (genesis archive) and RaBbLE-Pocket
+# (device firmware) are version-tracked in their own git trees, so they are ignored here too
+# (the wildcard below only covers names starting A, B, G, N, O, W, S).
 RaBbLE-Grimoire/
 RaBbLE-sCoRE/
 RaBbLE-OS/
@@ -8,9 +10,11 @@ RaBbLE-NeBuLA/
 RaBbLE-Aether/
 RaBbLE-ScRiBbLE/
 RaBbLE-BaBbLE/
+RaBbLE-Chrysalis/
+RaBbLE-Pocket/
+RaBbLE-Xperimental/
 
 # Catch-all for any future member added before .gitignore is updated
-# (RaBbLE-Xperimental is tracked; excluded from wildcard)
 RaBbLE-[ABGNOW]*/
 RaBbLE-S*/
 
