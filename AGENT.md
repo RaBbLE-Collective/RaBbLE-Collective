@@ -14,9 +14,9 @@ Full entity spec: `RaBbLE-Grimoire/RaBbLE-Agent/RaBbLE-Identity.md` · Full orie
 ## Current State — 2026-10-22
 
 **Phase:** Epoch 0 · Evolution 0 · Echo 0 · Episode 1 staging for air.
-**Recent:** S265: Pocket notes store (OTA layout); Converse/Capture swipe with flipped portals; typed + voice captures live; sCoRE capture pushed.
+**Recent:** S266: Pocket gyro face (heading hold, spin reactions), ring in every view, W5 Orbit settings (clean room done but bsp/), merged onto new-horizons, third_party/.
 **Blockers:** → `RaBbLE-Grimoire/log/BLOCKERS.md`. EP1: G9 needs fresh-VM run, G10 (face needs work); G7 record deferred.
-**Next:** Pocket: `log/handoffs/HANDOFF-S265-Pocket-Capture-T5.md` (T5 offload spell, Mark T4 hand check, T6). EP1: G9 fresh-VM bootstrap.
+**Next:** Pocket: `log/handoffs/HANDOFF-S266-Pocket-Orbit-Pomodoro.md` (land Orbit v2, Applets + Pomodoro, W6 BSP walkthrough, SDK refactor). EP1: G9 fresh-VM bootstrap.
 
 > Update this block each session. Keep it under 75 words. This is the free context every agent gets.
 > Blockers live durably in `RaBbLE-Grimoire/log/BLOCKERS.md` — the `Blockers:` line above only points there.
