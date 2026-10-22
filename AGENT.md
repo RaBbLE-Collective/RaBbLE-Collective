@@ -14,9 +14,9 @@ Full entity spec: `RaBbLE-Grimoire/RaBbLE-Agent/RaBbLE-Identity.md` · Full orie
 ## Current State — 2026-10-22
 
 **Phase:** Epoch 0 · Evolution 0 · Echo 0 · Episode 1 staging for air.
-**Recent:** S264: Pocket clean room W4 voice+audio done (idle hiss gone); face freeze fixed (TLS handshake priority inheritance); tilt, 15° settings notches, IMU offset; Capture plan + sCoRE capture turns.
+**Recent:** S264: Pocket clean room W4 voice+audio (hiss gone); face freeze fixed; face feels motion+touch; Settings > Level; Capture plan + sCoRE capture turns.
 **Blockers:** → `RaBbLE-Grimoire/log/BLOCKERS.md`. EP1: G9 needs fresh-VM run, G10 (face needs work); G7 record deferred.
-**Next:** Pocket: chirp-after-idle round, W4 checklist, Capture T3 notes store; Mark: name for `apache/`, push. EP1: G9 fresh-VM bootstrap.
+**Next:** Pocket: `log/handoffs/HANDOFF-S264-Pocket-Capture-W4-Face.md` (Capture T3; Mark: partition size, `apache/` name, push). EP1: G9 fresh-VM bootstrap.
 
 > Update this block each session. Keep it under 75 words. This is the free context every agent gets.
 > Blockers live durably in `RaBbLE-Grimoire/log/BLOCKERS.md` — the `Blockers:` line above only points there.
