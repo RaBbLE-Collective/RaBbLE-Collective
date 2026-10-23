@@ -14,9 +14,9 @@ Full entity spec: `RaBbLE-Grimoire/RaBbLE-Agent/RaBbLE-Identity.md` · Full orie
 ## Current State — 2026-10-23
 
 **Phase:** Epoch 0 · Evolution 0 · Echo 0 · Episode 1 staging for air.
-**Recent:** S271: laptop :8000 hole closed; Pocket→cloud→laptop Claude node spec v0.3 + P0/P1 code (uncommitted, review fixes); SDK S0+S1 committed; orb glow fix flashed.
+**Recent:** S272: Pocket mesh anchors to its edge and stretches (no dial morph), flashed. S271: node spec v0.3 + P0/P1, SDK S0+S1.
 **Blockers:** → `RaBbLE-Grimoire/log/BLOCKERS.md`. EP1: G9 needs fresh-VM run, G10 (face needs work); G7 record deferred.
-**Next:** `HANDOFF-S271-Pocket-Beam-SDK.md`: S1 device gate, commit sCoRE fixes, Render env + node client; then SDK S2; W6 re-spec (HANDOFF-S270).
+**Next:** `HANDOFF-S271`: `>mem` command, S1 device gate, Render env + node client; SDK S2; W6 re-spec (HANDOFF-S270).
 
 > Update this block each session. Keep it under 75 words. This is the free context every agent gets.
 > Blockers live durably in `RaBbLE-Grimoire/log/BLOCKERS.md` — the `Blockers:` line above only points there.
