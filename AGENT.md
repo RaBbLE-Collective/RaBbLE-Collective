@@ -11,12 +11,12 @@ Full entity spec: `RaBbLE-Grimoire/RaBbLE-Agent/RaBbLE-Identity.md` · Full orie
 
 ---
 
-## Current State — 2026-10-22
+## Current State — 2026-10-23
 
 **Phase:** Epoch 0 · Evolution 0 · Echo 0 · Episode 1 staging for air.
-**Recent:** S268: W6 board spec (Mark's map, measured boot 2.8 s, firewall pass); console finding (unread UART0 busy-waits every log byte); W6 implementer started.
+**Recent:** S269: Pocket bridged by hand to local sCoRE + Claude Code on the laptop. S270: Pocket offline voice notes on flash; W6 band engine parked after 5 rounds (tearing, crashes).
 **Blockers:** → `RaBbLE-Grimoire/log/BLOCKERS.md`. EP1: G9 needs fresh-VM run, G10 (face needs work); G7 record deferred.
-**Next:** Pocket: `log/handoffs/HANDOFF-S268-Pocket-W6-Integrate.md` (integrate W6, checklist, overlap gate, config trims, then W7 + RaBbLE-SDK). EP1: G9 fresh-VM bootstrap.
+**Next:** Pocket: local sCoRE as an automatic option after BLE/LAN pairing (`RaBbLE-sCoRE-Local-Pocket-Beam.md` draft); then `HANDOFF-S270-Pocket-W6-Respec.md`. EP1: G9 fresh-VM bootstrap.
 
 > Update this block each session. Keep it under 75 words. This is the free context every agent gets.
 > Blockers live durably in `RaBbLE-Grimoire/log/BLOCKERS.md` — the `Blockers:` line above only points there.
