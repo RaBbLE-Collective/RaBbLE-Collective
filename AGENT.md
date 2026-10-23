@@ -14,9 +14,9 @@ Full entity spec: `RaBbLE-Grimoire/RaBbLE-Agent/RaBbLE-Identity.md` · Full orie
 ## Current State — 2026-10-23
 
 **Phase:** Epoch 0 · Evolution 0 · Echo 0 · Episode 1 staging for air.
-**Recent:** S269: Pocket bridged by hand to local sCoRE + Claude Code on the laptop. S270: Pocket offline voice notes on flash; W6 band engine parked after 5 rounds (tearing, crashes).
+**Recent:** S271: laptop :8000 hole closed; Pocket→cloud→laptop Claude node spec v0.3 + P0/P1 code (uncommitted, review fixes); SDK S0+S1 committed; orb glow fix flashed.
 **Blockers:** → `RaBbLE-Grimoire/log/BLOCKERS.md`. EP1: G9 needs fresh-VM run, G10 (face needs work); G7 record deferred.
-**Next:** Pocket: local sCoRE as an automatic option after BLE/LAN pairing (`RaBbLE-sCoRE-Local-Pocket-Beam.md` draft); then `HANDOFF-S270-Pocket-W6-Respec.md`. EP1: G9 fresh-VM bootstrap.
+**Next:** `HANDOFF-S271-Pocket-Beam-SDK.md`: S1 device gate, commit sCoRE fixes, Render env + node client; then SDK S2; W6 re-spec (HANDOFF-S270).
 
 > Update this block each session. Keep it under 75 words. This is the free context every agent gets.
 > Blockers live durably in `RaBbLE-Grimoire/log/BLOCKERS.md` — the `Blockers:` line above only points there.
