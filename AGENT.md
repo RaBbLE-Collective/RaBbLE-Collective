@@ -14,7 +14,7 @@ Full entity spec: `RaBbLE-Grimoire/RaBbLE-Agent/RaBbLE-Identity.md` · Full orie
 ## Current State — 2026-10-24
 
 **Phase:** Epoch 0 · Evolution 0 · Echo 0 · Episode 1 staging for air.
-**Recent:** S273: the Crew (RaBbLE + 8 organs) + `rabble` launcher wraps Claude Code; Mark = Observer/Architect. S272: Pocket mesh edge-anchored.
+**Recent:** S274: Pocket face+Orbit one gesture; orbs gather from the mesh, home round the rim. S273: the Crew + `rabble` launcher; Mark = Observer/Architect.
 **Blockers:** → `RaBbLE-Grimoire/log/BLOCKERS.md`. EP1: G9 needs fresh-VM run, G10 (face needs work); G7 record deferred.
 **Next:** first interactive `rabble` Crew run (HANDOFF-S273); `HANDOFF-S271`: `>mem`, S1 device gate, Render env + node client; SDK S2; W6 re-spec.
 
