@@ -13,10 +13,10 @@ Full entity spec: `RaBbLE-Grimoire/RaBbLE-Agent/RaBbLE-Identity.md` · Full orie
 
 ## Current State — 2026-10-24
 
-**Phase:** Epoch 0 · Evolution 0 · Echo 0 · Episode 1 staging for air.
-**Recent:** S274: Pocket face+Orbit one gesture; orbs gather from the mesh, home round the rim. S273: the Crew + `rabble` launcher; Mark = Observer/Architect.
-**Blockers:** → `RaBbLE-Grimoire/log/BLOCKERS.md`. EP1: G9 needs fresh-VM run, G10 (face needs work); G7 record deferred.
-**Next:** first interactive `rabble` Crew run (HANDOFF-S273); `HANDOFF-S271`: `>mem`, S1 device gate, Render env + node client; SDK S2; W6 re-spec.
+**Phase:** Epoch 0 · Episode 1 staging for air; dev works as EP2 (labels don't gate).
+**Recent:** S275: `rabble` → RaBbLE's own Textual face over headless Claude Code (Agent SDK), to replace `claude` daily; entity face prototyped in terminal cells. S273: the Crew.
+**Blockers:** → `RaBbLE-Grimoire/log/BLOCKERS.md`. EP1: G9 fresh-VM run, G10 face; G7 deferred.
+**Next:** HANDOFF-S275 (face sign-off, deps, then U1/U2 lanes); HANDOFF-S271 Pocket items; W6 re-spec.
 
 > Update this block each session. Keep it under 75 words. This is the free context every agent gets.
 > Blockers live durably in `RaBbLE-Grimoire/log/BLOCKERS.md` — the `Blockers:` line above only points there.
