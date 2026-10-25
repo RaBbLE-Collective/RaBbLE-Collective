@@ -14,9 +14,9 @@ Full entity spec: `RaBbLE-Grimoire/RaBbLE-Agent/RaBbLE-Identity.md` · Full orie
 ## Current State — 2026-10-24
 
 **Phase:** Epoch 0 · Episode 1 staging for air; dev works as EP2 (labels don't gate).
-**Recent:** S276: EP1 airs web-only; face V1 (entity-first, Pocket teaser) live on dev; first Crew run. S274: Pocket face+Orbit one gesture.
+**Recent:** S277: Pocket W6 clean room done, firmware has no derived code. S276: EP1 airs web-only; face V1 live on dev; first Crew run.
 **Blockers:** → `RaBbLE-Grimoire/log/BLOCKERS.md`. EP1: B-20 CF binding + Render env before first `main` deploy; G7/G9 moved past air.
-**Next:** Mark: iPhone check dev + copy; prod launch per HANDOFF-S276; `HANDOFF-S275` (rabble UI); `HANDOFF-S271` items; W6 re-spec.
+**Next:** Mark: iPhone check dev + copy; prod launch per HANDOFF-S276; `HANDOFF-S275` (rabble UI); `HANDOFF-S277` (Pocket W7, SDK).
 
 > Update this block each session. Keep it under 75 words. This is the free context every agent gets.
 > Blockers live durably in `RaBbLE-Grimoire/log/BLOCKERS.md` — the `Blockers:` line above only points there.
