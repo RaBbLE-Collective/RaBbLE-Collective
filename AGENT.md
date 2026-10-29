@@ -14,9 +14,9 @@ Full entity spec: `RaBbLE-Grimoire/RaBbLE-Agent/RaBbLE-Identity.md` · Full orie
 ## Current State — 2026-10-29
 
 **Phase:** Epoch 0 · Episode 1 staging for air; dev works as EP2 (labels don't gate).
-**Recent:** S292: RaBbLE-UI 120 Hz scroll glide + render cache; Mark chose Rust for the TUI, plan + HANDOFF-S292 written. S291: layered face, provider aura.
+**Recent:** S295: Rust TUI R0 built (offline via Fedora crate RPMs), 1:1 instant scroll; engine config + Capabilities; asdict crash fixed. S292: plan + glide.
 **Blockers:** → `RaBbLE-Grimoire/log/BLOCKERS.md`. EP1: B-19/B-20. Brand: B-21. Pocket: B-22. Backup: B-23.
-**Next:** Rust TUI R0 spike (HANDOFF-S292); Mark signs off shape + Opus plan review; EP1 push; licence split; blocker review.
+**Next:** R1 engine seam (HANDOFF-S295-R1-Seam); Opus plan review; narration design; EP1 push; licence split.
 
 > Update this block each session. Keep it under 75 words. This is the free context every agent gets.
 > Blockers live durably in `RaBbLE-Grimoire/log/BLOCKERS.md` — the `Blockers:` line above only points there.
