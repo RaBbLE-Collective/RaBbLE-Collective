@@ -11,12 +11,12 @@ Full entity spec: `RaBbLE-Grimoire/RaBbLE-Agent/RaBbLE-Identity.md` · Full orie
 
 ---
 
-## Current State — 2026-10-28
+## Current State — 2026-10-29
 
 **Phase:** Epoch 0 · Episode 1 staging for air; dev works as EP2 (labels don't gate).
-**Recent:** S290: catch-up commits (6 repos), log repaired. S289: entropy capability/stability split, benchmark ingest, face lag. S287: capability model, park at 80%.
+**Recent:** S291: RaBbLE-UI face layered (30 fps assembly), rig fidelity, provider aura, divider, crash fixes. S290: catch-up commits, log repaired.
 **Blockers:** → `RaBbLE-Grimoire/log/BLOCKERS.md`. EP1: B-19/B-20. Brand: B-21. Pocket: B-22. Backup: B-23.
-**Next:** anti-clobber session mechanism; history rebuild; EP1 push; brand/code licence split; blocker review. Mark: live-test face + sonnet glitch.
+**Next:** visual test `/face` on kitty + VSCodium (HANDOFF-S291); anti-clobber mechanism; history rebuild; EP1 push; licence split; blocker review.
 
 > Update this block each session. Keep it under 75 words. This is the free context every agent gets.
 > Blockers live durably in `RaBbLE-Grimoire/log/BLOCKERS.md` — the `Blockers:` line above only points there.
