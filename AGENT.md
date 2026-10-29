@@ -14,9 +14,9 @@ Full entity spec: `RaBbLE-Grimoire/RaBbLE-Agent/RaBbLE-Identity.md` · Full orie
 ## Current State — 2026-10-28
 
 **Phase:** Epoch 0 · Episode 1 staging for air; dev works as EP2 (labels don't gate).
-**Recent:** S285: entropy = baseline+damage+pressure, sonnet frontier, `rabble` scroll fix (headless-tested). S284: `rabble` /model /crew /trust, entropy trust, entity glitch.
-**Blockers:** → `RaBbLE-Grimoire/log/BLOCKERS.md`. EP1: B-20. Pocket: B-22. Backup: B-23.
-**Next:** Mark's kitty pass (HANDOFF-S285), NiBbLE on `trust.py`; Pocket (HANDOFF-S281); `rabble` U3.
+**Recent:** S290: catch-up commits (6 repos), log repaired. S289: entropy capability/stability split, benchmark ingest, face lag. S287: capability model, park at 80%.
+**Blockers:** → `RaBbLE-Grimoire/log/BLOCKERS.md`. EP1: B-19/B-20. Brand: B-21. Pocket: B-22. Backup: B-23.
+**Next:** anti-clobber session mechanism; history rebuild; EP1 push; brand/code licence split; blocker review. Mark: live-test face + sonnet glitch.
 
 > Update this block each session. Keep it under 75 words. This is the free context every agent gets.
 > Blockers live durably in `RaBbLE-Grimoire/log/BLOCKERS.md` — the `Blockers:` line above only points there.
