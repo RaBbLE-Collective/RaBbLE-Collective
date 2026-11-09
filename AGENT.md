@@ -14,9 +14,9 @@ Full entity spec: `RaBbLE-Grimoire/RaBbLE-Agent/RaBbLE-Identity.md` · Full orie
 ## Current State — 2026-11-09
 
 **Phase:** Epoch 0. Episodes are retiring as the planning unit (Mark, S318); replacement not yet ruled.
-**Recent:** S318: Collective audit; dev is now prod (first World main deploy), June site archived in Chrysalis; all repos pushed except BaBbLE (no remote).
+**Recent:** S320: D6 ruled (Void `#03000b` retired for Deep Void, Dimmer decorative-only); 21 superseded/complete handoffs moved to done/, none deleted. S318: dev is prod.
 **Blockers:** → `RaBbLE-Grimoire/log/BLOCKERS.md`. Web: B-20 (Render env). Brand: B-21. Backup: B-23.
-**Next:** HANDOFF-S318: Episodes replacement, roadmap, Ansible fixes, plans archive, log split.
+**Next:** HANDOFF-S318: D3 Episodes proposal, plans archive, Ansible fixes; World PR to main for the colour swap.
 
 > Update this block each session. Keep it under 75 words. This is the free context every agent gets.
 > Blockers live durably in `RaBbLE-Grimoire/log/BLOCKERS.md` — the `Blockers:` line above only points there.
