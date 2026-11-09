@@ -11,12 +11,12 @@ Full entity spec: `RaBbLE-Grimoire/RaBbLE-Agent/RaBbLE-Identity.md` · Full orie
 
 ---
 
-## Current State — 2026-11-02
+## Current State — 2026-11-09
 
-**Phase:** Epoch 0 · Episode 1 staging for air; dev works as EP2 (labels don't gate).
-**Recent:** S296: Rust shell, protocol v1.1, narration, RemoteBackend built and Opus-reviewed; `rabble` now opens the Rust shell and starts the engine on demand (`--py` keeps Python).
-**Blockers:** → `RaBbLE-Grimoire/log/BLOCKERS.md`. EP1: B-19/B-20. Brand: B-21. Pocket: B-22. Backup: B-23.
-**Next:** Mark tests `rabble`; face (PRNG go), systemd + packaging, bench (HANDOFF-S296); EP1 push; licence split.
+**Phase:** Epoch 0. Episodes are retiring as the planning unit (Mark, S318); replacement not yet ruled.
+**Recent:** S318: Collective audit; dev is now prod (first World main deploy), June site archived in Chrysalis; all repos pushed except BaBbLE (no remote).
+**Blockers:** → `RaBbLE-Grimoire/log/BLOCKERS.md`. Web: B-20 (Render env). Brand: B-21. Backup: B-23.
+**Next:** HANDOFF-S318: Episodes replacement, roadmap, Ansible fixes, plans archive, log split.
 
 > Update this block each session. Keep it under 75 words. This is the free context every agent gets.
 > Blockers live durably in `RaBbLE-Grimoire/log/BLOCKERS.md` — the `Blockers:` line above only points there.
