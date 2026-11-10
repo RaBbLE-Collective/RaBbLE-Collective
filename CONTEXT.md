@@ -1,114 +1,73 @@
 # CONTEXT.md — RaBbLE-Collective
 
 ```
-epoch: 0 | evolution: 0 | echo: 0 | episode: 1 (pilot — in progress) | version: v0.0.0.0
-date: 2026-05-22 | status: active
+epoch: 0 (Foundation) | version: v0.0.0.0 | status: active | reconciled: 2026-11-10 (S322)
 ```
 
----
-
-## Quick Orientation (5 Minutes)
-
-1. **You are here:** Root working directory for the RaBbLE ecosystem.
-2. **Two layers:** Collective = entry point + bootstrap. Grimoire = knowledge + source of truth.
-3. **Gists first:** `cat RaBbLE-Grimoire/gist/*.md` — ~1,700 tokens, full picture in miniature.
-4. **Live health:** `bash RaBbLE-Grimoire/spells/status.sh`
-5. **Stop here.** You're oriented enough to ask questions and read deeper.
+Live state is not kept here. It lives in the `Current State` block of `AGENT.md`, the `## LATEST` box of `RaBbLE-Grimoire/log/SESSION-LOG.md`, and `RaBbLE-Grimoire/log/BLOCKERS.md`. This file is the map; it changes only when the map does.
 
 ---
 
-## What to Avoid
+## Reading order (measured S322, tokens ≈ bytes / 4)
 
-- Duplicating Grimoire content in member repos — Grimoire publishes, members reference
-- Scaffolding things that haven't been decided — low entropy until RaBbLE can walk
-- Inventing hex values — palette lives in `RaBbLE-Grimoire/RaBbLE-Agent/RaBbLE-Palette.md`
-- Over-investing in surfaces that will retire (chat, one-off scripts)
-
----
-
-## Agent Operating Modes: ON / FOR / WITH / AS
-
-You operate in four simultaneous dimensions — not separate roles, they happen together:
-
-| Mode | Meaning |
-|---|---|
-| **Working ON** | Technical development, implementation, debugging, code |
-| **Working FOR** | Advancing RaBbLE's purpose — behavioral learning, ambient intelligence, intent inference |
-| **Working WITH** | Collaborating with RaBbLE as a peer intelligence, not a tool |
-| **Working AS** | Embodying RaBbLE's character — clinical whimsy, direct honesty, anti-sycophancy |
-
-RaBbLE's opacity is intentional. The Collective and its character are inseparable — *to change the system is to change RaBbLE*.
-
----
-
-## Member Map
-
-| Member | Role | Status |
+| Step | Read | ~Tokens |
 |---|---|---|
-| `RaBbLE-Grimoire/` | Source of truth: identity, ethos, protocols, spells, all member docs | Active |
-| `RaBbLE-sCoRE/` | Coordination server + web API. Intent → action engine. First RaBbLE iteration. | Active |
-| `RaBbLE-OS/` | Fedora 43 + Hyprland substrate. The entity's body. | Live daily driver |
-| `RaBbLE-World/` | Web presence + entity chat surface. `joinrabble.world`. | Active |
-| `RaBbLE-NeBuLA/` | Visual entity renderer. `<rabble-entity>` web component. | Active — Canvas2D complete, Three.js deferred Ep2 |
-| `RaBbLE-Aether/` | Visual design system and canonical asset library. CDN delivery. | Active — CSS bundle live |
-| `RaBbLE-ScRiBbLE/` | Neon note-taking PWA — infinite canvas, glow-pen ink + text, iPad + Apple Pencil first. | Active — v1 scaffold in progress |
-| `RaBbLE-BaBbLE/` | High-entropy intake — concept art, prototypes, ideation. | Active |
-| `RaBbLE-Xperimental/` | Active sandbox — custom rablets, prototype members, experiments not yet emerged. High entropy by design. | Active |
-| `RaBbLE-Chrysalis/` | Genesis archive — origin code from October 2025 (RaBbLE.py, NeBuLA-JS, WebOS, first server). | Reference |
-| Memory (TBD) | Observation store, pattern extraction, retrieval. | Epoch 1 blocker — concept only |
+| 1 | `AGENT.md` (auto-loaded) | 1,300 |
+| 2 | `head -20 RaBbLE-Grimoire/log/SESSION-LOG.md` | 400 |
+| 3 | `cat RaBbLE-Grimoire/gist/*.md` | 5,000 |
+| 4 | The member's `AGENT.md` + `CONTEXT.md` | 1,500 to 3,500 |
+| 5 | One full doc, found with `grep -i <term> RaBbLE-Grimoire/INDEX.md` | varies |
 
-All member repos are independent git trees — gitignored by this repo, each with its own history and remote.
-For authoritative member status: `RaBbLE-Grimoire/registry/manifests/`
+Stop as soon as you can act. Never `cat` `SESSION-LOG.md`, `INDEX.md` or `RaBbLE-Agent-Protocols.md` whole; grep them.
 
 ---
 
-## Member Entry Points
+## Members
 
-When working in a specific member, read that member's `AGENT.md` + `CONTEXT.md` first. The Collective does not duplicate member context.
+Authoritative status: `RaBbLE-Grimoire/registry/manifests/`. All members are independent git trees inside this directory (gitignored here). Dev branch is `new-horizons` everywhere except Chrysalis (`main`).
 
-| Member | AGENT.md |
+| Member | Role |
 |---|---|
-| RaBbLE-Grimoire | `RaBbLE-Grimoire/AGENT.md` |
-| RaBbLE-sCoRE | `RaBbLE-sCoRE/AGENT.md` |
-| RaBbLE-OS | `RaBbLE-OS/AGENT.md` |
-| RaBbLE-World | `RaBbLE-World/AGENT.md` |
-| RaBbLE-NeBuLA | `RaBbLE-NeBuLA/AGENT.md` |
-| RaBbLE-Aether | `RaBbLE-Aether/AGENT.md` |
-| RaBbLE-BaBbLE | `RaBbLE-BaBbLE/AGENT.md` |
-| RaBbLE-Xperimental | `RaBbLE-Xperimental/AGENT.md` |
-| RaBbLE-Chrysalis | `RaBbLE-Chrysalis/AGENT.md` |
+| `RaBbLE-Grimoire/` | Source of truth: identity, protocols, registry, spells, every member's docs |
+| `RaBbLE-sCoRE/` | The engine: hosted chat + voice beam API, `rabble` terminal face (Rust TUI), orchestration |
+| `RaBbLE-OS/` | Fedora 44 + Hyprland substrate (KS + Ansible, `layerctl`, `dotctl`) |
+| `RaBbLE-World/` | `joinrabble.world`. `main` deploys prod; PR from `new-horizons`, never push direct |
+| `RaBbLE-NeBuLA/` | Entity renderer, `<rabble-entity>`, served from `nebula.joinrabble.world` |
+| `RaBbLE-Aether/` | Design system (tokens, CSS, assets), served from `aether.joinrabble.world` |
+| `RaBbLE-Pocket/` | ESP32-S3 AMOLED pendant firmware; voice beamed to sCoRE |
+| `RaBbLE-ScRiBbLE/` | Neon note PWA, `scribble.joinrabble.world` |
+| `RaBbLE-BaBbLE/` | High-entropy intake: concept art, captures, prototypes (no remote yet, B-23) |
+| `RaBbLE-Xperimental/` | Sandbox for rablets and experiments |
+| `RaBbLE-Chrysalis/` | Genesis archive and reliquary, `chrysalis.joinrabble.world` |
+| EnGrAm, TaskViSoR | Named, not built (memory member; visual state observer) |
 
 ---
 
-## Workspace Reference
+## Where things are
 
-| Need | Go to |
+| Need | Go to (under `RaBbLE-Grimoire/`) |
 |---|---|
-| Pre-Episode-1 phase & delivery architecture | `RaBbLE-Grimoire/RaBbLE-Collective/RaBbLE-Collective-Episode-1-Overview.md` |
-| EP1 release brief & dispatch state | `RaBbLE-Grimoire/RaBbLE-Collective/RaBbLE-Episode-1-Release-Brief.md` |
-| EP1 deployment runbook (Cloudflare CI/CD) | `RaBbLE-Grimoire/RaBbLE-Collective/RaBbLE-Episode-1-Deployment-Runbook.md` |
-| EP1 dispatch state (S58 handoff) | `RaBbLE-Grimoire/log/EP1-Dispatch-State.md` |
-| Membership model — the Pair & summoning | `RaBbLE-Grimoire/RaBbLE-Collective/RaBbLE-Membership-Model.md` |
-| Service roadmap & business model | `RaBbLE-Grimoire/RaBbLE-Collective/RaBbLE-Service-Plan.md` |
-| Versioning spec (Five Es) | `RaBbLE-Grimoire/RaBbLE-Versioning.md` |
-| Entity identity, voice, tone | `RaBbLE-Grimoire/RaBbLE-Agent/RaBbLE-Identity.md` |
-| Colors / palette | `RaBbLE-Grimoire/RaBbLE-Agent/RaBbLE-Palette.md` |
-| Commits & branches | `RaBbLE-Grimoire/RaBbLE-Agent/RaBbLE-CommitStyle.md` |
-| Ecosystem roadmap | `RaBbLE-Grimoire/RaBbLE-Agent/RaBbLE-Roadmap.md` |
-| Member registry | `RaBbLE-Grimoire/registry/manifests/` |
-| Spells | `RaBbLE-Grimoire/spells/` |
-| Collective architecture plan | `RaBbLE-Grimoire/RaBbLE-Collective/RaBbLE-Collective-Plan.md` |
-| Session history | `RaBbLE-Grimoire/log/SESSION-LOG.md` |
-| Vocabulary / glossary | `REFERENCES.md` |
+| The entity: who it is, how it speaks | `RaBbLE-Agent/RaBbLE-Identity.md` |
+| The entity: body, moves, render rules | `log/plans/Unified-Entity/Unified-Entity-Canon.md`, then the spec beside it |
+| Palette (the only colour source) | `RaBbLE-Agent/RaBbLE-Palette.md` |
+| Agent rules, commits, branches | `RaBbLE-Agent/RaBbLE-Agent-Protocols.md` (grep it) · `RaBbLE-CommitStyle.md` |
+| Roadmap | `RaBbLE-Agent/RaBbLE-Roadmap.md` (Episode framing is retiring, S318 D3) |
+| Live plans and handoffs | `log/plans/CONTEXT.md` · `log/handoffs/CONTEXT.md` |
+| Blockers | `log/BLOCKERS.md` (generated; use `spells/blockers.sh`) |
+| Spells | `SPELLS.md` or each script's header; `bash spells/help.sh` |
+| Older sessions | `log/archive/sessions/YYYY-MM.md` |
+| Vocabulary | `REFERENCES.md` (this directory) |
 
 ---
 
-## Reading Order
+## Working stance: ON / FOR / WITH / AS
 
-| Scenario | Path | ~Tokens |
-|---|---|---|
-| 2-min gist orientation | `cat RaBbLE-Grimoire/gist/*.md` | ~1,700 |
-| 5-min orientation | gists + this file + `status.sh` | ~3,500 |
-| Understand the phase | + `RaBbLE-Collective-Episode-1-Overview.md` | ~5,000 |
-| Working on a member | + that member's `AGENT.md` + `CONTEXT.md` | +500–700 |
-| Full orientation | + Grimoire AGENT.md, Versioning, Roadmap | ~15,000 |
+**ON** the code and docs. **FOR** RaBbLE's purpose: observe, learn, infer intent, act. **WITH** RaBbLE as a peer. **AS** RaBbLE where a voice is needed: clinical whimsy, direct, no flattery. To change the system is to change RaBbLE.
+
+## Avoid
+
+- Copying Grimoire content into members. Members reference it.
+- Scaffolding what has not been decided.
+- Inventing hex values.
+- Investing in surfaces due to retire.
+- Staging files another live session wrote: `bash RaBbLE-Grimoire/spells/mine.sh` first.

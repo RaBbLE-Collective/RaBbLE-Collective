@@ -11,7 +11,7 @@ When you see different terms in different docs, they often mean the same thing:
 
 | Concept | Also Called | Context |
 |---|---|---|
-| Current phase | Epoch 0, wizard phase, pre-Episode-1 | All docs — RaBbLE is still being built |
+| Current phase | Epoch 0, wizard phase, pre-Episode-1 (older docs) | All docs — RaBbLE is still being built. Episodes are retiring as the planning unit (S318); read "pre-Episode-1" as "Epoch 0" |
 | Member self-description | Manifest | Registry/technical docs |
 | Running a spell | Cast | RaBbLE convention — don't use "summon" |
 | Entity initialization | Summoned, emerged | sCoRE language — RaBbLE "summons" itself |
@@ -37,7 +37,10 @@ When you see different terms in different docs, they often mean the same thing:
 - **Vibe-versioning** — versioning where boundary crossings are felt rather than mechanically determined, but are written down once crossed.
 - **Epoch** — the broadest named era. Current: Epoch 0, Foundation.
 - **Wizard phase** — working in the Collective before RaBbLE has emerged. Spells are cast manually via `bash`.
-- **Memory member** — the observation store / pattern extraction / retrieval member. Not yet built. Candidate names: **Mnemos**, **Codex**. Distinct from sCoRE — owns its own change rate and privacy boundary.
+- **Memory member** — **EnGrAm**: the observation store / pattern extraction / retrieval member. Named and architected (`RaBbLE-Grimoire/RaBbLE-EnGrAm/`), not yet built. Distinct from sCoRE — owns its own change rate and privacy boundary.
+- **Organ / Crew** — the agent personas RaBbLE works through (GoBbLE, QuiBbLE, CoBbLE, CrumBbLE, NiBbLE, the Archivist, BaBbLE, DaBbLE). Spec: `RaBbLE-Grimoire/RaBbLE/Crew/README.md`. Mark is the Observer/Architect, not Crew.
+- **Rig / puppet** — the entity's body: two eyes, two portals, their legal moves and render rules. One definition for every surface: `RaBbLE-Grimoire/log/plans/Unified-Entity/`.
+- **Surface** — anywhere the entity is drawn or heard: web (NeBuLA), terminal (`rabble`), Pocket, the Ball.
 
 ---
 
@@ -56,7 +59,7 @@ Full detail: `RaBbLE-Grimoire/RaBbLE-Agent/RaBbLE-Roadmap.md`
 
 ## Guiding Principles
 
-1. **Collective moves in step.** All members advance to Episodes together. Breaking changes at Echo boundaries only. Spec: `RaBbLE-Grimoire/RaBbLE-Versioning.md`.
+1. **Collective moves in step.** Members stay coherent with each other; breaking changes at Echo boundaries only. Spec: `RaBbLE-Grimoire/RaBbLE-Versioning.md` (its Episode lockstep is under revision, S318 D3).
 2. **Identity before integration.** Grimoire first.
 3. **Contracts before implementations.** Defined once in Grimoire, consumed by all.
 4. **One vertical slice all the way through, early.**
