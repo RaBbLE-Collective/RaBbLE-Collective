@@ -11,12 +11,12 @@ When you see different terms in different docs, they often mean the same thing:
 
 | Concept | Also Called | Context |
 |---|---|---|
-| Current phase | Epoch 0, wizard phase, pre-Episode-1 (older docs) | All docs — RaBbLE is still being built. Episodes are retiring as the planning unit (S318); read "pre-Episode-1" as "Epoch 0" |
+| Current phase | Epoch 0, wizard phase, pre-Episode-1 (older docs) | All docs — RaBbLE is still being built. Episodes are retired (S322); read "pre-Episode-1" as "Epoch 0" |
 | Member self-description | Manifest | Registry/technical docs |
 | Running a spell | Cast | RaBbLE convention — don't use "summon" |
 | Entity initialization | Summoned, emerged | sCoRE language — RaBbLE "summons" itself |
 | Low complexity | Low entropy | RaBbLE design philosophy |
-| Versioning tiers | Five Es | RaBbLE-Versioning.md — Event, Episode, Echo, Evolution, Epoch |
+| Versioning tiers | Five Es (older docs) | RaBbLE-Versioning.md — Event, Release, Echo, Evolution, Epoch; members plan by milestone |
 
 ---
 
@@ -59,7 +59,7 @@ Full detail: `RaBbLE-Grimoire/RaBbLE-Agent/RaBbLE-Roadmap.md`
 
 ## Guiding Principles
 
-1. **Collective moves in step.** Members stay coherent with each other; breaking changes at Echo boundaries only. Spec: `RaBbLE-Grimoire/RaBbLE-Versioning.md` (its Episode lockstep is under revision, S318 D3).
+1. **Collective moves in step.** Members stay coherent with each other; breaking changes at Echo boundaries only. Spec: `RaBbLE-Grimoire/RaBbLE-Versioning.md` (contracts, not Episode lockstep, since S322).
 2. **Identity before integration.** Grimoire first.
 3. **Contracts before implementations.** Defined once in Grimoire, consumed by all.
 4. **One vertical slice all the way through, early.**

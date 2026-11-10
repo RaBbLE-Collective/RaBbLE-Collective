@@ -13,10 +13,10 @@ Full entity spec: `RaBbLE-Grimoire/RaBbLE-Agent/RaBbLE-Identity.md` · Full orie
 
 ## Current State — 2026-11-10
 
-**Phase:** Epoch 0. Episodes are retiring as the planning unit (Mark, S318); replacement proposed, not ruled.
-**Recent:** S322: context diet (session log rotated, 824 to 53 KB; session-start 166 to 13 KB), entity rules digest + gist, plans index rebuilt. S321: Unified Entity puppet spec (draft 10b) + 3D rig baseline.
+**Phase:** Epoch 0. Episodes are retired (S322): members plan by milestone in `current.epoch.yml`; arc Genesis crossed, toward Exodus.
+**Recent:** S322: Episodes replaced, context diet (log, gists, index), entity rules digest, accounts scoped, depth-over-surface plan. S321: Unified Entity rig baseline.
 **Blockers:** → `RaBbLE-Grimoire/log/BLOCKERS.md`. Web: B-20. Brand: B-21. Backup: B-23.
-**Next:** Mark rules M1-M7 in `RaBbLE-Grimoire/log/plans/Collective-Context-Diet-S322.md`; entity swap/turn easing, then expressions.
+**Next:** Mark rules A1-A3 in `RaBbLE-Grimoire/log/plans/Accounts-Formalization-Scope.md`; then AC1, entity expressions, OS repair O1-O4.
 
 > Update this block each session. Keep it under 75 words. This is the free context every agent gets.
 > Blockers live durably in `RaBbLE-Grimoire/log/BLOCKERS.md` — the `Blockers:` line above only points there.
@@ -41,7 +41,7 @@ No code, no configs, no deep docs live here. **The Grimoire is the knowledge lay
 # Fresh machine
 curl -fsSL https://joinrabble.world/setup.sh | bash
 
-# New agent — full picture in ~5,000 tokens
+# New agent — full picture in ~4,000 tokens
 cat RaBbLE-Grimoire/gist/*.md                       # distilled orientation: all key docs
 
 # Returning agent — pick up where you left off
@@ -49,7 +49,7 @@ head -20 RaBbLE-Grimoire/log/SESSION-LOG.md         # ## LATEST box — current 
 bash RaBbLE-Grimoire/spells/status.sh               # live member health
 
 # Before proposing systemic/architectural changes
-cat RaBbLE-Grimoire/registry/epochs/current.epoch.yml  # exit conditions, blockers, episode coherence
+cat RaBbLE-Grimoire/registry/epochs/current.epoch.yml  # epoch exit evidence + each member's milestone
 
 # Working in a specific member? Read that member's AGENT.md + CONTEXT.md first.
 ```

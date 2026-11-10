@@ -14,7 +14,7 @@ Live state is not kept here. It lives in the `Current State` block of `AGENT.md`
 |---|---|---|
 | 1 | `AGENT.md` (auto-loaded) | 1,300 |
 | 2 | `head -20 RaBbLE-Grimoire/log/SESSION-LOG.md` | 400 |
-| 3 | `cat RaBbLE-Grimoire/gist/*.md` | 5,000 |
+| 3 | `cat RaBbLE-Grimoire/gist/*.md` | 4,000 |
 | 4 | The member's `AGENT.md` + `CONTEXT.md` | 1,500 to 3,500 |
 | 5 | One full doc, found with `grep -i <term> RaBbLE-Grimoire/INDEX.md` | varies |
 
@@ -51,7 +51,7 @@ Authoritative status: `RaBbLE-Grimoire/registry/manifests/`. All members are ind
 | The entity: body, moves, render rules | `log/plans/Unified-Entity/Unified-Entity-Canon.md`, then the spec beside it |
 | Palette (the only colour source) | `RaBbLE-Agent/RaBbLE-Palette.md` |
 | Agent rules, commits, branches | `RaBbLE-Agent/RaBbLE-Agent-Protocols.md` (grep it) · `RaBbLE-CommitStyle.md` |
-| Roadmap | `RaBbLE-Agent/RaBbLE-Roadmap.md` (Episode framing is retiring, S318 D3) |
+| Roadmap and member milestones | `RaBbLE-Agent/RaBbLE-Roadmap.md` · `registry/epochs/current.epoch.yml` |
 | Live plans and handoffs | `log/plans/CONTEXT.md` · `log/handoffs/CONTEXT.md` |
 | Blockers | `log/BLOCKERS.md` (generated; use `spells/blockers.sh`) |
 | Spells | `SPELLS.md` or each script's header; `bash spells/help.sh` |

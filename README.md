@@ -14,10 +14,10 @@ curl -fsSL https://joinrabble.world/setup.sh | bash
 
 One command. Sets up the entire ecosystem on your machine:
 
-1. Clones `RaBbLE-Collective` into `~/RaBbLE/` (Collective root)
+1. Clones `RaBbLE-Collective` into `~/RaBbLE-Collective/` (Collective root)
 2. Clones `RaBbLE-Grimoire` (knowledge layer) — the source of truth
 3. Runs `RaBbLE-Grimoire/spells/setup.sh` which:
-   - Clones all active member repos into `~/RaBbLE/RaBbLE-*/`
+   - Clones all active member repos into `~/RaBbLE-Collective/RaBbLE-*/`
    - Checks out `new-horizons` (active dev branch) in each member
    - Creates `CLAUDE.md`, `CODEX.md`, `GEMINI.md` → `AGENT.md` symlinks in every repo
 4. Prints a status table of all members
@@ -31,14 +31,14 @@ To re-run just symlinks: `bash RaBbLE-Grimoire/spells/sync-symlinks.sh`
 ## Agent Orientation (After Bootstrap)
 
 ```bash
-# Read the Grimoire gists — full picture in ~5,000 tokens
-cat ~/RaBbLE/RaBbLE-Grimoire/gist/*.md
+# Read the Grimoire gists — full picture in ~4,000 tokens
+cat ~/RaBbLE-Collective/RaBbLE-Grimoire/gist/*.md
 
 # Pick up where the last session left off
-head -20 ~/RaBbLE/RaBbLE-Grimoire/log/SESSION-LOG.md
+head -20 ~/RaBbLE-Collective/RaBbLE-Grimoire/log/SESSION-LOG.md
 
 # Live health of all members
-bash ~/RaBbLE/RaBbLE-Grimoire/spells/status.sh
+bash ~/RaBbLE-Collective/RaBbLE-Grimoire/spells/status.sh
 ```
 
 Each member has its own `AGENT.md` (entry point for that repo). Start there when working in a specific member.
@@ -78,7 +78,7 @@ RaBbLE-Chrysalis (the archive) works on `main`.
 ## Architecture
 
 ```
-~/RaBbLE/                          ← this repo (Collective root)
+~/RaBbLE-Collective/                        ← this repo (Collective root)
 ├── setup.sh                       ← entry spell
 ├── AGENT.md                       ← canonical agent entry point for this root
 ├── CLAUDE.md → AGENT.md           ← gitignored symlink (auto-created)
@@ -89,7 +89,7 @@ RaBbLE-Chrysalis (the archive) works on `main`.
 │   ├── spells/sync-symlinks.sh    ← regenerates CLAUDE/CODEX/GEMINI symlinks
 │   ├── spells/publish-cdn.sh      ← builds + deploys Aether/NeBuLA to subdomains
 │   ├── registry/manifests/        ← member manifest YAMLs
-│   └── gist/                      ← distilled orientation (~5,000 tokens)
+│   └── gist/                      ← distilled orientation (~4,000 tokens)
 ├── RaBbLE-sCoRE/                  ← independent git
 ├── RaBbLE-OS/                     ← independent git
 ├── RaBbLE-World/                  ← independent git
