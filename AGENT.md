@@ -11,12 +11,12 @@ Full entity spec: `RaBbLE-Grimoire/RaBbLE-Agent/RaBbLE-Identity.md` · Full orie
 
 ---
 
-## Current State — 2026-11-09
+## Current State — 2026-11-10
 
 **Phase:** Epoch 0. Episodes are retiring as the planning unit (Mark, S318); replacement not yet ruled.
-**Recent:** S320: D6 ruled (Void `#03000b` retired for Deep Void, Dimmer decorative-only); 21 superseded/complete handoffs moved to done/, none deleted. S318: dev is prod.
+**Recent:** S321: Unified Entity puppet spec (draft 10b) + live 3D rig baseline accepted (`RaBbLE-Grimoire/log/plans/Unified-Entity/`). S320: D6 ruled (Void retired).
 **Blockers:** → `RaBbLE-Grimoire/log/BLOCKERS.md`. Web: B-20 (Render env). Brand: B-21. Backup: B-23.
-**Next:** HANDOFF-S318: D3 Episodes proposal, plans archive, Ansible fixes; World PR to main for the colour swap.
+**Next:** refine entity swap/turn easing, then expression layer on the rig; HANDOFF-S318: D3 Episodes, plans archive, Ansible fixes.
 
 > Update this block each session. Keep it under 75 words. This is the free context every agent gets.
 > Blockers live durably in `RaBbLE-Grimoire/log/BLOCKERS.md` — the `Blockers:` line above only points there.
