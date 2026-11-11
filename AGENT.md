@@ -11,12 +11,12 @@ Full entity spec: `RaBbLE-Grimoire/RaBbLE-Agent/RaBbLE-Identity.md` · Full orie
 
 ---
 
-## Current State — 2026-11-10
+## Current State — 2026-11-11
 
-**Phase:** Epoch 0. Episodes are retired (S322): members plan by milestone in `current.epoch.yml`; arc Genesis crossed, toward Exodus.
-**Recent:** S322: Episodes replaced, context diet (log, gists, index), entity rules digest, accounts scoped, depth-over-surface plan. S321: Unified Entity rig baseline.
+**Phase:** Epoch 0. Members plan by milestone and carry semver. Work on `new-horizons`; `main` is stable, reached by `release/X.Y.Z` branches.
+**Recent:** S323: rulings recorded (semver, release flow, Genesis release, Pocket occlusion canonical, accounts sign-in). S322: Episodes retired, context diet.
 **Blockers:** → `RaBbLE-Grimoire/log/BLOCKERS.md`. Web: B-20. Brand: B-21. Backup: B-23.
-**Next:** Mark rules A1-A3 in `RaBbLE-Grimoire/log/plans/Accounts-Formalization-Scope.md`; then AC1, entity expressions, OS repair O1-O4.
+**Next:** Genesis release: every member to `0.1.0` on `main` (`RaBbLE-Grimoire/log/handoffs/HANDOFF-S323-Genesis-Release.md`); phase 2 needs Mark. Then Echo 1, AC1, entity registry.
 
 > Update this block each session. Keep it under 75 words. This is the free context every agent gets.
 > Blockers live durably in `RaBbLE-Grimoire/log/BLOCKERS.md` — the `Blockers:` line above only points there.

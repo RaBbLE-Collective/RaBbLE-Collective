@@ -49,11 +49,12 @@ Each member has its own `AGENT.md` (entry point for that repo). Start there when
 
 | Branch | Purpose |
 |---|---|
-| `main` | Release. Reached by pull request from `new-horizons` only. In RaBbLE-World a push to `main` deploys production. |
-| `new-horizons` | Active dev in every member: all daily work goes here. |
+| `new-horizons` | The working branch in every member: all daily work goes here. |
+| `release/X.Y.Z` | Cut from `new-horizons` to stabilise one release. Fixes only. |
+| `main` | Stable. Receives release branches by pull request and carries the semver tags. In RaBbLE-World a push to `main` deploys production. |
 | `feature/*` | Optional short-lived branches, rebased onto `new-horizons` before merge. |
 
-RaBbLE-Chrysalis (the archive) works on `main`.
+RaBbLE-Chrysalis (the archive) works on `main`. Full release flow: `RaBbLE-Grimoire/RaBbLE-Versioning.md`.
 
 ---
 
