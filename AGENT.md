@@ -14,9 +14,9 @@ Full entity spec: `RaBbLE-Grimoire/RaBbLE-Agent/RaBbLE-Identity.md` · Full orie
 ## Current State — 2026-11-11
 
 **Phase:** Epoch 0. Members plan by milestone and carry semver. Work on `new-horizons`; `main` is stable, reached by `release/X.Y.Z` branches.
-**Recent:** S323: rulings recorded (semver, release flow, Genesis release, Pocket occlusion canonical, accounts sign-in). S322: Episodes retired, context diet.
+**Recent:** S323: semver and release flow ruled; `release/0.1.0` cut in nine members; Aether and NeBuLA `v0.1.0` live on the CDN; Genesis pull requests into `main` open (OS draft).
 **Blockers:** → `RaBbLE-Grimoire/log/BLOCKERS.md`. Web: B-20. Brand: B-21. Backup: B-23.
-**Next:** Genesis release: every member to `0.1.0` on `main` (`RaBbLE-Grimoire/log/handoffs/HANDOFF-S323-Genesis-Release.md`); phase 2 needs Mark. Then Echo 1, AC1, entity registry.
+**Next:** `RaBbLE-Grimoire/log/handoffs/HANDOFF-S323-Genesis-Release.md`, "Next steps": review and docs pass per pull request, merge and tag with Mark's go, OS install paths G1 to G5, then Echo 1.
 
 > Update this block each session. Keep it under 75 words. This is the free context every agent gets.
 > Blockers live durably in `RaBbLE-Grimoire/log/BLOCKERS.md` — the `Blockers:` line above only points there.
