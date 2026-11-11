@@ -14,10 +14,10 @@ curl -fsSL https://joinrabble.world/setup.sh | bash
 
 One command. Sets up the entire ecosystem on your machine:
 
-1. Clones `RaBbLE-Collective` into `~/RaBbLE/` (Collective root)
+1. Clones `RaBbLE-Collective` into `~/RaBbLE-Collective/` (Collective root)
 2. Clones `RaBbLE-Grimoire` (knowledge layer) — the source of truth
 3. Runs `RaBbLE-Grimoire/spells/setup.sh` which:
-   - Clones all active member repos into `~/RaBbLE/RaBbLE-*/`
+   - Clones all active member repos into `~/RaBbLE-Collective/RaBbLE-*/`
    - Checks out `new-horizons` (active dev branch) in each member
    - Creates `CLAUDE.md`, `CODEX.md`, `GEMINI.md` → `AGENT.md` symlinks in every repo
 4. Prints a status table of all members
@@ -31,14 +31,14 @@ To re-run just symlinks: `bash RaBbLE-Grimoire/spells/sync-symlinks.sh`
 ## Agent Orientation (After Bootstrap)
 
 ```bash
-# Read the Grimoire gists — full picture in ~3,600 tokens
-cat ~/RaBbLE/RaBbLE-Grimoire/gist/*.md
+# Read the Grimoire gists — full picture in ~4,000 tokens
+cat ~/RaBbLE-Collective/RaBbLE-Grimoire/gist/*.md
 
 # Pick up where the last session left off
-head -20 ~/RaBbLE/RaBbLE-Grimoire/log/SESSION-LOG.md
+head -20 ~/RaBbLE-Collective/RaBbLE-Grimoire/log/SESSION-LOG.md
 
 # Live health of all members
-bash ~/RaBbLE/RaBbLE-Grimoire/spells/status.sh
+bash ~/RaBbLE-Collective/RaBbLE-Grimoire/spells/status.sh
 ```
 
 Each member has its own `AGENT.md` (entry point for that repo). Start there when working in a specific member.
@@ -49,12 +49,12 @@ Each member has its own `AGENT.md` (entry point for that repo). Start there when
 
 | Branch | Purpose |
 |---|---|
-| `main` | Stable — tagged releases only. Merged at episode completion. |
-| `new-horizons` | Active dev — all daily work goes here. |
-| `feature/*` | Feature branches, rebased onto `new-horizons` before merge. |
-| `RaBbLE/episode-I` | Episode 1 integration branch (OS only). |
+| `new-horizons` | The working branch in every member: all daily work goes here. |
+| `release/X.Y.Z` | Cut from `new-horizons` to stabilise one release. Fixes only. |
+| `main` | Stable. Receives release branches by pull request and carries the semver tags. In RaBbLE-World a push to `main` deploys production. |
+| `feature/*` | Optional short-lived branches, rebased onto `new-horizons` before merge. |
 
-**RaBbLE-OS** uses `RaBbLE-OS-New-Horizons` (same role as `new-horizons` in other members).
+RaBbLE-Chrysalis (the archive) works on `main`. Full release flow: `RaBbLE-Grimoire/RaBbLE-Versioning.md`.
 
 ---
 
@@ -63,12 +63,15 @@ Each member has its own `AGENT.md` (entry point for that repo). Start there when
 | Member | Role | Dev Branch |
 |---|---|---|
 | **RaBbLE-Grimoire** | Source of truth — identity, protocols, spells, all docs | `new-horizons` |
-| **RaBbLE-sCoRE** | Coordination server — intent → action engine (FastAPI) | `new-horizons` |
-| **RaBbLE-OS** | Fedora 43 + Hyprland — the entity's body, daily driver | `RaBbLE-OS-New-Horizons` |
-| **RaBbLE-World** | Web presence + entity chat — `joinrabble.world` | `ep2/liminal-world` |
-| **RaBbLE-NeBuLA** | Visual entity renderer — Flat-Chaos 3D runtime | `new-horizons` |
+| **RaBbLE-sCoRE** | The engine — hosted chat and voice API, `rabble` terminal face, orchestration | `new-horizons` |
+| **RaBbLE-OS** | Fedora 44 + Hyprland — the entity's body, daily driver | `new-horizons` |
+| **RaBbLE-World** | Web presence + entity chat — `joinrabble.world` | `new-horizons` |
+| **RaBbLE-NeBuLA** | Entity renderer — `<rabble-entity>`, 2D and 3D | `new-horizons` |
 | **RaBbLE-Aether** | Design system — palette, assets, visual tokens | `new-horizons` |
+| **RaBbLE-Pocket** | ESP32-S3 pendant firmware — voice beamed to sCoRE | `new-horizons` |
+| **RaBbLE-ScRiBbLE** | Neon note PWA — `scribble.joinrabble.world` | `new-horizons` |
 | **RaBbLE-BaBbLE** | High-entropy intake workspace | `new-horizons` |
+| **RaBbLE-Xperimental** | Sandbox for rablets and experiments | `new-horizons` |
 | **RaBbLE-Chrysalis** | Genesis archive + reliquary | `main` |
 
 ---
@@ -76,7 +79,7 @@ Each member has its own `AGENT.md` (entry point for that repo). Start there when
 ## Architecture
 
 ```
-~/RaBbLE/                          ← this repo (Collective root)
+~/RaBbLE-Collective/                        ← this repo (Collective root)
 ├── setup.sh                       ← entry spell
 ├── AGENT.md                       ← canonical agent entry point for this root
 ├── CLAUDE.md → AGENT.md           ← gitignored symlink (auto-created)
@@ -87,7 +90,7 @@ Each member has its own `AGENT.md` (entry point for that repo). Start there when
 │   ├── spells/sync-symlinks.sh    ← regenerates CLAUDE/CODEX/GEMINI symlinks
 │   ├── spells/publish-cdn.sh      ← builds + deploys Aether/NeBuLA to subdomains
 │   ├── registry/manifests/        ← member manifest YAMLs
-│   └── gist/                      ← distilled orientation (~3,600 tokens)
+│   └── gist/                      ← distilled orientation (~4,000 tokens)
 ├── RaBbLE-sCoRE/                  ← independent git
 ├── RaBbLE-OS/                     ← independent git
 ├── RaBbLE-World/                  ← independent git
@@ -98,21 +101,16 @@ Member repos are fully modular — independent git trees, never submodules. The 
 
 ---
 
-## CDN Delivery (Episode 1)
+## CDN Delivery
 
-Aether and NeBuLA are served as versioned static assets from Cloudflare Pages subdomains — no R2 required:
+Aether and NeBuLA are served as versioned static bundles from their own subdomains (Cloudflare Workers):
 
-| Asset | URL |
-|---|---|
-| Aether CSS | `https://aether.joinrabble.world/v0.0.0.1/aether.css` |
-| NeBuLA IIFE | `https://nebula.joinrabble.world/v0.0.0.1/nebula.iife.js` |
+| Asset | URL pattern | Live now |
+|---|---|---|
+| Aether CSS | `https://aether.joinrabble.world/<version>/aether.min.css` | `v0.0.0.1-rc.2` |
+| NeBuLA IIFE | `https://nebula.joinrabble.world/<version>/nebula.iife.js` | `v0.0.0.1-rc.1` |
 
-To publish a release:
-```bash
-bash RaBbLE-Grimoire/spells/publish-cdn.sh v0.0.0.1
-```
-
-One-time Cloudflare setup: create Pages projects `rabble-aether` and `rabble-nebula`, add custom domains. See `RaBbLE-Grimoire/RaBbLE-Aether/RaBbLE-Aether-Build-CDN.md`.
+Publishing: `bash RaBbLE-Grimoire/spells/publish-rc.sh` (release candidates) and `publish-cdn.sh` (releases); each script's header is the reference. Background: `RaBbLE-Grimoire/RaBbLE-Aether/RaBbLE-Aether-Build-CDN.md`.
 
 ---
 
