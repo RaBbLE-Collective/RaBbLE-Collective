@@ -14,9 +14,9 @@ Full entity spec: `RaBbLE-Grimoire/RaBbLE-Agent/RaBbLE-Identity.md` · Full orie
 ## Current State — 2026-11-11
 
 **Phase:** Epoch 0. Members carry semver; work on `new-horizons`; releases squash onto `main`.
-**Recent:** S324: Aether, NeBuLA `0.1.0` released; sCoRE `0.1.0` live. S325: Pocket 1.75C board + gated web companion (`companion-app/web`), tested locally, not deployed.
+**Recent:** S324: Aether, NeBuLA `0.1.0` released; sCoRE `0.1.0` live. S325: Pocket `0.1.0` gains the 1.75C board + gated web companion; Mark's 1.75-B flashed from it; not deployed.
 **Blockers:** → `RaBbLE-Grimoire/log/BLOCKERS.md`. Web: B-20. Brand: B-21. Backup: B-23.
-**Next:** Genesis queue (`HANDOFF-S323-Genesis-Release.md`); Pocket: Mark test-flashes, deploys `pocket.joinrabble.world`, Dad flashes (`Pocket-Web-Flasher-Plan.md` §0).
+**Next:** Genesis queue (`HANDOFF-S323-Genesis-Release.md`, Pocket `release/0.1.0` unpushed); deploy `pocket.joinrabble.world`; Dad flashes (`Pocket-Web-Flasher-Plan.md` §0).
 
 > Update this block each session. Keep it under 75 words. This is the free context every agent gets.
 > Blockers live durably in `RaBbLE-Grimoire/log/BLOCKERS.md` — the `Blockers:` line above only points there.
