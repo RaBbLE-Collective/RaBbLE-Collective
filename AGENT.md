@@ -13,10 +13,10 @@ Full entity spec: `RaBbLE-Grimoire/RaBbLE-Agent/RaBbLE-Identity.md` · Full orie
 
 ## Current State — 2026-11-11
 
-**Phase:** Epoch 0. Members carry semver; work on `new-horizons`; releases squash onto `main`.
-**Recent:** S324: Aether, NeBuLA `0.1.0` released; sCoRE `0.1.0` live. S325: Pocket `0.1.0` gains the 1.75C board + gated web companion; Mark's 1.75-B flashed from it; not deployed.
-**Blockers:** → `RaBbLE-Grimoire/log/BLOCKERS.md`. Web: B-20. Brand: B-21. Backup: B-23.
-**Next:** Genesis queue (`HANDOFF-S323-Genesis-Release.md`, Pocket `release/0.1.0` unpushed); deploy `pocket.joinrabble.world`; Dad flashes (`Pocket-Web-Flasher-Plan.md` §0).
+**Phase:** Epoch 0. Versions move at gates only (Genesis = Echo 1 = `0.1.0`); work on `new-horizons`, releases squash onto `main`.
+**Recent:** S326: six READMEs rewritten in the Genesis voice (committed on `new-horizons`, not pushed); versioning rulings in `RaBbLE-Versioning.md`. Aether and NeBuLA released.
+**Blockers:** → `RaBbLE-Grimoire/log/BLOCKERS.md`.
+**Next:** SESSION-LOG `## LATEST`: merge READMEs into release branches, World PR #3 squash (Mark's go), then the rest.
 
 > Update this block each session. Keep it under 75 words. This is the free context every agent gets.
 > Blockers live durably in `RaBbLE-Grimoire/log/BLOCKERS.md` — the `Blockers:` line above only points there.
