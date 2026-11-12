@@ -14,9 +14,9 @@ Full entity spec: `RaBbLE-Grimoire/RaBbLE-Agent/RaBbLE-Identity.md` · Full orie
 ## Current State — 2026-11-12
 
 **Phase:** Epoch 0. Versions move at gates only (Genesis = Echo 1 = `0.1.0`); work on `new-horizons`, releases squash onto `main`.
-**Recent:** S328: Hyprland fixed + pinned as a set (0.57.2), niri trial layer, SDDM session picker; lock screen → Quickshell. S327: sCoRE storage gate plan.
+**Recent:** S329: niri made usable (autostart `$HOME` paths, cursor, maximize vs fullscreen, default RaBbLE/personal/work/scratch workspaces); desktop-settings journal planned as first bLE slice. S328: Hyprland pinned, niri trial.
 **Blockers:** → `RaBbLE-Grimoire/log/BLOCKERS.md`.
-**Next:** SESSION-LOG `## LATEST`: Mark applies S328 on an unfiltered network, then verify; World PR #3 squash (Mark's go).
+**Next:** SESSION-LOG `## LATEST`: Mark logs in fresh to verify niri autostart; rule plan Q1; build journal + reminder.
 
 > Update this block each session. Keep it under 75 words. This is the free context every agent gets.
 > Blockers live durably in `RaBbLE-Grimoire/log/BLOCKERS.md` — the `Blockers:` line above only points there.
