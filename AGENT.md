@@ -11,12 +11,12 @@ Full entity spec: `RaBbLE-Grimoire/RaBbLE-Agent/RaBbLE-Identity.md` · Full orie
 
 ---
 
-## Current State — 2026-11-11
+## Current State — 2026-11-12
 
 **Phase:** Epoch 0. Versions move at gates only (Genesis = Echo 1 = `0.1.0`); work on `new-horizons`, releases squash onto `main`.
-**Recent:** S327: `log/plans/sCoRE-Storage-Gate-Plan.md` (sCoRE proxies all R2, refuses before billable). S326: Genesis READMEs on `new-horizons`, unpushed. Aether and NeBuLA released.
+**Recent:** S328: Hyprland fixed + pinned as a set (0.57.2), niri trial layer, SDDM session picker; lock screen → Quickshell. S327: sCoRE storage gate plan.
 **Blockers:** → `RaBbLE-Grimoire/log/BLOCKERS.md`.
-**Next:** SESSION-LOG `## LATEST`: merge READMEs into release branches, World PR #3 squash (Mark's go), then the rest.
+**Next:** SESSION-LOG `## LATEST`: Mark applies S328 on an unfiltered network, then verify; World PR #3 squash (Mark's go).
 
 > Update this block each session. Keep it under 75 words. This is the free context every agent gets.
 > Blockers live durably in `RaBbLE-Grimoire/log/BLOCKERS.md` — the `Blockers:` line above only points there.
