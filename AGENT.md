@@ -14,7 +14,7 @@ Full entity spec: `RaBbLE-Grimoire/RaBbLE-Agent/RaBbLE-Identity.md` · Full orie
 ## Current State — 2026-11-13
 
 **Phase:** Epoch 0. Versions move at gates only (Genesis = Echo 1 = `0.1.0`); work on `new-horizons`, releases squash onto `main`.
-**Recent:** S333: R2 enabled, account/encryption rulings, sCoRE guest isolation, security headers on six sites (unpushed). S332: dGPU suspended under niri, idle bench.
+**Recent:** S335: portal FileChooser to gtk, niri popups float, VSCodium rpmnew handed back. S333: R2, accounts rulings, guest isolation, headers (unpushed).
 **Blockers:** → `RaBbLE-Grimoire/log/BLOCKERS.md`.
 **Next:** `RaBbLE-Grimoire/log/handoffs/HANDOFF-S333-Accounts-R2-Flasher.md`: cutover, flasher 0.1.0 deploy, push, WAF, Neon store.
 
