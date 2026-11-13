@@ -14,9 +14,9 @@ Full entity spec: `RaBbLE-Grimoire/RaBbLE-Agent/RaBbLE-Identity.md` · Full orie
 ## Current State — 2026-11-13
 
 **Phase:** Epoch 0. Versions move at gates only (Genesis = Echo 1 = `0.1.0`); work on `new-horizons`, releases squash onto `main`.
-**Recent:** S332: dGPU confirmed suspended under niri; waybar GPU glyphs coloured by power state; `bench/idle.py`, `dgpu-watch.sh`, niri vs Hyprland A/B procedure. S331: dGPU ignore, idle guard.
+**Recent:** S333: R2 enabled, account/encryption rulings, sCoRE guest isolation, security headers on six sites (unpushed). S332: dGPU suspended under niri, idle bench.
 **Blockers:** → `RaBbLE-Grimoire/log/BLOCKERS.md`.
-**Next:** SESSION-LOG `## LATEST`: run the niri vs Hyprland idle A/B (`bench/README.md`); trim waybar animations; catch the dGPU waker with `bench/dgpu-watch.sh`.
+**Next:** `RaBbLE-Grimoire/log/handoffs/HANDOFF-S333-Accounts-R2-Flasher.md`: cutover, flasher 0.1.0 deploy, push, WAF, Neon store.
 
 > Update this block each session. Keep it under 75 words. This is the free context every agent gets.
 > Blockers live durably in `RaBbLE-Grimoire/log/BLOCKERS.md` — the `Blockers:` line above only points there.
