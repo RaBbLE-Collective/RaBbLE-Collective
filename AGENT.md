@@ -11,12 +11,12 @@ Full entity spec: `RaBbLE-Grimoire/RaBbLE-Agent/RaBbLE-Identity.md` · Full orie
 
 ---
 
-## Current State — 2026-11-12
+## Current State — 2026-11-13
 
 **Phase:** Epoch 0. Versions move at gates only (Genesis = Echo 1 = `0.1.0`); work on `new-horizons`, releases squash onto `main`.
-**Recent:** S329: niri made usable (autostart `$HOME` paths, cursor, maximize vs fullscreen, default RaBbLE/personal/work/scratch workspaces); desktop-settings journal planned as first bLE slice. S328: Hyprland pinned, niri trial.
+**Recent:** S330: niri was rendering on the NVIDIA dGPU (13 W, dropped frames); `rabble-gpu` now picks the panel GPU for every WM; shared `rabble-shell` lock/idle/dpms; `bench/` measures frame pacing. S329: niri usable.
 **Blockers:** → `RaBbLE-Grimoire/log/BLOCKERS.md`.
-**Next:** SESSION-LOG `## LATEST`: Mark logs in fresh to verify niri autostart; rule plan Q1; build journal + reminder.
+**Next:** SESSION-LOG `## LATEST`: Mark re-logs in, runs `bench/bench.py after-amd-render 12`; `layerctl apply niri`.
 
 > Update this block each session. Keep it under 75 words. This is the free context every agent gets.
 > Blockers live durably in `RaBbLE-Grimoire/log/BLOCKERS.md` — the `Blockers:` line above only points there.
