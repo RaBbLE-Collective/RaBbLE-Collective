@@ -14,9 +14,9 @@ Full entity spec: `RaBbLE-Grimoire/RaBbLE-Agent/RaBbLE-Identity.md` · Full orie
 ## Current State — 2026-11-13
 
 **Phase:** Epoch 0. Versions move at gates only (Genesis = Echo 1 = `0.1.0`); work on `new-horizons`, releases squash onto `main`.
-**Recent:** S330: niri was rendering on the NVIDIA dGPU (13 W, dropped frames); `rabble-gpu` now picks the panel GPU for every WM; shared `rabble-shell` lock/idle/dpms; `bench/` measures frame pacing. S329: niri usable.
+**Recent:** S331: niri ignores the idle dGPU (`rabble-gpu`), idle suspend only from the active session, Cascadia Nerd glyph fallback, waybar GPU icons. S330: AMD render pin, `bench/`.
 **Blockers:** → `RaBbLE-Grimoire/log/BLOCKERS.md`.
-**Next:** SESSION-LOG `## LATEST`: Mark re-logs in, runs `bench/bench.py after-amd-render 12`; `layerctl apply niri`.
+**Next:** SESSION-LOG `## LATEST`: Mark re-logs in; dGPU `runtime_status` → `suspended`? then `bench/bench.py after-amd-render 12`.
 
 > Update this block each session. Keep it under 75 words. This is the free context every agent gets.
 > Blockers live durably in `RaBbLE-Grimoire/log/BLOCKERS.md` — the `Blockers:` line above only points there.
