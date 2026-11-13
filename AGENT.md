@@ -16,7 +16,7 @@ Full entity spec: `RaBbLE-Grimoire/RaBbLE-Agent/RaBbLE-Identity.md` · Full orie
 **Phase:** Epoch 0. Versions move at gates only (Genesis = Echo 1 = `0.1.0`); work on `new-horizons`, releases squash onto `main`.
 **Recent:** S334: Pocket flasher live (one shared code), dev cutover, WAF, headers live everywhere, `rabble-eyes` desktop capture. S335: portal FileChooser to gtk, niri popups float.
 **Blockers:** → `RaBbLE-Grimoire/log/BLOCKERS.md`.
-**Next:** HANDOFF-S333 step 5 on: Neon store (needs Mark's project), share tokens, Pocket public prep; Mark flashes 1.75-B; `rabble-eyes --fresh` live test.
+**Next:** Mark creates Neon; scope accounts + data uploads through sCoRE (HANDOFF-S333 step 5 on). Eyes test gaps: `RaBbLE-OS-Eyes.md`.
 
 > Update this block each session. Keep it under 75 words. This is the free context every agent gets.
 > Blockers live durably in `RaBbLE-Grimoire/log/BLOCKERS.md` — the `Blockers:` line above only points there.
