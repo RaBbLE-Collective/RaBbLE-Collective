@@ -14,7 +14,7 @@ Full entity spec: `RaBbLE-Grimoire/RaBbLE-Agent/RaBbLE-Identity.md` · Full orie
 ## Current State — 2026-11-13
 
 **Phase:** Epoch 0. Versions move at gates only (Genesis = Echo 1 = `0.1.0`); work on `new-horizons`, releases squash onto `main`.
-**Recent:** S334: Pocket flasher live (one shared code), dev cutover, WAF, headers live everywhere, `rabble-eyes` desktop capture. S335: portal FileChooser to gtk, niri popups float.
+**Recent:** S334: Pocket flasher live (one shared code), dev cutover, WAF, headers live everywhere, `rabble-eyes` desktop capture. S335: portal FileChooser to gtk, niri popups float. S336: layerctl reworked (layers.conf, tag targets, run anywhere).
 **Blockers:** → `RaBbLE-Grimoire/log/BLOCKERS.md`.
 **Next:** Mark creates Neon; scope accounts + data uploads through sCoRE (HANDOFF-S333 step 5 on). Eyes test gaps: `RaBbLE-OS-Eyes.md`.
 
