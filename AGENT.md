@@ -14,9 +14,9 @@ Full entity spec: `RaBbLE-Grimoire/RaBbLE-Agent/RaBbLE-Identity.md` · Full orie
 ## Current State — 2026-11-15
 
 **Phase:** Epoch 0. Versions move at gates only (Genesis = Echo 1 = `0.1.0`); work on `new-horizons`, releases squash onto `main`.
-**Recent:** S339: sCoRE `0.1.1-dev` live on Render with R2 persistence; Pocket firmware `0.1.1-dev` + new flasher page deployed (email not connected).
+**Recent:** S341: dad's Pocket flashed and talking; guest-limit fix (undeployed), auto guest key on flash (live), tap-wake toggle, About page.
 **Blockers:** → `RaBbLE-Grimoire/log/BLOCKERS.md`.
-**Next:** Mark's board flash test, email routing, clear `R2_ALLOW_FRESH_START` (B-31), then About page in Settings (`log/handoffs/HANDOFF-S339-Pocket-Settings-About-Page.md`).
+**Next:** `log/handoffs/HANDOFF-S341-Pocket-Guest-TapWake-About.md`: deploy sCoRE guest fix, clear B-31, rule on beam transcripts (B-33).
 
 > Update this block each session. Keep it under 75 words. This is the free context every agent gets.
 > Blockers live durably in `RaBbLE-Grimoire/log/BLOCKERS.md` — the `Blockers:` line above only points there.
