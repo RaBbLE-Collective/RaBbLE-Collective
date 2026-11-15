@@ -14,9 +14,9 @@ Full entity spec: `RaBbLE-Grimoire/RaBbLE-Agent/RaBbLE-Identity.md` · Full orie
 ## Current State — 2026-11-15
 
 **Phase:** Epoch 0. Versions move at gates only (Genesis = Echo 1 = `0.1.0`); work on `new-horizons`, releases squash onto `main`.
-**Recent:** S337: Claude history kept. S339: Pocket v0.1.1 work (guest tokens, Translate, flash page) and sCoRE R2/SQLite persistence committed on `new-horizons`; parked, nothing deployed.
+**Recent:** S339: Pocket v0.1.1 + sCoRE persistence committed, parked. S340: RaBbLE TUI parity batch (open, thinking, todos, queue, !shell, notify, crew) committed.
 **Blockers:** → `RaBbLE-Grimoire/log/BLOCKERS.md`.
-**Next:** sCoRE snapshot data-loss fix + NiBbLE re-review (`log/handoffs/HANDOFF-S339-*`), then R2 token, Worker deploy, v0.1.1. Fix `score-pricing.json`.
+**Next:** TUI parity (`log/handoffs/HANDOFF-S340-*`); sCoRE snapshot data-loss fix + NiBbLE re-review (`HANDOFF-S339-*`), R2 token, Worker deploy.
 
 > Update this block each session. Keep it under 75 words. This is the free context every agent gets.
 > Blockers live durably in `RaBbLE-Grimoire/log/BLOCKERS.md` — the `Blockers:` line above only points there.
