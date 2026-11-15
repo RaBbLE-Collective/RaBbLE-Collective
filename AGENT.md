@@ -11,12 +11,12 @@ Full entity spec: `RaBbLE-Grimoire/RaBbLE-Agent/RaBbLE-Identity.md` · Full orie
 
 ---
 
-## Current State — 2026-11-13
+## Current State — 2026-11-15
 
 **Phase:** Epoch 0. Versions move at gates only (Genesis = Echo 1 = `0.1.0`); work on `new-horizons`, releases squash onto `main`.
-**Recent:** S334: Pocket flasher live, dev cutover, WAF, `rabble-eyes`. S335: portal FileChooser to gtk. S336: layerctl reworked. S337: Claude history kept past cleanup (`harvest-claude.sh` daily timer, digest, per-project `insights/`).
+**Recent:** S337: Claude history kept. S339: Pocket v0.1.1 work (guest tokens, Translate, flash page) and sCoRE R2/SQLite persistence committed on `new-horizons`; parked, nothing deployed.
 **Blockers:** → `RaBbLE-Grimoire/log/BLOCKERS.md`.
-**Next:** Mark creates Neon; scope accounts + uploads through sCoRE (HANDOFF-S333 step 5 on). Fix `score-pricing.json` for 5.x models.
+**Next:** sCoRE snapshot data-loss fix + NiBbLE re-review (`log/handoffs/HANDOFF-S339-*`), then R2 token, Worker deploy, v0.1.1. Fix `score-pricing.json`.
 
 > Update this block each session. Keep it under 75 words. This is the free context every agent gets.
 > Blockers live durably in `RaBbLE-Grimoire/log/BLOCKERS.md` — the `Blockers:` line above only points there.
