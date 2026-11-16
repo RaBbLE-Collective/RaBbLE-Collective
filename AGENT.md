@@ -14,9 +14,9 @@ Full entity spec: `RaBbLE-Grimoire/RaBbLE-Agent/RaBbLE-Identity.md` · Full orie
 ## Current State — 2026-11-16
 
 **Phase:** Epoch 0. Versions move at gates only (Genesis = Echo 1 = `0.1.0`); work on `new-horizons`, releases squash onto `main`.
-**Recent:** S343: Neon (Ohio) live, sCoRE AC1 Postgres store built and reviewed (`a670e6d`, not deployed); Pocket guests copied to Neon; Resend, AC2 sign-in, device pairing scoped.
+**Recent:** S345: Neon cleaned (2 real guests); sCoRE AC2 sign-in (email + username + Argon2id) built, uncommitted; NiBbLE review found 6 mediums, fixes pending; Resend, Google, pairing deferred.
 **Blockers:** → `RaBbLE-Grimoire/log/BLOCKERS.md`.
-**Next:** `RaBbLE-Grimoire/log/handoffs/HANDOFF-S343-Neon-AC1-Accounts-Next.md`: clean Neon test rows, deploy AC1, Resend, AC2. `/mcp` UI scope: `RaBbLE-Grimoire/log/plans/RaBbLE-TUI-MCP-Scope.md`.
+**Next:** `RaBbLE-Grimoire/log/handoffs/HANDOFF-S345-AC2-Built-Fixes-Pending.md`: apply fixes, re-review, commit AC2, deploy, Resend. `/mcp` UI scope: `RaBbLE-Grimoire/log/plans/RaBbLE-TUI-MCP-Scope.md`.
 
 > Update this block each session. Keep it under 75 words. This is the free context every agent gets.
 > Blockers live durably in `RaBbLE-Grimoire/log/BLOCKERS.md` — the `Blockers:` line above only points there.
