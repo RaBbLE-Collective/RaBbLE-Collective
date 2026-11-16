@@ -11,12 +11,12 @@ Full entity spec: `RaBbLE-Grimoire/RaBbLE-Agent/RaBbLE-Identity.md` · Full orie
 
 ---
 
-## Current State — 2026-11-15
+## Current State — 2026-11-16
 
 **Phase:** Epoch 0. Versions move at gates only (Genesis = Echo 1 = `0.1.0`); work on `new-horizons`, releases squash onto `main`.
-**Recent:** S341: dad's Pocket flashed and talking; guest-limit fix (undeployed), auto guest key on flash (live), tap-wake toggle, About page.
+**Recent:** S343: Neon (Ohio) live, sCoRE AC1 Postgres store built and reviewed (`a670e6d`, not deployed); Pocket guests copied to Neon; Resend, AC2 sign-in, device pairing scoped.
 **Blockers:** → `RaBbLE-Grimoire/log/BLOCKERS.md`.
-**Next:** `log/handoffs/HANDOFF-S341-Pocket-Guest-TapWake-About.md`: deploy sCoRE guest fix, clear B-31, rule on beam transcripts (B-33).
+**Next:** `RaBbLE-Grimoire/log/handoffs/HANDOFF-S343-Neon-AC1-Accounts-Next.md`: clean Neon test rows, deploy AC1, Resend, AC2. `/mcp` UI scope: `RaBbLE-Grimoire/log/plans/RaBbLE-TUI-MCP-Scope.md`.
 
 > Update this block each session. Keep it under 75 words. This is the free context every agent gets.
 > Blockers live durably in `RaBbLE-Grimoire/log/BLOCKERS.md` — the `Blockers:` line above only points there.
