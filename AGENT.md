@@ -14,9 +14,9 @@ Full entity spec: `RaBbLE-Grimoire/RaBbLE-Agent/RaBbLE-Identity.md` · Full orie
 ## Current State — 2026-11-17
 
 **Phase:** Epoch 0. Versions move at gates only (Genesis = Echo 1 = `0.1.0`); work on `new-horizons` (`0.1.1-dev+sha`), releases squash onto `main`.
-**Recent:** S346: sCoRE accounts live (sign-in, invites, Architect, entity accounts, device keys); one portal on dev.joinrabble.world; plain READMEs; Genesis PRs open.
+**Recent:** S348: claude.ai export integrated (RaBbLE history, 16 decisions, Personal Grimoire first build-out). S346: sCoRE accounts live; Genesis PRs open.
 **Blockers:** → `RaBbLE-Grimoire/log/BLOCKERS.md`.
-**Next:** `RaBbLE-Grimoire/log/handoffs/HANDOFF-S346-Accounts-Live.md`: Resend setup, flasher tab, Genesis merge prep.
+**Next:** `RaBbLE-Grimoire/log/handoffs/HANDOFF-S346-Accounts-Live.md` (Resend, flasher tab, Genesis merge prep); `HANDOFF-S348-Chat-Export-Integration.md` for review flags.
 
 > Update this block each session. Keep it under 75 words. This is the free context every agent gets.
 > Blockers live durably in `RaBbLE-Grimoire/log/BLOCKERS.md` — the `Blockers:` line above only points there.
