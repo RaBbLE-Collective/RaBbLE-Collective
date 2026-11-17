@@ -11,12 +11,12 @@ Full entity spec: `RaBbLE-Grimoire/RaBbLE-Agent/RaBbLE-Identity.md` · Full orie
 
 ---
 
-## Current State — 2026-11-16
+## Current State — 2026-11-17
 
-**Phase:** Epoch 0. Versions move at gates only (Genesis = Echo 1 = `0.1.0`); work on `new-horizons`, releases squash onto `main`.
-**Recent:** S345: Neon cleaned (2 real guests); sCoRE AC2 sign-in (email + username + Argon2id) built, uncommitted; NiBbLE review found 6 mediums, fixes pending; Resend, Google, pairing deferred.
+**Phase:** Epoch 0. Versions move at gates only (Genesis = Echo 1 = `0.1.0`); work on `new-horizons` (`0.1.1-dev+sha`), releases squash onto `main`.
+**Recent:** S346: sCoRE accounts live on Render (sign-in, invites, Architect and entity accounts); plain READMEs on all release branches; Genesis PRs open.
 **Blockers:** → `RaBbLE-Grimoire/log/BLOCKERS.md`.
-**Next:** `RaBbLE-Grimoire/log/handoffs/HANDOFF-S345-AC2-Built-Fixes-Pending.md`: apply fixes, re-review, commit AC2, deploy, Resend. `/mcp` UI scope: `RaBbLE-Grimoire/log/plans/RaBbLE-TUI-MCP-Scope.md`.
+**Next:** `RaBbLE-Grimoire/log/handoffs/HANDOFF-S346-Accounts-Live.md`: create the Architect, ResendMailer, user portal, Pocket pairing, Genesis merge prep.
 
 > Update this block each session. Keep it under 75 words. This is the free context every agent gets.
 > Blockers live durably in `RaBbLE-Grimoire/log/BLOCKERS.md` — the `Blockers:` line above only points there.
