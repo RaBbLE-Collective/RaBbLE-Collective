@@ -16,7 +16,7 @@
 
 set -euo pipefail
 
-RABBLE_ROOT="${RABBLE_ROOT:-$HOME/RaBbLE}"
+RABBLE_ROOT="${RABBLE_ROOT:-$HOME/RaBbLE-Collective}"
 COLLECTIVE_REPO="https://github.com/RaBbLE-Collective/RaBbLE-Collective.git"
 GRIMOIRE_REPO="https://github.com/RaBbLE-Collective/RaBbLE-Grimoire.git"
 COLLECTIVE_BRANCH="${COLLECTIVE_BRANCH:-new-horizons}"

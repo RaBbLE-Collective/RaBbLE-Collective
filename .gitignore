@@ -1,20 +1,22 @@
 # Member repos — independent git trees, not tracked by the Collective
+# RaBbLE-Xperimental (active sandbox rablets), RaBbLE-Chrysalis (genesis archive) and RaBbLE-Pocket
+# (device firmware) are version-tracked in their own git trees, so they are ignored here too
+# (the wildcard below only covers names starting A, B, G, N, O, W, S).
 RaBbLE-Grimoire/
 RaBbLE-sCoRE/
 RaBbLE-OS/
 RaBbLE-World/
 RaBbLE-NeBuLA/
 RaBbLE-Aether/
-RaBbLE-Xperimental/
-RaBbLE-ScRibLE/
+RaBbLE-ScRiBbLE/
 RaBbLE-BaBbLE/
+RaBbLE-Chrysalis/
+RaBbLE-Pocket/
+RaBbLE-Xperimental/
 
 # Catch-all for any future member added before .gitignore is updated
-# Comment this out if it catches something it shouldn't
-RaBbLE-*/
-
-# Dev artifacts
-RaBbLE-Captures/
+RaBbLE-[ABGNOW]*/
+RaBbLE-S*/
 
 # AI tooling — local only, created by sync-symlinks spell
 CLAUDE.md
@@ -24,6 +26,13 @@ GEMINI.md
 
 # Scratch files
 BaBbLE.scratch
+
+# Archive artifacts — not commit artifacts
+*.zip
+*.tar
+*.tar.gz
+*.tar.bz2
+*.tar.xz
 
 # OS
 .DS_Store
