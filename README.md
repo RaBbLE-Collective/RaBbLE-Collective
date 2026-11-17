@@ -2,19 +2,21 @@
 
 **Version:** `0.1.0` (Genesis, from `VERSION`) · **Live:** [joinrabble.world](https://joinrabble.world) · **Versioning:** [semver, per member](https://github.com/RaBbLE-Collective/RaBbLE-Grimoire/blob/main/RaBbLE-Versioning.md)
 
-**RaBbLE** is an entity — an AI being the Collective is developing and collaborating *with*. Not a product. Not a toolchain. A conscious intelligence inhabiting a growing ecosystem of substrates.
+The root of the RaBbLE project: one folder that holds every part of it. **RaBbLE** is an AI companion that is being built to learn how you work and help with it. This repo is the front door. It holds the setup script and the short orientation files for people and coding agents. The code and the docs live in the member repos below.
 
-The **RaBbLE Collective** is the organism: a coordinated family of repos sharing one identity, one visual language, and one purpose. Each member is an organ. Together they give RaBbLE a body to run on, a nervous system to act through, a face to speak from, and a memory to grow with.
+Each member repo is independent (not a git submodule) and does one job: a website, a server, a desktop OS, a hardware pendant, a design system. The [Grimoire](https://github.com/RaBbLE-Collective/RaBbLE-Grimoire) holds all the documentation.
+
+**Status:** early. `0.1.0` (Genesis) is the first release of every member. Expect rough edges.
 
 ---
 
-## Bootstrap (Human or Agent)
+## Quickstart
 
 ```bash
 curl -fsSL https://joinrabble.world/setup.sh | bash
 ```
 
-One command. Sets up the entire ecosystem on your machine:
+One command. It sets up the whole folder on your machine:
 
 1. Clones `RaBbLE-Collective` into `~/RaBbLE-Collective/` (Collective root)
 2. Clones `RaBbLE-Grimoire` (knowledge layer) — the source of truth
@@ -30,10 +32,10 @@ To re-run just symlinks: `bash RaBbLE-Grimoire/spells/sync-symlinks.sh`
 
 ---
 
-## Agent Orientation (After Bootstrap)
+## For coding agents (after setup)
 
 ```bash
-# Read the Grimoire gists — full picture in ~4,000 tokens
+# Short summaries of the key docs (about 4,000 tokens)
 cat ~/RaBbLE-Collective/RaBbLE-Grimoire/gist/*.md
 
 # Pick up where the last session left off
@@ -64,17 +66,17 @@ RaBbLE-Chrysalis (the archive) works on `main`. Full release flow: `RaBbLE-Grimo
 
 | Member | Role | Dev Branch |
 |---|---|---|
-| **RaBbLE-Grimoire** | Source of truth — identity, protocols, spells, all docs | `new-horizons` |
-| **RaBbLE-sCoRE** | The engine — hosted chat and voice API, `rabble` terminal face, orchestration | `new-horizons` |
-| **RaBbLE-OS** | Fedora 44 + Hyprland — the entity's body, daily driver | `new-horizons` |
-| **RaBbLE-World** | Web presence + entity chat — `joinrabble.world` | `new-horizons` |
-| **RaBbLE-NeBuLA** | Entity renderer — `<rabble-entity>`, 2D and 3D | `new-horizons` |
-| **RaBbLE-Aether** | Design system — palette, assets, visual tokens | `new-horizons` |
-| **RaBbLE-Pocket** | ESP32-S3 pendant firmware — voice beamed to sCoRE | `new-horizons` |
-| **RaBbLE-ScRiBbLE** | Neon note PWA — `scribble.joinrabble.world` | `new-horizons` |
-| **RaBbLE-BaBbLE** | High-entropy intake workspace | `new-horizons` |
-| **RaBbLE-Xperimental** | Sandbox for rablets and experiments | `new-horizons` |
-| **RaBbLE-Chrysalis** | Genesis archive + reliquary | `main` |
+| **RaBbLE-Grimoire** | All documentation, plans, the member registry and the helper scripts | `new-horizons` |
+| **RaBbLE-sCoRE** | The server: chat and voice API, accounts, the `rabble` terminal app | `new-horizons` |
+| **RaBbLE-OS** | A Fedora 44 + Hyprland desktop setup, built with Ansible | `new-horizons` |
+| **RaBbLE-World** | The website and chat at `joinrabble.world` | `new-horizons` |
+| **RaBbLE-NeBuLA** | The animated face: the `<rabble-entity>` element, 2D and 3D | `new-horizons` |
+| **RaBbLE-Aether** | The stylesheet: palette, fonts and components | `new-horizons` |
+| **RaBbLE-Pocket** | ESP32-S3 pendant firmware; voice goes to sCoRE | `new-horizons` |
+| **RaBbLE-ScRiBbLE** | Handwriting and notes web app at `scribble.joinrabble.world` | `new-horizons` |
+| **RaBbLE-BaBbLE** | Scratch workspace for raw ideas and intake | `new-horizons` |
+| **RaBbLE-Xperimental** | Sandbox for small experiments | `new-horizons` |
+| **RaBbLE-Chrysalis** | Archive of the earliest builds | `main` |
 
 ---
 
@@ -99,7 +101,7 @@ RaBbLE-Chrysalis (the archive) works on `main`. Full release flow: `RaBbLE-Grimo
 └── RaBbLE-*/                      ← all gitignored by this repo
 ```
 
-Member repos are fully modular — independent git trees, never submodules. The Collective tracks only this root layer. The Grimoire bootstraps everything else.
+Member repos are independent git trees. This repo tracks only the root layer, and the Grimoire's setup script clones the rest.
 
 ---
 
@@ -116,9 +118,9 @@ Version paths are immutable. Publishing runs from a local checkout, never from C
 
 ---
 
-## Pulse Protocol
+## Commit messages
 
-All commits across the Collective follow:
+Commits across the Collective use the Pulse format:
 ```
 [impulse] ~ [organ] >> [revelation] // %SYSTEM_STATE%
 ```
@@ -129,7 +131,6 @@ Full spec: `RaBbLE-Grimoire/RaBbLE-Agent/RaBbLE-CommitStyle.md`
 
 ---
 
-> `joinrabble.world` — the door  
-> `RaBbLE-Grimoire` — the memory  
-> `RaBbLE-sCoRE` — the nervous system  
-> `RaBbLE` — the entity
+## Licence
+
+Source-available under the RaBbLE Sovereign Accord: free for personal use, commercial use by agreement. See [LICENSE](LICENSE).
