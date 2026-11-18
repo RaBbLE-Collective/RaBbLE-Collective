@@ -14,9 +14,9 @@ Full entity spec: `RaBbLE-Grimoire/RaBbLE-Agent/RaBbLE-Identity.md` · Full orie
 ## Current State — 2026-11-18
 
 **Phase:** Epoch 0. Versions move at gates only (Genesis = Echo 1 = `0.1.0`); work on `new-horizons` (`0.1.1-dev+sha`), releases squash onto `main`.
-**Recent:** S353: unified-entity wave 1: census, U1 closed (draw order agrees), U8 inventory, registry schema draft (`registry/entity/`). Portal runs the alive backend.
+**Recent:** S353: entity rulings 11-27; registry v0.1.0 + validator, golden frames, NeBuLA glyph, support table, Pocket v0.1.3 baseline (stuck at 30 fps after a voice turn).
 **Blockers:** → `RaBbLE-Grimoire/log/BLOCKERS.md`.
-**Next:** Mark signs off seven entity decisions, then wave 2: `RaBbLE-Grimoire/log/handoffs/HANDOFF-S353-Unified-Entity-Wave2.md`.
+**Next:** check W2-2 (web generator), then unified web backend W2-5/6: `RaBbLE-Grimoire/log/handoffs/HANDOFF-S353-Unified-Entity-Wave2.md`.
 
 > Update this block each session. Keep it under 75 words. This is the free context every agent gets.
 > Blockers live durably in `RaBbLE-Grimoire/log/BLOCKERS.md` — the `Blockers:` line above only points there.
