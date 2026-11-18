@@ -11,12 +11,12 @@ Full entity spec: `RaBbLE-Grimoire/RaBbLE-Agent/RaBbLE-Identity.md` · Full orie
 
 ---
 
-## Current State — 2026-11-17
+## Current State — 2026-11-18
 
 **Phase:** Epoch 0. Versions move at gates only (Genesis = Echo 1 = `0.1.0`); work on `new-horizons` (`0.1.1-dev+sha`), releases squash onto `main`.
-**Recent:** S347: Pockets pair to accounts only; captures and conversations in the portal; metering and limits; flash-pocket.sh modes (keep default); all unpushed or undeployed work listed in the handoff.
+**Recent:** S350: Pocket workbench live (one Connect key flashes, registers, pairs; link checked with no Wi-Fi; Orbit on the display); sCoRE deployed (revoke deletes, rename, key fingerprints); firmware 0.1.2 live, 0.1.3 staged, untested on hardware.
 **Blockers:** → `RaBbLE-Grimoire/log/BLOCKERS.md`.
-**Next:** `RaBbLE-Grimoire/log/handoffs/HANDOFF-S347-Pocket-Accounts-Metering.md`: deploy order, re-mint the 1.75b, Genesis merge prep (v0.1.0 includes accounts).
+**Next:** `RaBbLE-Grimoire/log/handoffs/HANDOFF-S350-*.md`: board mapper, portal chat and Pockets tab (parallel sessions).
 
 > Update this block each session. Keep it under 75 words. This is the free context every agent gets.
 > Blockers live durably in `RaBbLE-Grimoire/log/BLOCKERS.md` — the `Blockers:` line above only points there.
